@@ -24,3 +24,16 @@ C:\Users\Leco\source\repos\BenjaminV45\PRJB-KLAS1B-Team-1\Project B\obj\Debug\ne
 C:\Users\Leco\source\repos\BenjaminV45\PRJB-KLAS1B-Team-1\Project B\obj\Debug\netcoreapp3.1\Project B.dll
 C:\Users\Leco\source\repos\BenjaminV45\PRJB-KLAS1B-Team-1\Project B\obj\Debug\netcoreapp3.1\Project B.pdb
 C:\Users\Leco\source\repos\BenjaminV45\PRJB-KLAS1B-Team-1\Project B\obj\Debug\netcoreapp3.1\Project B.genruntimeconfig.cache
+C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\Project B\bin\Debug\netcoreapp3.1\Project B.exe
+C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\Project B\bin\Debug\netcoreapp3.1\Project B.deps.json
+C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\Project B\bin\Debug\netcoreapp3.1\Project B.runtimeconfig.json
+C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\Project B\bin\Debug\netcoreapp3.1\Project B.runtimeconfig.dev.json
+C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\Project B\bin\Debug\netcoreapp3.1\Project B.dll
+C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\Project B\bin\Debug\netcoreapp3.1\Project B.pdb
+C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\Project B\obj\Debug\netcoreapp3.1\Project B.csprojAssemblyReference.cache
+C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\Project B\obj\Debug\netcoreapp3.1\Project B.AssemblyInfoInputs.cache
+C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\Project B\obj\Debug\netcoreapp3.1\Project B.AssemblyInfo.cs
+C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\Project B\obj\Debug\netcoreapp3.1\Project B.csproj.CoreCompileInputs.cache
+C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\Project B\obj\Debug\netcoreapp3.1\Project B.dll
+C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\Project B\obj\Debug\netcoreapp3.1\Project B.pdb
+C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\Project B\obj\Debug\netcoreapp3.1\Project B.genruntimeconfig.cache
