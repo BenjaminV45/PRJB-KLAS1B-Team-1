@@ -10,7 +10,7 @@ namespace Project_B
             Console.WriteLine("Geachte meneer, mevrouw, wees welkom bij La Mouette.");
             Console.WriteLine("Kies alstublieft het continent waar u woont.");
             Console.WriteLine("Dear sir, Madame, welcome to La Mouette.");
-            Console.WriteLine("Please choose the continet where u live.");
+            Console.WriteLine("Please choose the continet where u live.test");
 
             Tuple<int, string, string>[] continent =
             {
