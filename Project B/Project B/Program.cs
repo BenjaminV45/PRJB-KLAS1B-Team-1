@@ -29,7 +29,7 @@ namespace Project_B
             }
 
             string input = Console.ReadLine();
-            Console.WriteLine("Hoi ", input);
+            Console.WriteLine("Hoi {0}", input);
         }
     }
 }
