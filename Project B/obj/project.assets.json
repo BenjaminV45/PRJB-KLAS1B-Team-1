@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leco\\OneDrive - Hogeschool Rotterdam\\Documents\\PRJB-KLAS1B-Team-1\\Project B\\Project B.csproj",
+      "projectUniqueName": "C:\\Users\\Leco\\OneDrive - Hogeschool\\OneDrive - Hogeschool Rotterdam\\Documents\\PRJB-KLAS1B-Team-1\\Project B\\Project B.csproj",
       "projectName": "Project B",
-      "projectPath": "C:\\Users\\Leco\\OneDrive - Hogeschool Rotterdam\\Documents\\PRJB-KLAS1B-Team-1\\Project B\\Project B.csproj",
+      "projectPath": "C:\\Users\\Leco\\OneDrive - Hogeschool\\OneDrive - Hogeschool Rotterdam\\Documents\\PRJB-KLAS1B-Team-1\\Project B\\Project B.csproj",
       "packagesPath": "C:\\Users\\Leco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leco\\OneDrive - Hogeschool Rotterdam\\Documents\\PRJB-KLAS1B-Team-1\\Project B\\obj\\",
+      "outputPath": "C:\\Users\\Leco\\OneDrive - Hogeschool\\OneDrive - Hogeschool Rotterdam\\Documents\\PRJB-KLAS1B-Team-1\\Project B\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,6 +32,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -43,6 +44,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
