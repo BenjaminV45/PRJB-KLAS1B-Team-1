@@ -21,7 +21,7 @@ namespace Project_B
                 Tuple.Create(5, "Azië", "EN"),
                 Tuple.Create(6, "Australië", "EN"),
             };
-            Console.WriteLine("hoiikbengay");
+            Console.WriteLine("hoiikbengaytest");
             foreach (Tuple<int, string, string> row in continent)    
             {
               Console.WriteLine(row.Item1 + " | " + row.Item2);   
