@@ -6,6 +6,9 @@ namespace ProjectB
 {
     public class Introduction
     {
+        public Introduction()
+        {
+        }
         public void intro()
         {
             string json = File.ReadAllText("settings.json");
