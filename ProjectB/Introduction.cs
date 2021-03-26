@@ -46,7 +46,7 @@ namespace ProjectB
                 while (!complete)
                 {
 
-                    Console.WriteLine("\nVoer een nummer in:");
+                    Console.WriteLine("\nKies het nummer van uw continent:");
                     try
                     {
                         input = Convert.ToInt32(Console.ReadLine());
@@ -59,14 +59,15 @@ namespace ProjectB
                         }
                         else
                         {
-                            Console.WriteLine("Kies een nummer tussen 1 en 6.");
+                            Console.WriteLine("\nKies alstublieft een nummer tussen 1 en 6.");
+                            Console.WriteLine("Please choose a number between 1 and 6.");
                         }
 
                     }
                     catch
                     {
-                        Console.WriteLine("error.");
-
+                        Console.WriteLine("\nDit is geen nummer, kies alstublieft een nummer.");
+                        Console.WriteLine("This is not a number. Please choose a number.");
                     }
                 }
             }
