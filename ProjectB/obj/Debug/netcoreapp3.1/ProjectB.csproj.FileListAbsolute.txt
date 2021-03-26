@@ -1,0 +1,15 @@
+C:\Users\benja\source\repos\ProjectB\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.exe
+C:\Users\benja\source\repos\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.csprojAssemblyReference.cache
+C:\Users\benja\source\repos\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.AssemblyInfoInputs.cache
+C:\Users\benja\source\repos\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.AssemblyInfo.cs
+C:\Users\benja\source\repos\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.csproj.CoreCompileInputs.cache
+C:\Users\benja\source\repos\ProjectB\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.deps.json
+C:\Users\benja\source\repos\ProjectB\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.runtimeconfig.json
+C:\Users\benja\source\repos\ProjectB\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.runtimeconfig.dev.json
+C:\Users\benja\source\repos\ProjectB\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.dll
+C:\Users\benja\source\repos\ProjectB\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.pdb
+C:\Users\benja\source\repos\ProjectB\ProjectB\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\benja\source\repos\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.csproj.CopyComplete
+C:\Users\benja\source\repos\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.dll
+C:\Users\benja\source\repos\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.pdb
+C:\Users\benja\source\repos\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.genruntimeconfig.cache
