@@ -76,7 +76,7 @@ namespace ProjectB
             Intro Intro = new Intro();
             Intro.intro();
 
-            Console.WriteLine("Lets hope this works. Test");
+
         }
     }
 }
