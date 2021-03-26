@@ -1,0 +1,16 @@
+{
+    "EN": {
+        "options": 
+        [
+            "Make reservation",
+            "Cancel reservation"  
+        ]
+    },
+    "NL": {
+        "options": 
+        [
+            "Reservatie maken",
+            "Reservatie annuleren"  
+        ]
+    }
+}

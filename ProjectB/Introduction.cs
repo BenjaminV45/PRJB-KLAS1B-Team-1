@@ -4,16 +4,11 @@ using Newtonsoft.Json.Linq;
 
 namespace ProjectB
 {
-    public class Introduction
+    public class Introduction : Settings
     {
         public void intro()
         {
-            string json = File.ReadAllText("settings.json");
-            JObject jObject = Newtonsoft.Json.JsonConvert.DeserializeObject(json) as JObject;
-            JToken jToken = jObject.SelectToken("language");
-            string rssTitle = (string)jToken;
-
-            if (rssTitle == "")
+            if (SETTING_LANGUAGE == "")
             {
 
                 Console.WriteLine("Geachte meneer, mevrouw, wees welkom bij La Mouette.");
@@ -50,9 +45,11 @@ namespace ProjectB
                         if (input < 7 && input > 0)
                         {
                             complete = true;
+                            JToken jToken = SETTINGS.SelectToken("language");
                             jToken.Replace(continent[input - 1].Item3);
-                            string updateSettings = jObject.ToString();
+                            string updateSettings = SETTINGS.ToString();
                             File.WriteAllText("settings.json", updateSettings);
+                            Console.Clear();
                         }
                         else
                         {
