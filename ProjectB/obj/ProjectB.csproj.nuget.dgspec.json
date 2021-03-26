@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leco\\OneDrive - Hogeschool Rotterdam\\Documents\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj": {}
+    "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\ProjectB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leco\\OneDrive - Hogeschool Rotterdam\\Documents\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj": {
+    "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\ProjectB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leco\\OneDrive - Hogeschool Rotterdam\\Documents\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj",
+        "projectUniqueName": "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\ProjectB.csproj",
         "projectName": "ProjectB",
-        "projectPath": "C:\\Users\\Leco\\OneDrive - Hogeschool Rotterdam\\Documents\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj",
-        "packagesPath": "C:\\Users\\Leco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leco\\OneDrive - Hogeschool Rotterdam\\Documents\\PRJB-KLAS1B-Team-1\\ProjectB\\obj\\",
+        "projectPath": "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\ProjectB.csproj",
+        "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
+        "outputPath": "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Leco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

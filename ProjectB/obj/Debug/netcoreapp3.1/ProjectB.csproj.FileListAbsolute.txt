@@ -28,3 +28,18 @@ C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\Proje
 C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.dll
 C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.pdb
 C:\Users\Leco\OneDrive - Hogeschool Rotterdam\Documents\PRJB-KLAS1B-Team-1\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.genruntimeconfig.cache
+G:\PRJB-KLAS1B-Team-1\ProjectB\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.exe
+G:\PRJB-KLAS1B-Team-1\ProjectB\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.deps.json
+G:\PRJB-KLAS1B-Team-1\ProjectB\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.runtimeconfig.json
+G:\PRJB-KLAS1B-Team-1\ProjectB\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.runtimeconfig.dev.json
+G:\PRJB-KLAS1B-Team-1\ProjectB\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.dll
+G:\PRJB-KLAS1B-Team-1\ProjectB\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.pdb
+G:\PRJB-KLAS1B-Team-1\ProjectB\ProjectB\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\PRJB-KLAS1B-Team-1\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.csprojAssemblyReference.cache
+G:\PRJB-KLAS1B-Team-1\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.AssemblyInfoInputs.cache
+G:\PRJB-KLAS1B-Team-1\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.AssemblyInfo.cs
+G:\PRJB-KLAS1B-Team-1\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.csproj.CoreCompileInputs.cache
+G:\PRJB-KLAS1B-Team-1\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.csproj.CopyComplete
+G:\PRJB-KLAS1B-Team-1\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.dll
+G:\PRJB-KLAS1B-Team-1\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.pdb
+G:\PRJB-KLAS1B-Team-1\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.genruntimeconfig.cache
