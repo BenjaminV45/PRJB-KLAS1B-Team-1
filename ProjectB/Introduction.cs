@@ -8,7 +8,7 @@ namespace ProjectB
     {
         public void intro()
         {
-            if (SETTING_LANGUAGE == "")
+            if (SETTING_LANG== "")
             {
 
                 Console.WriteLine("Geachte meneer, mevrouw, wees welkom bij La Mouette.");
@@ -39,6 +39,7 @@ namespace ProjectB
                 {
 
                     Console.WriteLine("\nKies het nummer van uw continent:");
+                    Console.WriteLine("Choose the number of your continent:");
                     try
                     {
                         input = Convert.ToInt32(Console.ReadLine());
@@ -49,7 +50,7 @@ namespace ProjectB
                             jToken.Replace(continent[input - 1].Item3);
                             string updateSettings = SETTINGS.ToString();
                             File.WriteAllText("settings.json", updateSettings);
-                            Console.Clear();
+
                         }
                         else
                         {

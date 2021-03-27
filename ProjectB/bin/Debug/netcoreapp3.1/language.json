@@ -4,6 +4,11 @@
         [
             "Make reservation",
             "Cancel reservation"  
+        ],
+        "error":
+        [
+            "Please choose a number that's displayed",
+            "This is not a number. Please choose a number."
         ]
     },
     "NL": {
@@ -11,6 +16,11 @@
         [
             "Reservatie maken",
             "Reservatie annuleren"  
+        ],
+        "error":
+        [
+            "Kies alstublieft een nummer die weergeven wordt",
+            "Dit is geen nummer, kies alstublieft een nummer."
         ]
     }
 }
