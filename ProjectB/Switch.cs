@@ -7,8 +7,8 @@ namespace ProjectB
 		{
 			Reservartion create = new Reservartion();
 			create.Constructer(); 
-			Console.WriteLine("Call create reservation class in this method");
-			Console.ReadLine();
+			// Console.WriteLine("Call create reservation class in this method");
+			// Console.ReadLine();
 
 		}
 		public void Cancel()

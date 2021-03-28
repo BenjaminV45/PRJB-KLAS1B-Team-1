@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Salar\\Desktop\\Git\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj": {}
   },
   "projects": {
@@ -12,13 +13,27 @@
         "projectPath": "C:\\Users\\Salar\\Desktop\\Git\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj",
         "packagesPath": "C:\\Users\\Salar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Salar\\Desktop\\Git\\PRJB-KLAS1B-Team-1\\ProjectB\\obj\\",
+=======
+    "C:\\C#\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj": {}
+  },
+  "projects": {
+    "C:\\C#\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\C#\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj",
+        "projectName": "ProjectB",
+        "projectPath": "C:\\C#\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj",
+        "packagesPath": "C:\\Users\\Leco\\.nuget\\packages\\",
+        "outputPath": "C:\\C#\\PRJB-KLAS1B-Team-1\\ProjectB\\obj\\",
+>>>>>>> 084017fb2182f107837b2cfa338a3b0c5dc624ec
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Salar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+          "C:\\Users\\Leco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 084017fb2182f107837b2cfa338a3b0c5dc624ec
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,6 +74,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
