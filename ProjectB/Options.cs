@@ -15,7 +15,7 @@ namespace ProjectB
                 // Parametes are as follow [key] 1,2,3 etc [text parameters json file] [method name in switch file]
                 Tuple.Create(1, getText(new object[] { "options", 0 }), "Create"),
                 Tuple.Create(2, getText(new object[] { "options", 1 }), "Cancel"),
-                Tuple.Create(3, getText(new object[] { "options", 2 }), "lr"),
+                Tuple.Create(3, getText(new object[] { "options", 4 }), "lr"),
             };
 
             foreach (Tuple<int, string, string> row in options)

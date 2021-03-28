@@ -9,7 +9,8 @@
             "Make reservation",
             "Cancel reservation",  
             "Reviews",
-            "Place a reservation"
+            "Place a reservation",
+            "Leave a review"
         ],
         "error":
         [
@@ -27,12 +28,22 @@
             "Reservatie maken",
             "Reservatie annuleren" ,
             "Reviews",
-            "Reservering plaatsen" 
+            "Reservering plaatsen",
+            "Review achterlaten"
         ],
         "error":
         [
             "Kies alstublieft een nummer die weergeven wordt",
             "Dit is geen nummer, kies alstublieft een nummer."
+        ],
+        "leaveReview": 
+        [
+            "\nUw review mag bestaan uit maximaal 512 karakters:",
+            "\nHoeveel sterren geeft u het diner? Minimaal 1 en maximaal 5:",
+            "\nHartelijk bedankt voor het achterlaten van deze review!",
+            "\nWat is uw unieke reservatie code?"       
         ]
+    
+    
     }
 }
