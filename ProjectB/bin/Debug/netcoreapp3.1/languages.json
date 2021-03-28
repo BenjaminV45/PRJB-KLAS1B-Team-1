@@ -15,7 +15,14 @@
         [
             "Please choose a number that's displayed",
             "This is not a number. Please choose a number."
+        ],
+        "reservation":
+        [
+            "For how many people?",
+            "Choose a date and time [dd/mm/yyyy hh:mm]: ",
+            "Please use the format as described."
         ]
+
     },
     "NL": {
         "introduction":
@@ -33,6 +40,12 @@
         [
             "Kies alstublieft een nummer die weergeven wordt",
             "Dit is geen nummer, kies alstublieft een nummer."
+        ],
+        "reservation":
+        [
+            "Voor hoeveel mensen?",
+            "Kies datum en tijd [dd/mm/yyyy hh:mm]: ",
+            "Houd u zich alstublieft aan het format."
         ]
     }
 }
