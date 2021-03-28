@@ -48,19 +48,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\benja\\.nuget\\packages\\": {}
+<<<<<<< HEAD
+    "C:\\Users\\Salar\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
+    "C:\\Users\\Leco\\.nuget\\packages\\": {}
+>>>>>>> 084017fb2182f107837b2cfa338a3b0c5dc624ec
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\ProjectB.csproj",
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\Salar\\Desktop\\Git\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj",
       "projectName": "ProjectB",
-      "projectPath": "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\ProjectB.csproj",
-      "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-      "outputPath": "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\obj\\",
+      "projectPath": "C:\\Users\\Salar\\Desktop\\Git\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj",
+      "packagesPath": "C:\\Users\\Salar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Salar\\Desktop\\Git\\PRJB-KLAS1B-Team-1\\ProjectB\\obj\\",
+=======
+      "projectUniqueName": "C:\\C#\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj",
+      "projectName": "ProjectB",
+      "projectPath": "C:\\C#\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj",
+      "packagesPath": "C:\\Users\\Leco\\.nuget\\packages\\",
+      "outputPath": "C:\\C#\\PRJB-KLAS1B-Team-1\\ProjectB\\obj\\",
+>>>>>>> 084017fb2182f107837b2cfa338a3b0c5dc624ec
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+<<<<<<< HEAD
+        "C:\\Users\\Salar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+        "C:\\Users\\Leco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 084017fb2182f107837b2cfa338a3b0c5dc624ec
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -123,5 +141,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Salar\\Desktop\\Git\\PRJB-KLAS1B-Team-1\\ProjectB\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

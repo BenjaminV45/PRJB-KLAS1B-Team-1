@@ -5,10 +5,11 @@ namespace ProjectB
 	{
 		public void Create()
 		{
-			// Reservartion create = new Reservartion;
-			// create.contruct
-			Console.WriteLine("Call create reservation class in this method");
-			Console.ReadLine();
+			Reservartion create = new Reservartion();
+			create.Constructer(); 
+			// Console.WriteLine("Call create reservation class in this method");
+			// Console.ReadLine();
+
 		}
 		public void Cancel()
 		{
@@ -20,5 +21,11 @@ namespace ProjectB
 			Console.WriteLine("Call chef class in this method");
 			Console.ReadLine();
 		}
+		
+		public void lr()
+        {
+			LeaveReview review = new LeaveReview();
+			review.Construct();
+        }
 	}
 }
