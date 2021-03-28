@@ -20,5 +20,11 @@ namespace ProjectB
 			Console.WriteLine("Call chef class in this method");
 			Console.ReadLine();
 		}
+		
+		public void lr()
+        {
+			LeaveReview review = new LeaveReview();
+			review.Construct();
+        }
 	}
 }
