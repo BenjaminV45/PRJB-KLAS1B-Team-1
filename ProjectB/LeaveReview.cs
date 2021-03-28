@@ -1,6 +1,7 @@
-﻿using System.IO;
-using System.Text.Json;
+﻿using System.Text.Json;
 using System;
+using Newtonsoft.Json.Linq;
+using System.IO;
 
 namespace ProjectB
 {
@@ -22,9 +23,17 @@ namespace ProjectB
 
             Console.WriteLine(getText(new object[] { "leaveReview", 2 }));
 
-            string loadedSerializedJsonFileStringText = File.ReadAllText("reviews.json");
-            File.WriteAllText("reviews.json", JsonSerializer.Serialize(new { code = code, text = review, rating = sterren}));
-            
+            //string test = File.ReadAllText("reviews.json");
+            //JObject rss = JObject.Parse(test);
+            //JObject channel = (JObject)rss["channel"];
+            //Array item = (JArray)channel["review"];
+            //item.Add("test");
+            //string updateSettings = test.ToString();
+            //File.WriteAllText("settings.json", updateSettings);
+
+            // string loadedSerializedJsonFileStringText = File.ReadAllText("reviews.json");
+            // File.WriteAllText("reviews.json", JsonSerializer.Serialize(new { code = code, text = review, rating = sterren}));
+
         }
     }
 }

@@ -2,7 +2,7 @@
     "EN": {
         "introduction":
         [
-            "[La Mouette]\nNow that I learned to speak your language. "
+            "[Alfred] Now that I learned to speak your language. Choose an option:"
         ],
         "options": 
         [
@@ -20,7 +20,7 @@
     "NL": {
         "introduction":
         [
-            "KRIJG DE KANKER"
+            "[Alfred] Top. Nu weet ik in welke taal ik met u kan communiceren. Kies een optie: "
         ],
         "options": 
         [
@@ -33,6 +33,22 @@
         [
             "Kies alstublieft een nummer die weergeven wordt",
             "Dit is geen nummer, kies alstublieft een nummer."
+<<<<<<< HEAD
+        ],
+        "leaveReview": 
+        [
+            "\nUw review mag bestaan uit maximaal 512 karakters:",
+            "\nHoeveel sterren geeft u het diner? Minimaal 1 en maximaal 5:",
+            "\nHartelijk bedankt voor het achterlaten van een review!",
+            "\nWat is uw unieke reservatie code?"
+        ],
+         "reservation":
+        [
+            "Voor hoeveel mensen?",
+            "Kies datum en tijd [dd/mm/yyyy hh:mm]: ",
+            "Houd u zich alstublieft aan het format."
+=======
+>>>>>>> f940a32392a57bbbd9fd7c7d6210ddeef783c2be
         ]
     }
 }
