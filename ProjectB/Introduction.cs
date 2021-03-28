@@ -8,13 +8,11 @@ namespace ProjectB
     {
         public void intro()
         {
-            if (SETTING_LANG== "")
+            if ((string)SETTINGS["language"] == "")
             {
 
-                Console.WriteLine("Geachte meneer, mevrouw, wees welkom bij La Mouette.");
-                Console.WriteLine("Kies alstublieft het continent waar u woont.\n");
-                Console.WriteLine("Dear sir, Madame, welcome to La Mouette.");
-                Console.WriteLine("Please choose the continet where u live.\n");
+                Console.WriteLine("[EN] Hi, I am Alfred your personal assistant. Before we can start I need to know your continent.");
+                Console.WriteLine("[NL] Hei, Ik ben Alfred, uw persoonlijke assistent. Voordat we kunnen beginnen, moet ik uw continent weten.\n");
 
                 Tuple<int, string, string>[] continent =
                 {
@@ -38,8 +36,8 @@ namespace ProjectB
                 while (!complete)
                 {
 
-                    Console.WriteLine("\nKies het nummer van uw continent:");
-                    Console.WriteLine("Choose the number of your continent:");
+                    Console.WriteLine("\n[EN] Type one of the above numbers:");
+                    Console.WriteLine("[NL] Type een van de bovenstaande nummers:");
                     try
                     {
                         input = Convert.ToInt32(Console.ReadLine());
@@ -50,7 +48,6 @@ namespace ProjectB
                             jToken.Replace(continent[input - 1].Item3);
                             string updateSettings = SETTINGS.ToString();
                             File.WriteAllText("settings.json", updateSettings);
-
                         }
                         else
                         {

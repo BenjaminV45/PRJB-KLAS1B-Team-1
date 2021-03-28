@@ -15,7 +15,7 @@ namespace ProjectB
                 // Parametes are as follow [key] 1,2,3 etc [text parameters json file] [method name in switch file]
                 Tuple.Create(1, getText(new object[] { "options", 0 }), "Create"),
                 Tuple.Create(2, getText(new object[] { "options", 1 }), "Cancel"),
-        };
+            };
 
             foreach (Tuple<int, string, string> row in options)
             {
@@ -26,9 +26,8 @@ namespace ProjectB
             while (!complete)
                 try
                 {
-                    
                     input = Convert.ToInt32(Console.ReadLine());
-                    if (input < options.Count() && input > 0)
+                    if (input <= options.Count() && input > 0)
                     {
                         Type type = typeof(Switch);
                         MethodInfo method = type.GetMethod(options[input - 1].Item3);
