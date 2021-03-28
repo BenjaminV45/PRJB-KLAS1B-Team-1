@@ -1,9 +1,15 @@
 {
     "EN": {
+        "introduction":
+        [
+            "[La Mouette]\nNow that I learned to speak your language. "
+        ],
         "options": 
         [
             "Make reservation",
-            "Cancel reservation"  
+            "Cancel reservation",  
+            "Reviews",
+            "Place a reservation"
         ],
         "error":
         [
@@ -12,10 +18,16 @@
         ]
     },
     "NL": {
+        "introduction":
+        [
+            "KRIJG DE KANKER"
+        ],
         "options": 
         [
             "Reservatie maken",
-            "Reservatie annuleren"  
+            "Reservatie annuleren" ,
+            "Reviews",
+            "Reservering plaatsen" 
         ],
         "error":
         [
