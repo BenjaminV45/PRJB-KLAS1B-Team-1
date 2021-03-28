@@ -48,19 +48,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\benja\\.nuget\\packages\\": {}
+    "C:\\Users\\Leco\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\ProjectB.csproj",
+      "projectUniqueName": "C:\\C#\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj",
       "projectName": "ProjectB",
-      "projectPath": "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\ProjectB.csproj",
-      "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-      "outputPath": "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\obj\\",
+      "projectPath": "C:\\C#\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj",
+      "packagesPath": "C:\\Users\\Leco\\.nuget\\packages\\",
+      "outputPath": "C:\\C#\\PRJB-KLAS1B-Team-1\\ProjectB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Leco\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

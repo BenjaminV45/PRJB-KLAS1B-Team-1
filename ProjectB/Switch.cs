@@ -5,10 +5,11 @@ namespace ProjectB
 	{
 		public void Create()
 		{
-			// Reservartion create = new Reservartion;
-			// create.contruct
+			Reservartion create = new Reservartion();
+			create.Constructer(); 
 			Console.WriteLine("Call create reservation class in this method");
 			Console.ReadLine();
+
 		}
 		public void Cancel()
 		{
