@@ -32,7 +32,7 @@ namespace ProjectB
             //File.WriteAllText("settings.json", updateSettings);
 
             // string loadedSerializedJsonFileStringText = File.ReadAllText("reviews.json");
-            // File.WriteAllText("reviews.json", JsonSerializer.Serialize(new { code = code, text = review, rating = sterren}));
+            File.WriteAllText("reviews.json", JsonSerializer.Serialize(new { code = code, text = review, rating = sterren}));
 
         }
     }

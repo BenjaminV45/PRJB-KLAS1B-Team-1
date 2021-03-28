@@ -9,7 +9,8 @@
             "Make reservation",
             "Cancel reservation",  
             "Reviews",
-            "Place a reservation"
+            "Place a reservation",
+            "Create a review"
         ],
         "error":
         [
@@ -27,13 +28,13 @@
             "Reservatie maken",
             "Reservatie annuleren" ,
             "Reviews",
-            "Reservering plaatsen" 
+            "Reservering plaatsen", 
+            "Plaats een review"
         ],
         "error":
         [
             "Kies alstublieft een nummer die weergeven wordt",
             "Dit is geen nummer, kies alstublieft een nummer."
-<<<<<<< HEAD
         ],
         "leaveReview": 
         [
@@ -47,8 +48,7 @@
             "Voor hoeveel mensen?",
             "Kies datum en tijd [dd/mm/yyyy hh:mm]: ",
             "Houd u zich alstublieft aan het format."
-=======
->>>>>>> f940a32392a57bbbd9fd7c7d6210ddeef783c2be
+
         ]
     }
 }
