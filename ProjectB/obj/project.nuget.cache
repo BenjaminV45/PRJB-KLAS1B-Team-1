@@ -1,17 +1,28 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "s70sM+5p4XkTkai+KBulPMHfWIdeiQ/eMUi+0w3/c8Y1nfTYX5YL4+obY8rczdNtpU3CvIX95CcJPvleROk2mQ==",
+=======
   "dgSpecHash": "IiNT6FSe1M3MTyC01ss8HENPMx7qOZTnvhNvO2zT68C2r2NJ9vfOyKqcgx6X+YvzZvWo44V+WOZjHafTF78l3g==",
+>>>>>>> 5a8ca508cbdd583298a0ba488df48b8d457d1211
   "success": true,
-  "projectFilePath": "C:\\Users\\Salar\\Desktop\\Git\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj",
+  "projectFilePath": "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\ProjectB.csproj",
   "expectedPackageFiles": [
+<<<<<<< HEAD
+    "C:\\Users\\benja\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\benja\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\benja\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\benja\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+=======
     "C:\\Users\\Salar\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+>>>>>>> 5a8ca508cbdd583298a0ba488df48b8d457d1211
   ],
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Salar\\Desktop\\Git\\PRJB-KLAS1B-Team-1\\ProjectB\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }

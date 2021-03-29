@@ -1,24 +1,38 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\ProjectB.csproj": {}
+=======
     "C:\\Users\\Salar\\Desktop\\Git\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj": {}
+>>>>>>> 5a8ca508cbdd583298a0ba488df48b8d457d1211
   },
   "projects": {
-    "C:\\Users\\Salar\\Desktop\\Git\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj": {
+    "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\ProjectB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Salar\\Desktop\\Git\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj",
+        "projectUniqueName": "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\ProjectB.csproj",
         "projectName": "ProjectB",
+<<<<<<< HEAD
+        "projectPath": "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\ProjectB.csproj",
+        "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
+        "outputPath": "G:\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB\\obj\\",
+=======
         "projectPath": "C:\\Users\\Salar\\Desktop\\Git\\PRJB-KLAS1B-Team-1\\ProjectB\\ProjectB.csproj",
         "packagesPath": "C:\\Users\\Salar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Salar\\Desktop\\Git\\PRJB-KLAS1B-Team-1\\ProjectB\\obj\\",
+>>>>>>> 5a8ca508cbdd583298a0ba488df48b8d457d1211
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
+          "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
           "C:\\Users\\Salar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> 5a8ca508cbdd583298a0ba488df48b8d457d1211
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
