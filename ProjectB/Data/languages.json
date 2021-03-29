@@ -1,8 +1,10 @@
 {
     "EN": {
-        "introduction":
+        "start":
         [
-            "[Alfred] Now that I learned to speak your language. Choose an option:"
+            "[Alfred] Hi, I am Alfred your personal assistant.\nLa Mouette is the restaunrant for ultimate luxery.\nWith our special food preparation and services we will brighten your day!\n",
+            "[A] Login with membership code",
+            "[B] Become a member"
         ],
         "options": 
         [
@@ -19,9 +21,11 @@
         ]
     },
     "NL": {
-        "introduction":
+        "start":
         [
-            "[Alfred] Top. Nu weet ik in welke taal ik met u kan communiceren. Kies een optie: "
+            "[Alfred] Hallo, ik ben Alfred, uw persoonlijke assistent.\nLa Mouette is het restaurant voor ultieme luxe.\nMet onze speciale voedselbereiding en -services zullen we uw dag opvrolijken!\n",
+            "[A] Inloggen via een membership code",
+            "[B] Member worden"
         ],
         "options": 
         [
