@@ -6,7 +6,7 @@ namespace ProjectB
 {
     public class Introduction : Settings
     {
-        public void intro()
+        public void Contructer()
         {
             if ((string)SETTINGS["language"] == "")
             {

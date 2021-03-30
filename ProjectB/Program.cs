@@ -6,12 +6,13 @@ namespace ProjectB
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            Introduction Intro = new Introduction();
-            Intro.intro();
+
             Start Start = new Start();
-            Start.start();
+            Start.Construct();
+
             Options Options = new Options();
             Options.options();
         }
