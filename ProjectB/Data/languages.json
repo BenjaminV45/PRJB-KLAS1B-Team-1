@@ -47,7 +47,8 @@
         [
             "Voor hoeveel mensen?",
             "Kies datum en tijd [dd/mm/yyyy hh:mm]: ",
-            "Houd u zich alstublieft aan het format."
+            "Houd u zich alstublieft aan het format.",
+            ""
 
         ]
     }

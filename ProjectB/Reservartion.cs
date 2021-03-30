@@ -29,7 +29,6 @@ namespace ProjectB
             {
                 string inputString = Console.ReadLine();
                 
-
                 if (DateTime.TryParse(inputString, out dDate))
                 {
                     String.Format("{0:d/MM/yyyy HH:mm}", dDate);                  
@@ -39,6 +38,8 @@ namespace ProjectB
                     Console.WriteLine(getText(new object[] { "reservation", 2 })); // <-- Control flow goes here
                 }
             }
+
+
         }
     }
     }
