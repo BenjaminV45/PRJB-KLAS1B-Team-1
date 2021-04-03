@@ -1,13 +1,29 @@
 {
     "reservation": [
         {
-            "id": null,
+            "id": 1,
             "memberID": "",
-            "amount": 0,
+            "amount": 25,
             "date": "08/05/2021",
-            "time": "15:08",
             "menu": "",
-            "table": 0,
+            "table": ,
+            "poeple": [
+                {
+                    "name": "",
+                    "preference": "",
+                    "allergies": "",
+                    "kcal": ""
+                }
+            ],
+            "rating": null
+        },
+         {
+            "id": 1,
+            "memberID": "",
+            "amount": 23,
+            "date": "08/05/2021",
+            "menu": "",
+            "table": ,
             "poeple": [
                 {
                     "name": "",

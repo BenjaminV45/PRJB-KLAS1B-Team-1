@@ -8,7 +8,7 @@ namespace ProjectB
     public class Settings
     {
         public static JObject SETTINGS = Newtonsoft.Json.JsonConvert.DeserializeObject(File.ReadAllText(@"..\..\..\Data\settings.json")) as JObject;
-        
+        public static int SETTINGS_TABLES = (int)SETTINGS["tables"];
         //static int LogKey(string args) 
         //{
         //    List<string> log = new List<string>();
@@ -22,5 +22,6 @@ namespace ProjectB
             string data = (string)language[(string)SETTINGS["language"]][value[0]][value[1]];
             return data;
         }
+
     }
 }

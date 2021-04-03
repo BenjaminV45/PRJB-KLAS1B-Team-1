@@ -18,6 +18,14 @@
         [
             "Please choose a number that's displayed",
             "This is not a number. Please choose a number."
+        ],
+        "reservation":
+        [
+            "For how many people?",
+            "Choose a date and time [dd/mm/yyyy hh:mm]:",
+            "Please use the format as described.",
+            "This date has already been passed.",
+            "This date is already booked"
         ]
     },
     "NL": {
@@ -52,8 +60,8 @@
             "Voor hoeveel mensen?",
             "Kies datum en tijd [dd/mm/yyyy hh:mm]: ",
             "Houd u zich alstublieft aan het format.",
-            ""
-
+            "Deze datum is al verstreken.",
+            "Deze datum is al volgeboekt.",
         ]
     }
 }
