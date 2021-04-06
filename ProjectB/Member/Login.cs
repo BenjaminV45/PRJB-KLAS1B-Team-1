@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjectB.Member
+namespace ProjectB.Member 
 {
-    class Login
+    class Login 
     {
     }
 }

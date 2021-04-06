@@ -26,7 +26,14 @@
             "Please use the format as described.",
             "This date has already been passed.",
             "This date is already booked"
-        ]
+        ],
+    "chef": [
+    "Welkom terug chef. Hoe kan ik u vandaag helpen?",
+    "Kies een datum[dd/mm/yyyy]:",
+    "Ontbijt",
+    "Lunch",
+    "Diner",
+    "Alles" ]
     },
   "NL": {
     "start": [
@@ -59,6 +66,7 @@
     ],
     "chef": [
     "Welkom terug chef. Hoe kan ik u vandaag helpen?",
+    "Kies een datum[dd/mm/yyyy]:",
     "Ontbijt",
     "Lunch",
     "Diner",
