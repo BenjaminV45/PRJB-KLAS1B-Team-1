@@ -22,46 +22,47 @@
         "reservation":
         [
             "For how many people?",
-            "Choose a date and time [dd/mm/yyyy hh:mm]:",
+            "Choose a date and time [dd/mm/yyyy]:",
             "Please use the format as described.",
             "This date has already been passed.",
             "This date is already booked"
         ]
     },
-    "NL": {
-        "start":
-        [
-            "[Alfred] Hallo, ik ben Alfred, uw persoonlijke assistent.\nLa Mouette is het restaurant voor ultieme luxe.\nMet onze speciale voedselbereiding en -services zullen we uw dag opvrolijken!\n",
-            "[A] Inloggen via een membership code",
-            "[B] Member worden"
-        ],
-        "options": 
-        [
-            "Reservatie maken",
-            "Reservatie annuleren" ,
-            "Reviews",
-            "Reservering plaatsen", 
-            "Plaats een review"
-        ],
-        "error":
-        [
-            "Kies alstublieft een nummer die weergeven wordt",
-            "Dit is geen nummer, kies alstublieft een nummer."
-        ],
-        "leaveReview": 
-        [
-            "\nUw review mag bestaan uit maximaal 512 karakters:",
-            "\nHoeveel sterren geeft u het diner? Minimaal 1 en maximaal 5:",
-            "\nHartelijk bedankt voor het achterlaten van een review!",
-            "\nWat is uw unieke reservatie code?"
-        ],
-         "reservation":
-        [
-            "Voor hoeveel mensen?",
-            "Kies datum en tijd [dd/mm/yyyy hh:mm]: ",
-            "Houd u zich alstublieft aan het format.",
-            "Deze datum is al verstreken.",
-            "Deze datum is al volgeboekt.",
-        ]
-    }
+  "NL": {
+    "start": [
+      "[Alfred] Hallo, ik ben Alfred, uw persoonlijke assistent.\nLa Mouette is het restaurant voor ultieme luxe.\nMet onze speciale voedselbereiding en -services zullen we uw dag opvrolijken!\n",
+      "[A] Inloggen via een membership code",
+      "[B] Member worden"
+    ],
+    "options": [
+      "Reservatie maken",
+      "Reservatie annuleren",
+      "Reviews",
+      "Reservering plaatsen",
+      "Plaats een review"
+    ],
+    "error": [
+      "Kies alstublieft een nummer die weergeven wordt",
+      "Dit is geen nummer, kies alstublieft een nummer."
+    ],
+    "leaveReview": [
+      "\nUw review mag bestaan uit maximaal 512 karakters:",
+      "\nHoeveel sterren geeft u het diner? Minimaal 1 en maximaal 5:",
+      "\nHartelijk bedankt voor het achterlaten van een review!",
+      "\nWat is uw unieke reservatie code?"
+    ],
+    "reservation": [
+      "Voor hoeveel mensen?",
+      "Kies datum en tijd [dd/mm/yyyy hh:mm]: ",
+      "Houd u zich alstublieft aan het format."
+
+    ],
+    "chef": [
+    "Welkom terug chef. Hoe kan ik u vandaag helpen?",
+    "Ontbijt",
+    "Lunch",
+    "Diner",
+    "Alles" ]
+
+  }
 }
