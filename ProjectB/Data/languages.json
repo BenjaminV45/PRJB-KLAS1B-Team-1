@@ -22,7 +22,7 @@
         "reservation":
         [
             "For how many people?",
-            "Choose a date and time [dd/mm/yyyy hh:mm]:",
+            "Choose a date and time [dd/mm/yyyy]:",
             "Please use the format as described.",
             "This date has already been passed.",
             "This date is already booked"
@@ -58,7 +58,7 @@
          "reservation":
         [
             "Voor hoeveel mensen?",
-            "Kies datum en tijd [dd/mm/yyyy hh:mm]: ",
+            "Kies datum en tijd [dd/mm/yyyy]: ",
             "Houd u zich alstublieft aan het format.",
             "Deze datum is al verstreken.",
             "Deze datum is al volgeboekt.",
