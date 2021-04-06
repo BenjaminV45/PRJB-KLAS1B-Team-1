@@ -1,8 +1,10 @@
 {
     "EN": {
-        "introduction":
+        "start":
         [
-            "[Alfred] Now that I learned to speak your language. Choose an option:"
+            "[Alfred] Hi, I am Alfred your personal assistant.\nLa Mouette is the restaunrant for ultimate luxery.\nWith our special food preparation and services we will brighten your day!\n",
+            "[A] Login with membership code",
+            "[B] Become a member"
         ],
         "options": 
         [
@@ -16,12 +18,22 @@
         [
             "Please choose a number that's displayed",
             "This is not a number. Please choose a number."
+        ],
+        "reservation":
+        [
+            "For how many people?",
+            "Choose a date and time [dd/mm/yyyy]:",
+            "Please use the format as described.",
+            "This date has already been passed.",
+            "This date is already booked"
         ]
     },
     "NL": {
-        "introduction":
+        "start":
         [
-            "[Alfred] Top. Nu weet ik in welke taal ik met u kan communiceren. Kies een optie: "
+            "[Alfred] Hallo, ik ben Alfred, uw persoonlijke assistent.\nLa Mouette is het restaurant voor ultieme luxe.\nMet onze speciale voedselbereiding en -services zullen we uw dag opvrolijken!\n",
+            "[A] Inloggen via een membership code",
+            "[B] Member worden"
         ],
         "options": 
         [
@@ -43,18 +55,12 @@
             "\nHartelijk bedankt voor het achterlaten van een review!",
             "\nWat is uw unieke reservatie code?"
         ],
-        "reservation": [
-          "Voor hoeveel mensen?",
-          "Kies datum en tijd [dd/mm/yyyy hh:mm]: ",
-          "Houd u zich alstublieft aan het format."
+         "reservation":
+        [
+            "Voor hoeveel mensen?",
+            "Kies datum en tijd [dd/mm/yyyy hh:mm]: ",
+            "Houd u zich alstublieft aan het format."
 
-        ],
-        "chef": [
-          "Welkom terug chef. Hoe kan ik u vandaag helpen?",
-          "Ontbijt",
-          "Lunch",
-          "Diner",
-          "Alles"
         ]
 
     }

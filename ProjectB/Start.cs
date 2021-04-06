@@ -5,19 +5,19 @@ namespace ProjectB
 {
 	class Start : Settings
 	{
-        public void start()
+        public void Construct()
         {
-            Console.WriteLine(getText(new object[] { "introduction", 0 }));
+            Console.WriteLine(getText(new object[] { "start", 0 }));
             Tuple<int, string, string>[] options =
             {
                 // Parametes are as follow [key] 1,2,3 etc [text parameters json file] [method name in switch file]
                 Tuple.Create(1, getText(new object[] { "options", 2 }), "Create"),
-                Tuple.Create(2, getText(new object[] { "options", 3 }), "Cancel"),
+                Tuple.Create(2, getText(new object[] { "options", 3 }), "Check_member"),
             };
 
             foreach (Tuple<int, string, string> row in options)
             {
-                Console.WriteLine(row.Item1 + " | " + row.Item2);
+                Console.WriteLine("[" + row.Item1 + "] " + row.Item2);
             }
             string inputTmp;
             int input;

@@ -56,5 +56,11 @@ namespace ProjectB
 			LeaveReview review = new LeaveReview();
 			review.Construct();
         }
+
+		public void Check_member()
+        {
+			Console.WriteLine("[A] Inloggen via een membership code");
+			Console.WriteLine("[B] Member worden");
+		}
 	}
 }
