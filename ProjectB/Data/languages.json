@@ -43,12 +43,19 @@
             "\nHartelijk bedankt voor het achterlaten van een review!",
             "\nWat is uw unieke reservatie code?"
         ],
-         "reservation":
-        [
-            "Voor hoeveel mensen?",
-            "Kies datum en tijd [dd/mm/yyyy hh:mm]: ",
-            "Houd u zich alstublieft aan het format."
+        "reservation": [
+          "Voor hoeveel mensen?",
+          "Kies datum en tijd [dd/mm/yyyy hh:mm]: ",
+          "Houd u zich alstublieft aan het format."
 
+        ],
+        "chef": [
+          "Welkom terug chef. Hoe kan ik u vandaag helpen?",
+          "Ontbijt",
+          "Lunch",
+          "Diner",
+          "Alles"
         ]
+
     }
 }
