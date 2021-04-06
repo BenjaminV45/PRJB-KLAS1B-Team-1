@@ -32,10 +32,10 @@ namespace ProjectB
             Tuple<int, string, string>[] Chef_options =
                 {
                 // Parametes are as follow [key] 1,2,3 etc [text parameters json file] [method name in switch file]
-                Tuple.Create(1, getText(new object[] { "chef", 1 }), "Ontbijt"),
-                Tuple.Create(2, getText(new object[] { "chef", 2 }), "Lunch"),
-                Tuple.Create(3,getText(new object[] { "chef", 3 }), "Diner"),
-                Tuple.Create(4,getText(new object[] { "chef", 4 }), "Alles"),
+                Tuple.Create(1, getText(new object[] { "chef", 2 }), "Ontbijt"),
+                Tuple.Create(2, getText(new object[] { "chef", 3 }), "Lunch"),
+                Tuple.Create(3, getText(new object[] { "chef", 4 }), "Diner"),
+                Tuple.Create(4, getText(new object[] { "chef", 5 }), "Alles")
                 };
 
             foreach (Tuple<int, string, string> row in Chef_options)
@@ -51,7 +51,7 @@ namespace ProjectB
                     input = Convert.ToInt32(Console.ReadLine());
                     if (input <= Chef_options.Count() && input > 0)
                     {
-                        Type type = typeof(Switch);
+                        Type type = typeof(Get_menu);
                         MethodInfo method = type.GetMethod(Chef_options[input - 1].Item3);
                         Get_menu c = new Get_menu();
                         string result = (string)method.Invoke(c, null);
