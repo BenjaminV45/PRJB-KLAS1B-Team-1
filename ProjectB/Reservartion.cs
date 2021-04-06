@@ -37,7 +37,6 @@ namespace ProjectB
 
             DataTable dataTable = dataSet.Tables["reservation"];
 
-            Console.WriteLine(this.persons);
 
             while (!complete)
             {
