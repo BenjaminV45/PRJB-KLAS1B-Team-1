@@ -54,7 +54,6 @@ namespace ProjectB
         }
         public void Write(){
 
-
             Console.Write("[Alfred] ");
             if (this.Language == "NL") Console.Write(this.data.NL[this.row][this.col]);
             else Console.Write(this.data.EN[this.row][this.col]);
@@ -63,8 +62,10 @@ namespace ProjectB
         }
         public string Option()
         {
+
             if (this.Language == "NL") return this.data.NL[this.row][this.col];
             else return this.data.EN[this.row][this.col];
+
         }
     }
 
@@ -78,6 +79,7 @@ namespace ProjectB
                 Console.WriteLine($"[{row.Item1}] {row.Item2}");
             }
 
+            string inputTmp;
             int input;
             bool tmp = false;
             while (!tmp)
@@ -86,15 +88,23 @@ namespace ProjectB
                 try
                 {
                     Console.Write("\nPick a number: ");
-                    input = Convert.ToInt32(Console.ReadLine());
-                    if (input > options.Length || input < 1)
+                    inputTmp = Console.ReadLine();
+                    if (inputTmp != "sesame")
                     {
-                        Console.WriteLine("** " + input + " does not exist. **");
+                        input = Convert.ToInt32(inputTmp);
+                        if (input > options.Length || input < 1)
+                        {
+                            Console.WriteLine("** " + input + " does not exist. **");
+                        }
+                        else
+                        {
+                            tmp = true;
+                            options[input - 1].Item3();
+                        }
                     }
                     else
                     {
-                        tmp = true;
-                        options[input - 1].Item3();
+                        new Chef();
                     }
                 }
 
@@ -109,6 +119,7 @@ namespace ProjectB
     {
         public Chef()
         {
+            this.Login();
             var options = new[]
             {
                 Tuple.Create<int, string, Action>(1, "Krijg menu", () => new GetMenu()),
@@ -116,11 +127,42 @@ namespace ProjectB
             };
             this.Menu(options);
         }
+        public void Login()
+        {
+            bool login = false;
+
+            while (!login)
+            {
+                Console.Write("Username: ");
+                string username = Console.ReadLine();
+                Console.Write("Password: ");
+                string password = Console.ReadLine();
+                if (username == "Chef" && password == "test123")
+                {
+                    login = true;
+                    Console.WriteLine("** Login succesfull **");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("** Invailid credentials **");
+                }
+            }
+        }
     }
 
     class Customer : Option
     {
+        public Customer()
+        {
+            var options = new[]
+{
+                Tuple.Create<int, string, Action>(1, new Alfred("option", 0).Option(), () => new GetMenu()),
+                Tuple.Create<int, string, Action>(2, new Alfred("option", 1).Option(), () => new GetMenu())
 
+            };
+            this.Menu(options);
+        }
     }
 
     class Start : Option
