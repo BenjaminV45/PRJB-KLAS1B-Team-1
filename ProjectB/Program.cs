@@ -22,7 +22,8 @@ namespace ProjectB
 
             string json = File.ReadAllText(@"..\..\..\Storage\" + this.file);
             if (this.file == "settings.json") return JsonSerializer.Deserialize<SettingsJson>(json);
-            if (this.file == "languages.json") return JsonSerializer.Deserialize<LanguageJson>(json); 
+            if (this.file == "languages.json") return JsonSerializer.Deserialize<LanguageJson>(json);
+            if (this.file == "reservation.json") return JsonSerializer.Deserialize<ReservationJson>(json);
             return null;
         }
 
@@ -106,6 +107,7 @@ namespace ProjectB
                     {
                         new Chef();
                     }
+        
                 }
 
                 catch
@@ -123,7 +125,6 @@ namespace ProjectB
             var options = new[]
             {
                 Tuple.Create<int, string, Action>(1, "Krijg menu", () => new GetMenu()),
-
             };
             this.Menu(options);
         }
@@ -155,11 +156,11 @@ namespace ProjectB
     {
         public Customer()
         {
+
             var options = new[]
 {
-                Tuple.Create<int, string, Action>(1, new Alfred("option", 0).Option(), () => new GetMenu()),
+                Tuple.Create<int, string, Action>(1, new Alfred("option", 0).Option(), () => new Reservation()),
                 Tuple.Create<int, string, Action>(2, new Alfred("option", 1).Option(), () => new GetMenu())
-
             };
             this.Menu(options);
         }
@@ -174,8 +175,7 @@ namespace ProjectB
             var options = new[]
             {
                 Tuple.Create<int, string, Action>(1, new Alfred("option", 0).Option(), () => new GetMenu()),
-                Tuple.Create<int, string, Action>(2, new Alfred("option", 1).Option(), () => new GetMenu())
-
+                Tuple.Create<int, string, Action>(2, new Alfred("option", 1).Option(), () => new Customer())
             };
             this.Menu(options);
         }
