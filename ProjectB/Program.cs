@@ -46,7 +46,6 @@ namespace ProjectB
         private string row;
         private int col;
         private dynamic data;
-
         public Alfred(string row, int col)
         {
             this.row = row;
@@ -59,14 +58,11 @@ namespace ProjectB
             if (this.Language == "NL") Console.Write(this.data.NL[this.row][this.col]);
             else Console.Write(this.data.EN[this.row][this.col]);
             Console.Write("\n");
-
         }
         public string Option()
         {
-
             if (this.Language == "NL") return this.data.NL[this.row][this.col];
             else return this.data.EN[this.row][this.col];
-
         }
     }
 
@@ -109,7 +105,6 @@ namespace ProjectB
                     }
         
                 }
-
                 catch
                 {
                     Console.WriteLine("** Input is not valid. Please pick a number. **");
@@ -158,9 +153,9 @@ namespace ProjectB
         {
 
             var options = new[]
-{
+            {
                 Tuple.Create<int, string, Action>(1, new Alfred("option", 0).Option(), () => new Reservation()),
-                Tuple.Create<int, string, Action>(2, new Alfred("option", 1).Option(), () => new GetMenu())
+                Tuple.Create<int, string, Action>(2, new Alfred("option", 1).Option(), () => new Reservation())
             };
             this.Menu(options);
         }
@@ -188,6 +183,7 @@ namespace ProjectB
         static void Main(string[] args)
         {
             new Start();
+
         }
     }
 }

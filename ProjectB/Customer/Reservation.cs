@@ -6,13 +6,29 @@ namespace ProjectB
 {
     class Reservation
     {
+
+        public int persons;
         public dynamic data;
+
         public Reservation()
         {
             this.data = new Json("reservation.json").Read();
-            foreach (var row in this.data.ReservationJson)
-            {
-                Console.WriteLine(row.id);
+            HowManyPersons();
+        }
+
+        public void HowManyPersons() {
+            new Alfred("reservation", 0).Write();
+            bool complete = false;
+            while (!complete) {
+                try
+                {
+                    this.persons = Convert.ToInt32(Console.ReadLine());
+                    complete = true;
+                }
+                catch
+                {
+                    new Alfred("error", 0).Write();
+                }
             }
         }
     }

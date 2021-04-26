@@ -7,6 +7,12 @@
 		"option": [
 			"Reviews",
 			"Place a reservation"
+		],
+		"error": [
+			"This isn't a number. Please enter a number."
+		],
+		"reservation": [
+			"For how many persons?"
 		]
 	},
 	"NL": {
@@ -17,6 +23,12 @@
 		"option": [
 			"Reviews",
 			"Reservering plaatsen"
+		],
+		"error": [
+			"Dit is geen nummer. Kies alstublieft een nummer."
+		],
+		"reservation": [
+			"Voor hoeveel personen?"
 		]
 	}
 }

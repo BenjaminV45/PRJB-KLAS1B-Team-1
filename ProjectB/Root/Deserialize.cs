@@ -15,6 +15,8 @@ namespace ProjectB
         public Dictionary<string, string[]> NL { get; set; }
     }
 
+    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse); 
+    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse); 
     public class Poeple
     {
         public string name { get; set; }
@@ -24,7 +26,7 @@ namespace ProjectB
         public string kcal { get; set; }
     }
 
-    public class ReservationJson
+    public class Reservations
     {
         public int id { get; set; }
         public string memberID { get; set; }
@@ -33,6 +35,15 @@ namespace ProjectB
         public List<Poeple> poeple { get; set; }
         public object rating { get; set; }
     }
+
+    public class ReservationJson
+    {
+        public List<Reservations> reservations { get; set; }
+    }
+
+
+
+
 
 }
 
