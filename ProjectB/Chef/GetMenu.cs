@@ -9,6 +9,8 @@ namespace ProjectB
         public GetMenu()
         {
             Console.WriteLine("GetMenu werkt");
+            leaveReview a = new leaveReview();
+
         }
     }
 }
