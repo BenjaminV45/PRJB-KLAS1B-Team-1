@@ -1,21 +1,21 @@
 {
 	"EN": {
 		"start": [
-			"Hi, I am Alfred your personal assistant.\nLa Mouette is the restaunrant for ultimate luxery.\nWith our special food preparation and services we will brighten your day!\n",
+			"Hi! I am Alfred, your personal assistant.\nLa Mouette is the restaurant for ultimate luxury.\nWith our special food preparation and services we will brighten your day!\n",
 			"test"
 		],
 		"option": [
-			"Revieuws",
-			"Place a reservartion"
+			"Reviews",
+			"Place a reservation"
 		]
 	},
 	"NL": {
 		"start": [
-			"Hallo, ik ben Alfred, uw persoonlijke assistent.\nLa Mouette is het restaurant voor ultieme luxe.\nMet onze speciale voedselbereiding en -services zullen we uw dag opvrolijken!\n",
+			"Hallo! Ik ben Alfred, uw persoonlijke assistent.\nLa Mouette is het restaurant voor ultieme luxe.\nMet onze speciale voedselbereiding en services zullen we uw dag opvrolijken!\n",
 			"test"
 		],
 		"option": [
-			"Revieuws",
+			"Reviews",
 			"Reservering plaatsen"
 		]
 	}
