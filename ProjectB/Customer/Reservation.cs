@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ProjectB
 {
-    class Reservation
+    class Reservation : Option
     {
         private int persons;
         public dynamic data;
@@ -20,11 +20,13 @@ namespace ProjectB
 
             var menuoptions = new[]
 {
-                Tuple.Create<int, string, Action>(1, "Yes", () => ShowMenu()),
+                Tuple.Create<int, string, Action>(1, "Yes", () => this.ShowMenu()),
                 Tuple.Create<int, string, Action>(2, "No", () => new GetMenu())
             };
+            new Alfred("reservation", 5).Write();
+            //this.Menu(menuoptions);
+            ShowMenu();
 
-            ChooseMenu(menuoptions);
         }
 
         public void HowManyPersons() {
@@ -76,48 +78,12 @@ namespace ProjectB
             }
         }
 
-        public void ChooseMenu(Tuple<int, string, Action>[] options)
-        {
-            new Alfred("reservation", 5).Write();
-            foreach (Tuple<int, string, Action> row in options)
-            {
-                Console.WriteLine($"[{row.Item1}] {row.Item2}");
-            }
-
-            string inputTmp;
-            int input;
-            bool tmp = false;
-
-            while (!tmp)
-            {
-                try
-                {
-                    Console.Write("\nPick a number: ");
-                    inputTmp = Console.ReadLine();  
-                    input = Convert.ToInt32(inputTmp);
-                    if (input > options.Length || input < 1)
-                    {
-                        Console.WriteLine("** " + input + " does not exist. **");
-                    }
-                    else
-                    {
-                        tmp = true;
-                        options[input - 1].Item3();
-                    }
-                }
-                catch
-                {
-                    Console.WriteLine("** Input is not valid. Please pick a number. **");
-                }
-            }
-
-        }
-
         public void ShowMenu()
         {
-            foreach (var row in this.menu)
+            Console.WriteLine("Vegan/Vegetarisch: ");
+            foreach (var row in this.menu.vegan)
             {
-                Console.WriteLine(row);
+                Console.WriteLine(row[0]);
             }
         }
     }
