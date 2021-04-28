@@ -65,17 +65,6 @@ namespace ProjectB
         public List<object> desert { get; set; }
     }
 
-    public class Menu
-    {
-        public Veganistisch veganistisch { get; set; }
-        public Imapala imapala { get; set; }
-        public Vis vis { get; set; }
-    }
-
-    public class MenuRoot
-    {
-        public Menu menu { get; set; }
-    }
 
 
 
