@@ -6,6 +6,7 @@ namespace ProjectB
     {
         public string language { get; set; }
         public int tables { get; set; }
+        public int member_id { get; set; }
     }
 
     public class LanguageJson

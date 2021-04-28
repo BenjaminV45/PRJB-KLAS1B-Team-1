@@ -42,10 +42,12 @@ namespace ProjectB
     {
         public dynamic File = new Json("settings.json").Read();
         public string Language;
+        public int Member_id;
 
         public Settings()
         {
             this.Language = this.File.language;
+            this.Member_id = this.File.member_id;
         }
 
     }
@@ -140,6 +142,10 @@ namespace ProjectB
         public Customer()
         {
             this.customer = new Json("members.json").Read();
+            foreach (var row in this.customer)
+            {
+                Console.WriteLine(row.firstname);
+            }
             var options = new[]
             {
                 Tuple.Create<int, string, Action>(1, "Login with membership code", () => this.Login()),
@@ -172,7 +178,8 @@ namespace ProjectB
                     {
                         boolean = true;
                         dynamic Settings = new Settings().File;
-                        Settings.language = "EN";
+                        Settings.language = (row.continent == "Europa" || "Afrika" ? "NL" : "EN"); 
+                        Settings.member_id = row.id;
                         new Json("settings.json").Write(Settings);
                         break;
                     }
@@ -182,7 +189,11 @@ namespace ProjectB
 
         public void Register()
         {
-
+            bool boolean = false;
+            while (!boolean)
+            {
+                Console.Write("");
+            }
         }
     }
 
