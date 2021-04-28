@@ -24,6 +24,7 @@ namespace ProjectB
             if (this.file == "settings.json") return JsonSerializer.Deserialize<SettingsJson>(json);
             if (this.file == "languages.json") return JsonSerializer.Deserialize<LanguageJson>(json);
             if (this.file == "reservation.json") return JsonSerializer.Deserialize<ReservationJson>(json);
+            if (this.file == "members.json") return JsonSerializer.Deserialize<List<MembersJson>>(json);
             return null;
         }
 
@@ -38,7 +39,13 @@ namespace ProjectB
 
     public class Settings
     {
-        public string Language = new Json("settings.json").Read().language;
+        public dynamic File = new Json("settings.json").Read();
+        public string Language;
+
+        public Settings()
+        {
+            this.Language = this.File.language;
+        }
 
     }
     public class Alfred : Settings
@@ -116,48 +123,65 @@ namespace ProjectB
     {
         public Chef()
         {
-            this.Login();
             var options = new[]
             {
                 Tuple.Create<int, string, Action>(1, "Krijg menu", () => new GetMenu()),
             };
             this.Menu(options);
         }
-        public void Login()
-        {
-            bool login = false;
-
-            while (!login)
-            {
-                Console.Write("Username: ");
-                string username = Console.ReadLine();
-                Console.Write("Password: ");
-                string password = Console.ReadLine();
-                if (username == "Chef" && password == "test123")
-                {
-                    login = true;
-                    Console.WriteLine("** Login succesfull **");
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("** Invailid credentials **");
-                }
-            }
-        }
+        
     }
 
     class Customer : Option
     {
+        public dynamic customer;
+
         public Customer()
         {
-
+            this.customer = new Json("members.json").Read();
             var options = new[]
             {
-                Tuple.Create<int, string, Action>(1, new Alfred("option", 0).Option(), () => new Reservation()),
-                Tuple.Create<int, string, Action>(2, new Alfred("option", 1).Option(), () => new Reservation())
+                Tuple.Create<int, string, Action>(1, "Login with membership code", () => this.Login()),
+                Tuple.Create<int, string, Action>(2, "Become a member", () => this.Register())
             };
+
             this.Menu(options);
+
+            var optionss = new[]
+{
+                Tuple.Create<int, string, Action>(1, "Make a reservation", () => new Reservation()),
+            };
+
+            this.Menu(optionss);
+        }
+
+
+
+        public void Login()
+        {
+            bool boolean = false;
+
+            while (!boolean)
+            {
+                Console.Write("Input membership code: ");
+                string input = Console.ReadLine();
+                foreach (var row in this.customer)
+                {
+                    if(input == row.code)
+                    {
+                        boolean = true;
+                        dynamic Settings = new Settings().File;
+                        Settings.language = "EN";
+                        new Json("settings.json").Write(Settings);
+                        break;
+                    }
+                }
+            }
+        }
+
+        public void Register()
+        {
+
         }
     }
 
@@ -183,7 +207,6 @@ namespace ProjectB
         static void Main(string[] args)
         {
             new Start();
-
         }
     }
 }

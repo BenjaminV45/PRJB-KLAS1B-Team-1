@@ -42,7 +42,17 @@ namespace ProjectB
     }
 
 
-
+    public class MembersJson
+    {
+        public int id { get; set; }
+        public string code { get; set; }
+        public string email { get; set; }
+        public string firstname { get; set; }
+        public string lastname { get; set; }
+        public string creditcard { get; set; }
+        public string continent { get; set; }
+        public string rank { get; set; }
+    }
 
 
 }
