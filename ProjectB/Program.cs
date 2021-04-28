@@ -218,7 +218,9 @@ namespace ProjectB
     {
         static void Main(string[] args)
         {
-            new Start();
+            new Reservation();
+            // new Start();
+
         }
     }
 }

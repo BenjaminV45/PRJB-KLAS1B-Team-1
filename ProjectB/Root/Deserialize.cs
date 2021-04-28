@@ -53,41 +53,12 @@ namespace ProjectB
         public string rank { get; set; }
     }
 
-    public class Veganistisch
-    {
-        public List<string> aperitif { get; set; }
-        public List<object> voorgerecht { get; set; }
-        public List<object> hoofdgerecht { get; set; }
-        public List<object> desert { get; set; }
-    }
-
-    public class Imapala
-    {
-        public List<object> aperitif { get; set; }
-        public List<object> voorgerecht { get; set; }
-        public List<object> hoofdgerecht { get; set; }
-        public List<object> desert { get; set; }
-    }
-
-    public class Vis
-    {
-        public List<object> aperitif { get; set; }
-        public List<object> voorgerecht { get; set; }
-        public List<object> hoofdgerecht { get; set; }
-        public List<object> desert { get; set; }
-    }
-    public class Menu
-    {
-        public Veganistisch veganistisch { get; set; }
-        public Imapala imapala { get; set; }
-        public Vis vis { get; set; }
-    }
-
     public class MenuJson
     {
-        public Menu menu { get; set; }
+        public List<List<string>> vegan { get; set; }
+        public List<List<string>> vis { get; set; }
+        public List<List<string>> impala { get; set; }
     }
-
 
 }
 
