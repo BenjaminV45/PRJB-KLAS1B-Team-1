@@ -25,6 +25,7 @@ namespace ProjectB
             if (this.file == "languages.json") return JsonSerializer.Deserialize<LanguageJson>(json);
             if (this.file == "reservation.json") return JsonSerializer.Deserialize<ReservationJson>(json);
             if (this.file == "members.json") return JsonSerializer.Deserialize<List<MembersJson>>(json);
+            if (this.file == "menu.json") return JsonSerializer.Deserialize<MenuJson>(json);
             return null;
         }
 

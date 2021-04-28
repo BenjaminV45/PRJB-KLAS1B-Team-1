@@ -75,8 +75,17 @@ namespace ProjectB
         public List<object> hoofdgerecht { get; set; }
         public List<object> desert { get; set; }
     }
+    public class Menu
+    {
+        public Veganistisch veganistisch { get; set; }
+        public Imapala imapala { get; set; }
+        public Vis vis { get; set; }
+    }
 
-
+    public class MenuJson
+    {
+        public Menu menu { get; set; }
+    }
 
 
 }
