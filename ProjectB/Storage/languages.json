@@ -18,6 +18,11 @@
 			"This isn't a date, please use the format as described.",
 			"We are closed on monday's, please choose another date.",
 			"Do u want to see the menu? [Yes/No]"
+		],
+		"create-customer": [
+			"Amazing! I've learned to speak your language",
+			"Fill in your email address: ",
+			"E-mail is formatted the wrong way"
 		]
 	},
 	"NL": {
@@ -45,6 +50,11 @@
 			"Dit is geen datum, houdt u zich alstublieft aan he format.",
 			"Op maandag zijn wij gesloten, kies alstublieft een andere datum.",
 			"Wilt u het menu inzien?"
+		],
+		"create-customer": [
+			"Geweldig! Ik heb uw taal geleerd",
+			"Vul uw e-mailadress in: ",
+			"E-mail is op de verkeerde manier opgemaakt"
 		]
 	}
 }

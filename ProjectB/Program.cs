@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Net.Mail;
 
 namespace ProjectB
 {
@@ -50,6 +55,11 @@ namespace ProjectB
             this.Member_id = this.File.member_id;
         }
 
+        public void Update(dynamic data)
+        {
+            new Json("settings.json").Write(data);
+        }
+
     }
     public class Alfred : Settings
     {
@@ -62,13 +72,20 @@ namespace ProjectB
             this.col = col;
             this.data = new Json("languages.json").Read();
         }
-        public void Write(){
-
-            Console.Write("[Alfred] ");
+        public void Write()
+        {
+            Console.Write("\n[Alfred] ");
             if (this.Language == "NL") Console.Write(this.data.NL[this.row][this.col]);
             else Console.Write(this.data.EN[this.row][this.col]);
             Console.Write("\n");
         }
+        public void Line()
+        {
+            Console.Write("[Alfred] ");
+            if (this.Language == "NL") Console.Write(this.data.NL[this.row][this.col]);
+            else Console.Write(this.data.EN[this.row][this.col]);
+        }
+
         public string Option()
         {
             if (this.Language == "NL") return this.data.NL[this.row][this.col];
@@ -105,15 +122,17 @@ namespace ProjectB
                         }
                         else
                         {
+                            Console.Clear();
                             tmp = true;
                             options[input - 1].Item3();
                         }
                     }
                     else
                     {
+                        Console.Clear();
                         new Chef();
                     }
-        
+
                 }
                 catch
                 {
@@ -132,7 +151,7 @@ namespace ProjectB
             };
             this.Menu(options);
         }
-        
+
     }
 
     class Customer : Option
@@ -142,22 +161,19 @@ namespace ProjectB
         public Customer()
         {
             this.customer = new Json("members.json").Read();
-            foreach (var row in this.customer)
-            {
-                Console.WriteLine(row.firstname);
-            }
+
             var options = new[]
             {
-                Tuple.Create<int, string, Action>(1, "Login with membership code", () => this.Login()),
-                Tuple.Create<int, string, Action>(2, "Become a member", () => this.Register())
-            };
+                            Tuple.Create<int, string, Action>(1, "Login with membership code", () => this.Login()),
+                            Tuple.Create<int, string, Action>(2, "Become a member", () => this.Register())
+                        };
 
             this.Menu(options);
 
             var optionss = new[]
 {
-                Tuple.Create<int, string, Action>(1, "Make a reservation", () => new Reservation()),
-            };
+                            Tuple.Create<int, string, Action>(1, "Make a reservation", () => new Reservation()),
+                        };
 
             this.Menu(optionss);
         }
@@ -174,13 +190,12 @@ namespace ProjectB
                 string input = Console.ReadLine();
                 foreach (var row in this.customer)
                 {
-                    if(input == row.code)
+                    if (input == row.code)
                     {
                         boolean = true;
                         dynamic Settings = new Settings().File;
-                        Settings.language = (row.continent == "Europa" || "Afrika" ? "NL" : "EN"); 
                         Settings.member_id = row.id;
-                        new Json("settings.json").Write(Settings);
+                        new Settings().Update(Settings);
                         break;
                     }
                 }
@@ -188,12 +203,71 @@ namespace ProjectB
         }
 
         public void Register()
+
         {
+
+            string[] continent = { "Europa", "Africa", "North-america", "South-america", "Asia", "Australia" };
             bool boolean = false;
+
             while (!boolean)
             {
-                Console.Write("");
+                int count = 1;
+                foreach (string row in continent)
+                {
+                    Console.WriteLine($"[{count++}] {row}");
+                }
+                Console.Write("\n[Alfred] I would like to know your continent: ");
+
+                string input = Console.ReadLine();
+                if (continent.Contains(input))
+                {
+                    dynamic Settings = new Settings().File;
+                    Settings.language = (input == "Europa" || input == "Africa" ? "NL" : "EN");
+                    new Settings().Update(Settings);
+
+                    Console.Clear();
+
+                    new Alfred("create-customer", 0).Write();
+                    boolean = true;
+
+
+                }
+                else
+                {
+                    Console.WriteLine("[Alfred] I have no clue what continet that is! Try again :)\n");
+                }
             }
+
+            boolean = false;
+            
+            while (!boolean)
+            {
+                new Alfred("create-customer", 1).Line();
+                string input = Console.ReadLine();
+                try
+                {
+                    MailAddress addr = new MailAddress(input);
+                    boolean = true;
+                }
+                catch (FormatException)
+                {
+                    new Alfred("create-customer", 2).Write();
+                }
+            }
+            //var person = new MembersJson{
+            //    id = 2,
+            //    code = "ABC123",
+            //    email = "benjaminvdberg@live.nl",
+            //    firstname = "Benjamin",
+            //    lastname = "van den Berg",
+            //    creditcard = "",
+            //    continent = "Europa",
+            //    rank = "Bronze"
+            //};
+
+            //this.customer.Add(person);
+            //Console.WriteLine(this.customer);
+            //new Json("members.json").Write(this.customer);
         }
     }
 
@@ -202,6 +276,11 @@ namespace ProjectB
 
         public Start()
         {
+            dynamic Settings = new Settings().File;
+            Settings.language = "EN";
+            Settings.member_id = 0;
+            new Settings().Update(Settings);
+
             new Alfred("start", 0).Write();
             var options = new[]
             {
@@ -218,8 +297,8 @@ namespace ProjectB
     {
         static void Main(string[] args)
         {
-            new Reservation();
-            // new Start();
+
+            new Start();
 
         }
     }
