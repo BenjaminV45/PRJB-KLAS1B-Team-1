@@ -17,7 +17,13 @@
 			"This date is already passed.",
 			"This isn't a date, please use the format as described.",
 			"We are closed on monday's, please choose another date.",
-			"Do u want to see the menu? [Yes/No]"
+			"Do u want to see the menu? [Yes/No]",
+			"You need persons to make a reservation. Please invite some fellow humas on ur trip.",
+			"Fill in ur firstname: ",
+			"Fill in ur surname: ",
+			"Choose a Menu: ",
+			"Fill in ur allergies if u have any: ",
+			"Fill in how many calories u want to eat: "
 		]
 	},
 	"NL": {
@@ -44,7 +50,13 @@
 			"Deze datum is al verstreken.",
 			"Dit is geen datum, houdt u zich alstublieft aan he format.",
 			"Op maandag zijn wij gesloten, kies alstublieft een andere datum.",
-			"Wilt u het menu inzien?"
+			"Wilt u het menu inzien?",
+			"U heeft meerder personen nodig om een reservatie te plaatsen. Nodig alstublieft meer personen uit op uw reis.",
+			"Vul uw voornaam in: ",
+			"Vul uw achternaam in: ",
+			"Kies een menu: ",
+			"Heeft u allergieën? Zo ja, welke?",
+			"Vul in hoeveel calorieën u wilt eten: "
 		]
 	}
 }

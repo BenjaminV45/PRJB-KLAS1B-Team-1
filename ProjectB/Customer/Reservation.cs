@@ -14,18 +14,17 @@ namespace ProjectB
         {
             this.menu = new Json("menu.json").Read();
             this.data = new Json("reservation.json").Read();
-
-            // HowManyPersons();
-            // DateAndTime();
+            
+            HowManyPersons();
+            DateAndTime();
 
             var menuoptions = new[]
 {
-                Tuple.Create<int, string, Action>(1, "Yes", () => this.ShowMenu()),
-                Tuple.Create<int, string, Action>(2, "No", () => new GetMenu())
+                Tuple.Create<int, string, Action>(1, "Yes", () => ShowMenu()),
+                Tuple.Create<int, string, Action>(2, "No", () => GetNames())
             };
             new Alfred("reservation", 5).Write();
-            //this.Menu(menuoptions);
-            ShowMenu();
+            this.Menu(menuoptions);
 
         }
 
@@ -36,7 +35,13 @@ namespace ProjectB
                 try
                 {
                     this.persons = Convert.ToInt32(Console.ReadLine());
-                    complete = true;
+                    if (this.persons <= 0)
+                    {
+                        new Alfred("reservation", 6).Write();
+                    } else
+                    {
+                        complete = true;
+                    }
                 }
                 catch
                 {
@@ -80,10 +85,45 @@ namespace ProjectB
 
         public void ShowMenu()
         {
-            Console.WriteLine("Vegan/Vegetarisch: ");
-            foreach (var row in this.menu.vegan)
+            Console.WriteLine(this.persons);
+            Console.WriteLine("\nVegetarisch/Vegan: ");
+            WriteMenu(this.menu.vegan);
+            Console.WriteLine("\nVis/Fish: ");
+            WriteMenu(this.menu.vis);
+            Console.WriteLine("\nImpala: ");
+            WriteMenu(this.menu.impala);
+
+            void WriteMenu(dynamic a) {
+                
+                foreach (var row in a)
+                {
+                    int count = 0;
+                    foreach (var col in row)
+                    {
+                        Console.WriteLine(col);
+                    }
+                }
+            }
+        }
+
+        public void GetNames()
+        {
+          
+            int countImpala = 0;
+            string guestfName = Console.ReadLine();
+            string guestsName = Console.ReadLine();
+            string guestMenu = Console.ReadLine();
+            string guestAllergie = Console.ReadLine();
+            string guestKcal = Console.ReadLine();
+
+            if (guestMenu == "impala" || guestMenu == "Ïmpala")
             {
-                Console.WriteLine(row[0]);
+                countImpala++;
+            }
+
+            for (int i = 0; i < this.persons; i++)
+            {
+                
             }
         }
     }

@@ -1,21 +1,21 @@
 {
     "vegan": [
-        ["ap"],
-        ["voor"],
-        ["hoofd"],
-        ["na", ["sdada"]]
+        ["  Aperitif: ",["vegan", "hoi"]],
+        ["  Voorgerecht: ",["vegan", "hoi"]],
+        ["  Hoofdgerecht: ",["vegan"]],
+        ["  Dessert: ",["vegan"]]
     ],
     "vis": [
-        [""],
-        [""],
-        [""],
-        [""]
+        ["  Aperitif: ",["vis"]],
+        ["  Voorgerecht: ",["vis"]],
+        ["  Hoofdgerecht: ",["vis"]],
+        ["  Dessert: ",["vis"]]
     ],
 
     "impala": [
-        [""],
-        [""],
-        [""],
-        [""]
+        ["  Aperitif: ",["impala"]],
+        ["  Voorgerecht: ",["impala"]],
+        ["  Hoofdgerecht: ",["impala"]],
+        ["  Dessert: ",["impala"]]
     ]
 }

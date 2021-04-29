@@ -55,10 +55,11 @@ namespace ProjectB
 
     public class MenuJson
     {
-        public List<List<string>> vegan { get; set; }
-        public List<List<string>> vis { get; set; }
-        public List<List<string>> impala { get; set; }
+        public List<List<object>> vegan { get; set; }
+        public List<List<object>> vis { get; set; }
+        public List<List<object>> impala { get; set; }
     }
+
 
 }
 
