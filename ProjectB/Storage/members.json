@@ -1,22 +1,4 @@
 [
-	{
-		"id" : 1,
-		"code" : "1GZ23I",
-		"email" : "benjaminvdberg@live.nl",
-		"firstname" : "Benjamin",
-		"lastname" : "van den Berg",
-		"creditcard" : "",
-		"continent" : "Europa",
-		"rank" : "Bronze"
-	},
-		{
-		"id" : 2,
-		"code" : "1GZ23A",
-		"email" : "leco@kabelfoon.net",
-		"firstname" : "Leco",
-		"lastname" : "Hendriks",
-		"creditcard" : "",
-		"continent" : "Europa",
-		"rank" : "Bronze"
-	}
+{"id":1,"code":"1GZ23I","email":"benjaminvdberg@live.nl","firstname":"Benjamin","lastname":"van den Berg","creditcard":"","continent":"Europa","rank":"Bronze"},
+{"id":2,"code":"1GZ23A","email":"leco@kabelfoon.net","firstname":"Leco","lastname":"Hendriks","creditcard":"","continent":"Europa","rank":"Bronze"}
 ]
