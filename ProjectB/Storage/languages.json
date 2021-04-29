@@ -24,6 +24,11 @@
 			"Choose a Menu: ",
 			"Fill in ur allergies if u have any: ",
 			"Fill in how many calories u want to eat: "
+		],
+		"create-customer": [
+			"Amazing! I've learned to speak your language",
+			"Fill in your email address: ",
+			"E-mail is formatted the wrong way"
 		]
 	},
 	"NL": {
@@ -57,6 +62,11 @@
 			"Kies een menu: ",
 			"Heeft u allergie�n? Zo ja, welke?",
 			"Vul in hoeveel calorie�n u wilt eten: "
+		],
+		"create-customer": [
+			"Geweldig! Ik heb uw taal geleerd",
+			"Vul uw e-mailadress in: ",
+			"E-mail is op de verkeerde manier opgemaakt"
 		]
 	}
 }
