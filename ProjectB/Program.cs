@@ -373,8 +373,8 @@ namespace ProjectB
         static void Main(string[] args)
         {
 
-            new Start();
-
+            //new Start();
+            new Reservation();
         }
     }
 }

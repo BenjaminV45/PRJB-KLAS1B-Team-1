@@ -15,16 +15,17 @@ namespace ProjectB
             this.menu = new Json("menu.json").Read();
             this.data = new Json("reservation.json").Read();
             
-            HowManyPersons();
-            DateAndTime();
+           // HowManyPersons();
+           // DateAndTime();
 
             var menuoptions = new[]
 {
                 Tuple.Create<int, string, Action>(1, "Yes", () => ShowMenu()),
                 Tuple.Create<int, string, Action>(2, "No", () => GetNames())
             };
-            new Alfred("reservation", 5).Write();
-            this.Menu(menuoptions);
+            //new Alfred("reservation", 5).Write();
+            // this.Menu(menuoptions);
+            GetNames();
 
         }
 
@@ -110,10 +111,15 @@ namespace ProjectB
         {
           
             int countImpala = 0;
+            new Alfred("reservation", 7).Line();
             string guestfName = Console.ReadLine();
-            string guestsName = Console.ReadLine();
+            new Alfred("reservation", 8).Line();
+            string guestSName = Console.ReadLine();
+            new Alfred("reservation", 9).Line();
             string guestMenu = Console.ReadLine();
+            new Alfred("reservation", 10).Line();
             string guestAllergie = Console.ReadLine();
+            new Alfred("reservation", 11).Line();
             string guestKcal = Console.ReadLine();
 
             if (guestMenu == "impala" || guestMenu == "Ïmpala")
