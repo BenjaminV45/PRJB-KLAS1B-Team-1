@@ -27,8 +27,13 @@
 		],
 		"create-customer": [
 			"Amazing! I've learned to speak your language",
-			"Fill in your email address: ",
-			"E-mail is formatted the wrong way"
+			"I would like to know your email: ",
+			"Email is formatted the wrong way",
+			"Email is already known within our system",
+			"I would like to know your first name: ",
+			"I would like to know your last name: ",
+			"I would like to your credit card number [XXXX-XXXX-XXXX-XXXX]: ",
+			"Credit Card number is wrongly formatted"
 		]
 	},
 	"NL": {
@@ -65,8 +70,13 @@
 		],
 		"create-customer": [
 			"Geweldig! Ik heb uw taal geleerd",
-			"Vul uw e-mailadress in: ",
-			"E-mail is op de verkeerde manier opgemaakt"
+			"Ik zou graag je e-mailadres willen weten: ",
+			"E-mailadres is op de verkeerde manier opgemaakt",
+			"E-mail is al bekend binnen ons systeem",
+			"Ik zou graag je voornaam willen weten: ",
+			"Ik zou graag je achternaam willen weten: ",
+			"Ik zou graag uw creditcardnummer willen weten [XXXX-XXXX-XXXX-XXXX]: ",
+			"Creditcardnummer is verkeerd opgemaakt"
 		]
 	}
 }

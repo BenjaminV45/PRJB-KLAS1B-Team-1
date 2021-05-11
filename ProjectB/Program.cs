@@ -91,6 +91,7 @@ namespace ProjectB
             if (this.Language == "NL") return this.data.NL[this.row][this.col];
             else return this.data.EN[this.row][this.col];
         }
+
     }
 
 
@@ -164,16 +165,16 @@ namespace ProjectB
 
             var options = new[]
             {
-                            Tuple.Create<int, string, Action>(1, "Login with membership code", () => this.Login()),
-                            Tuple.Create<int, string, Action>(2, "Become a member", () => this.Register())
-                        };
+                Tuple.Create<int, string, Action>(1, "Login with membership code", () => this.Login()),
+                Tuple.Create<int, string, Action>(2, "Become a member", () => this.Register())
+            };
 
             this.Menu(options);
 
             var optionss = new[]
-{
-                            Tuple.Create<int, string, Action>(1, "Make a reservation", () => new Reservation()),
-                        };
+            {
+                Tuple.Create<int, string, Action>(1, "Make a reservation", () => new Reservation()),
+            };
 
             this.Menu(optionss);
         }
@@ -206,23 +207,23 @@ namespace ProjectB
 
         {
 
-            string[] continent = { "Europa", "Africa", "North-america", "South-america", "Asia", "Australia" };
+            string[] continents = { "Europa", "Africa", "North-america", "South-america", "Asia", "Australia" };
             bool boolean = false;
-
+            string continent = "";
+            foreach (string row in continents)
+            {
+                Console.WriteLine($"[+] {row}");
+            }
             while (!boolean)
             {
-                int count = 1;
-                foreach (string row in continent)
-                {
-                    Console.WriteLine($"[{count++}] {row}");
-                }
+
                 Console.Write("\n[Alfred] I would like to know your continent: ");
 
-                string input = Console.ReadLine();
-                if (continent.Contains(input))
+                continent = Console.ReadLine();
+                if (continents.Contains(continent))
                 {
                     dynamic Settings = new Settings().File;
-                    Settings.language = (input == "Europa" || input == "Africa" ? "NL" : "EN");
+                    Settings.language = (continent == "Europa" || continent  == "Africa" ? "NL" : "EN");
                     new Settings().Update(Settings);
 
                     Console.Clear();
@@ -234,40 +235,114 @@ namespace ProjectB
                 }
                 else
                 {
-                    Console.WriteLine("[Alfred] I have no clue what continet that is! Try again :)\n");
+                    Console.WriteLine("[Alfred] I have no clue what continet that is! Try again :)");
                 }
             }
 
             boolean = false;
-            
+            string email = "";
             while (!boolean)
             {
                 new Alfred("create-customer", 1).Line();
-                string input = Console.ReadLine();
+                email = Console.ReadLine();
                 try
                 {
-                    MailAddress addr = new MailAddress(input);
-                    boolean = true;
+                    MailAddress addr = new MailAddress(email);
+                    foreach (var row in this.customer)
+                    {
+                        if(email == row.email)
+                        {
+                            new Alfred("create-customer", 3).Write();
+                            break;
+                        }
+                        boolean = true;
+                    }
                 }
                 catch (FormatException)
                 {
                     new Alfred("create-customer", 2).Write();
                 }
             }
-            //var person = new MembersJson{
-            //    id = 2,
-            //    code = "ABC123",
-            //    email = "benjaminvdberg@live.nl",
-            //    firstname = "Benjamin",
-            //    lastname = "van den Berg",
-            //    creditcard = "",
-            //    continent = "Europa",
-            //    rank = "Bronze"
-            //};
 
-            //this.customer.Add(person);
-            //Console.WriteLine(this.customer);
-            //new Json("members.json").Write(this.customer);
+            Console.Clear();
+            new Alfred("create-customer", 4).Line();
+            string firstname = Console.ReadLine();
+
+            new Alfred("create-customer", 5).Line();
+            string lastname = Console.ReadLine();
+
+            Console.Clear();
+            boolean = false;
+            string creditcard = "";
+
+            while (!boolean)
+            {
+                new Alfred("create-customer", 6).Line();
+                creditcard = Console.ReadLine();
+                if (creditcard.Length != 19)
+                {
+                    new Alfred("create-customer", 7).Write();
+                }
+                else
+                {
+                    boolean = true;
+                }
+            }
+
+            char[] alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
+            char[] numbers = "123456789".ToCharArray();
+            Random r = new Random();
+
+            boolean = false;
+            string code = "";
+            while (!boolean)
+            {
+                string str = "";
+
+                for (int i = 3; i > 0; i--)
+                {
+
+                    r.Next(alpha.Length);
+                    str += alpha[i];
+                }
+
+                for (int i = 3; i > 0; i--)
+                {
+                    r.Next(numbers.Length);
+                    str += numbers[i];
+                }
+
+                code = new string(str.ToCharArray().OrderBy(s => (r.Next(2) % 2) == 0).ToArray());
+                foreach (var row in this.customer)
+                {
+                    if (code == row.code)
+                    {
+                        break;
+                    }
+                    boolean = true;
+                }
+            }
+
+            int id = this.customer.Count + 1;
+
+
+            var person = new MembersJson
+            {
+                id = id,
+                code = code,
+                email = email,
+                firstname = firstname,
+                lastname = lastname,
+                creditcard = creditcard,
+                continent = continent,
+                rank = "Bronze"
+            };
+
+            Console.WriteLine("Account aangemaakt");
+            
+            this.customer.Add(person);
+            Console.WriteLine(this.customer);
+            new Json("members.json").Write(this.customer);
         }
     }
 
