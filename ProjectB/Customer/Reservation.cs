@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Globalization;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,24 +11,29 @@ namespace ProjectB
         private int persons;
         public dynamic data;
         public dynamic menu;
+        public bool hunt;
+        public int id;
+        public string Date;
+        public List<People> people;
 
         public Reservation()
         {
             this.menu = new Json("menu.json").Read();
             this.data = new Json("reservation.json").Read();
-            
-           HowManyPersons();
-           //DateAndTime();
+            this.id = this.data.Count + 1;
+            this.hunt = false;
+            this.people = new List<People>();
+
+            HowManyPersons();
+            DateAndTime();
 
             var menuoptions = new[]
 {
                 Tuple.Create<int, string, Action>(1, "Yes", () => ShowMenu()),
                 Tuple.Create<int, string, Action>(2, "No", () => GetNames())
             };
-            //new Alfred("reservation", 5).Write();
-            // this.Menu(menuoptions);
-            GetNames();
-
+            new Alfred("reservation", 5).Write();
+            this.Menu(menuoptions);
         }
 
         public void HowManyPersons() {
@@ -76,6 +82,7 @@ namespace ProjectB
                     else
                     {
                         complete = true;
+                        this.Date = inputString;
                     }
                 }
                 else
@@ -99,7 +106,6 @@ namespace ProjectB
                 
                 foreach (var row in a)
                 {
-                    int count = 0;
                     foreach (var col in row)
                     {
                         Console.WriteLine(col);
@@ -111,7 +117,7 @@ namespace ProjectB
         public void GetNames()
         {
             new Alfred("reservation", 12).Write();
-            object[][] bookinfo = new object[this.persons][];
+            
             int countImpala = 0;
             bool complete = false;
             string menu = null;
@@ -145,13 +151,17 @@ namespace ProjectB
 
 
 
-            bookinfo[0] = new object[]
+            var person = new People
             {
-                   fName, SName, menu, Allergie, Kcal
+                  name= fName,
+                  menu = menu,
+                  allergies = Allergie,
+                  kcal = Kcal
             };
 
-            Console.Clear();
+            this.people.Add(person);
 
+            Console.Clear();
 
             for (int i = 1; i < this.persons; i++)
             {
@@ -184,15 +194,53 @@ namespace ProjectB
                 new Alfred("reservation", 17).Line();
                 string guestKcal = Console.ReadLine();
 
-                bookinfo[i] = new object[]
+                if (countImpala > 3)
                 {
-                    guestfName, guestSName, guestMenu, guestAllergie, guestKcal
+                    bool tmp = false;
+                    while (!tmp) {
+                        new Alfred("reservation", 18).Line();
+                        string optie = Console.ReadLine();
+                        if (optie == "Y" || optie == "y" || optie == "n" || optie == "N")
+                        {
+                            if (optie == "Y" || optie == "y")
+                            {
+                                tmp = true;
+                                this.hunt = true;
+                            }
+                        }
+                        else
+                        {
+                            new Alfred("error", 2).Write();
+                        }
+                    }
+                }
+                var guest = new People
+                {
+                    name = guestfName + " " + guestSName,
+                    menu = guestMenu,
+                    allergies = guestAllergie,
+                    kcal = guestKcal
                 };
+
+                people.Add(guest);
                 Console.Clear();
             }
-            Console.WriteLine(bookinfo[0][0]);
-            Console.WriteLine(countImpala);
 
+            DateTime dateTime = DateTime.UtcNow.Date;
+
+            var reservation = new ReservationJson
+            {
+                id = this.id,
+                memberID = new Settings().Member_id,
+                amount = this.persons,
+                date = this.Date,
+                People = this.people,
+                hunt = this.hunt,
+                currentdate = dateTime.ToString("dd/MM/yyyy")
+            };
+
+            this.data.Add(reservation);
+            new Json("reservation.json").Write(this.data);
         }
     }
 }

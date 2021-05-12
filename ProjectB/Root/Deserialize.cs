@@ -18,29 +18,27 @@ namespace ProjectB
 
     // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse); 
     // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse); 
-    public class Poeple
+
+    public class People
     {
         public string name { get; set; }
         public string menu { get; set; }
-        public string preference { get; set; }
         public string allergies { get; set; }
         public string kcal { get; set; }
     }
 
-    public class Reservations
-    {
-        public int id { get; set; }
-        public string memberID { get; set; }
-        public int amount { get; set; }
-        public string date { get; set; }
-        public List<Poeple> poeple { get; set; }
-        public object rating { get; set; }
-    }
-
     public class ReservationJson
     {
-        public List<Reservations> reservations { get; set; }
+        public int id { get; set; }
+        public int memberID { get; set; }
+        public int amount { get; set; }
+        public string date { get; set; }
+        public List<People> People { get; set; }
+        public object hunt { get; set; }
+        public string currentdate { get; set; }
     }
+
+
     public class MembersJson
     {
         public int id { get; set; }
