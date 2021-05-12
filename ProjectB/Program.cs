@@ -208,6 +208,7 @@ namespace ProjectB
 
                         this.settings.language = (row.continent == "Europa" || row.continent == "Africa" ? "NL" : "EN");
                         new Settings().Update(this.settings);
+
                         break;
                     }
                 }
