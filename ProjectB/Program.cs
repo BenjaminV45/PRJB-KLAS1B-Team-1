@@ -380,7 +380,7 @@ namespace ProjectB
                 rank = "Bronze"
             };
 
-            Console.WriteLine("Account aangemaakt");
+            new Alfred("create-customer", 12).Write();
 
             this.customer.Add(person);
             new Json("members.json").Write(this.customer);
