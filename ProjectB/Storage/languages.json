@@ -6,7 +6,8 @@
 		],
 		"option": [
 			"Reviews",
-			"Place a reservation"
+			"Place a reservation",
+			"Membership"
 		],
 		"error": [
 			"This isn't a number. Please enter a number."
@@ -33,7 +34,13 @@
 			"I would like to know your first name: ",
 			"I would like to know your last name: ",
 			"I would like to your credit card number [XXXX-XXXX-XXXX-XXXX]: ",
-			"Credit Card number is wrongly formatted"
+			"Credit Card number is wrongly formatted",
+			"I've sent a verification code to your email. Please tell me what it is: ",
+			"The code you had put in is invalid. Please try again: ",
+			"Email verification",
+			"The code to verify your email is: ",
+			"I've created a membership for you and send you an email with your credentials."
+
 		]
 	},
 	"NL": {
@@ -43,7 +50,8 @@
 		],
 		"option": [
 			"Reviews",
-			"Reservering plaatsen"
+			"Reservering plaatsen",
+			"Lidmaatschap"
 		],
 		"leaveReview": [
 			"\nVul uw unieke reserveringscode in: ",
@@ -76,7 +84,12 @@
 			"Ik zou graag je voornaam willen weten: ",
 			"Ik zou graag je achternaam willen weten: ",
 			"Ik zou graag uw creditcardnummer willen weten [XXXX-XXXX-XXXX-XXXX]: ",
-			"Creditcardnummer is verkeerd opgemaakt"
+			"Creditcardnummer is verkeerd opgemaakt",
+			"Ik heb een verificatiecode naar je e-mail gestuurd. Vertel me alsjeblieft wat deze is: ",
+			"De code die u had ingevoerd, is ongeldig. Probeer het a.u.b. opnieuw: ",
+			"E-mail verificatie",
+			"De code om uw e-mail te verifiëren is: ",
+			"Ik heb een lidmaatschap voor je gemaakt en heb je een e-mail gestuurd met je inloggegevens."
 		]
 	}
 }

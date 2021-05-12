@@ -10,14 +10,20 @@ namespace ProjectB
 {
     class System
     {
+        public static string SYSTEM_NAME = "La Mouette";
         public void SendMail(string email, string title, string content)
         {
+
+            MailMessage mail = new MailMessage(email, email, $"{SYSTEM_NAME} - {title}", content);
+            mail.IsBodyHtml = true;
+
             var client = new SmtpClient("smtp.gmail.com", 587)
             {
                 Credentials = new NetworkCredential("team1.projectb@gmail.com", "V%cajS^JF[*tY2Sb"),
                 EnableSsl = true
             };
-            client.Send(email, email, title, content);
+
+            client.Send(mail);
         }
     }
     class Json
@@ -99,7 +105,6 @@ namespace ProjectB
 
     }
 
-
     class Option : System
     {
         public void Menu(Tuple<int, string, Action>[] options)
@@ -163,11 +168,11 @@ namespace ProjectB
     class Customer : Option
     {
         public dynamic customer;
-
+        public dynamic settings;
         public Customer()
         {
             this.customer = new Json("members.json").Read();
-
+            this.settings = new Settings().File;
             var options = new[]
             {
                 Tuple.Create<int, string, Action>(1, "Login with membership code", () => this.Login()),
@@ -178,13 +183,12 @@ namespace ProjectB
 
             var optionss = new[]
             {
-                Tuple.Create<int, string, Action>(1, "Make a reservation", () => new Reservation()),
+                Tuple.Create<int, string, Action>(1, new Alfred("option", 2).Option(), () => this.Membership()),
+                Tuple.Create<int, string, Action>(2, new Alfred("option", 1).Option(), () => new Reservation()),
             };
 
             this.Menu(optionss);
         }
-
-
 
         public void Login()
         {
@@ -199,9 +203,8 @@ namespace ProjectB
                     if (input == row.code)
                     {
                         boolean = true;
-                        dynamic Settings = new Settings().File;
-                        Settings.member_id = row.id;
-                        new Settings().Update(Settings);
+                        this.settings.member_id = row.id;
+                        new Settings().Update(this.settings);
                         break;
                     }
                 }
@@ -227,9 +230,9 @@ namespace ProjectB
                 continent = Console.ReadLine();
                 if (continents.Contains(continent))
                 {
-                    dynamic Settings = new Settings().File;
-                    Settings.language = (continent == "Europa" || continent  == "Africa" ? "NL" : "EN");
-                    new Settings().Update(Settings);
+
+                    this.settings.language = (continent == "Europa" || continent == "Africa" ? "NL" : "EN");
+                    new Settings().Update(this.settings);
 
                     Console.Clear();
 
@@ -255,7 +258,7 @@ namespace ProjectB
                     MailAddress addr = new MailAddress(email);
                     foreach (var row in this.customer)
                     {
-                        if(email == row.email)
+                        if (email == row.email)
                         {
                             new Alfred("create-customer", 3).Write();
                             break;
@@ -330,7 +333,36 @@ namespace ProjectB
 
             int id = this.customer.Count + 1;
 
-            new System().SendMail("1006255@hr.nl", "Verify account", "Even testen om te kijken als het werkt");
+            Guid myuuid = Guid.NewGuid();
+            string myuuidAsString = myuuid.ToString();
+
+            new System().SendMail(email, new Alfred("create-customer", 10).Option(), $"{new Alfred("create-customer", 11).Option()}{myuuidAsString}");
+            string secretKey = null;
+            boolean = false;
+            new Alfred("create-customer", 8).Line();
+            while (!boolean)
+            {
+                secretKey = Console.ReadLine();
+                if (myuuidAsString == secretKey)
+                {
+                    boolean = true;
+                }
+                else
+                {
+                    new Alfred("create-customer", 9).Line();
+                }
+            }
+
+            string content = "";
+            content += "<h2>Your account credentials</h2>";
+            content += $"<p>Membership code: {code}</p>";
+            content += $"<p>Email: {email}</p>";
+            content += $"<p>Name: {firstname} {lastname}</p>";
+            content += $"<p>Creditcard number: {creditcard}</p>";
+            content += $"<p>Continent: {continent}";
+            content += $"<p>Rank: Bronze";
+
+            new System().SendMail(email, "Account credentials", content);
 
             var person = new MembersJson
             {
@@ -345,10 +377,16 @@ namespace ProjectB
             };
 
             Console.WriteLine("Account aangemaakt");
-            
+
             this.customer.Add(person);
-            Console.WriteLine(this.customer);
             new Json("members.json").Write(this.customer);
+
+            this.settings.member_id = id;
+            new Settings().Update(this.settings);
+        }
+        public void Membership()
+        {
+
         }
     }
 
