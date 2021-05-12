@@ -48,8 +48,10 @@
 			"The code you had put in is invalid. Please try again: ",
 			"Email verification",
 			"The code to verify your email is: ",
-			"I've created a membership for you and send you an email with your credentials."
-
+			"I've created a membership for you and send you an email with the credentials."
+		],
+		"membership": [
+			"Below your membership is shown."
 		]
 	},
 	"NL": {
@@ -107,7 +109,10 @@
 			"De code die u had ingevoerd, is ongeldig. Probeer het a.u.b. opnieuw: ",
 			"E-mail verificatie",
 			"De code om uw e-mail te verifiëren is: ",
-			"Ik heb een lidmaatschap voor je gemaakt en heb je een e-mail gestuurd met je inloggegevens."
+			"Ik heb een lidmaatschap voor je gemaakt en heb je een e-mail gestuurd met de inloggegevens."
+		],
+		"membership": [
+			"Hieronder wordt uw lidmaatschap weergegeven."
 		]
 	}
 }
