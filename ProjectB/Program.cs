@@ -388,6 +388,7 @@ namespace ProjectB
             this.settings.member_id = id;
             new Settings().Update(this.settings);
         }
+        
         public void Membership()
         {
 
