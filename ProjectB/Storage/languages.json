@@ -11,7 +11,8 @@
 		],
 		"error": [
 			"This isn't a number. Please enter a number.",
-			"This isn't a option. Please choose the right menu."
+			"This isn't a option. Please choose the right menu.",
+			"This isn't a option. Please choose one of the options."
 		],
 		"reservation": [
 			"For how many persons?",
@@ -20,18 +21,19 @@
 			"This isn't a date, please use the format as described.",
 			"We are closed on monday's, please choose another date.",
 			"Do u want to see the menu? [Yes/No]",
-			"You need persons to make a reservation. Please invite some fellow humas on ur trip.",
+			"You need persons to make a reservation. Please invite some fellow humas on your trip.",
 			"Fill in ur firstname: ",
 			"Fill in ur surname: ",
 			"Choose a Menu [Fish/Vega/Impala]: ",
-			"Fill in ur allergies if u have any: ",
+			"Fill in ur allergies, if you don't have any press enter to continue: ",
 			"Fill in how many calories u want to eat: ",
 			"For the reservation I would like to know the guests information.",
 			"Fill in the guests firstname: ",
 			"Fill in the guests surname: ",
 			"Which menu would the guest like? [Fish/Vega/Impala]: ",
-			"Fill in their allergies if they have any: ",
-			"Fill in how many calories this guests wants to eat: "
+			"Fill in their allergies, if you don't have any press enter to continue: ",
+			"Fill in how many calories this guests wants to eat: ",
+			"Since u and ur comrades are really interested in impala's, would u like to hunt them yourself? [Y/N] "
 		],
 		"create-customer": [
 			"Amazing! I've learned to speak your language",
@@ -70,10 +72,11 @@
 		],
 		"error": [
 			"Dit is geen nummer. Kies alstublieft een nummer.",
-			"Dit is geen optie. Kies alstublieft een menu."
+			"Dit is geen optie. Kies alstublieft een menu.",
+			"Dit is geen optie. Kies alstublieft een van de opties."
 		],
 		"reservation": [
-			"\nVoor hoeveel personen?",
+			"Voor hoeveel personen?",
 			"Kies een datum [dd/MM/yyyy]: ",
 			"Deze datum is al verstreken.",
 			"Dit is geen datum, houdt u zich alstublieft aan he format.",
@@ -83,14 +86,15 @@
 			"Vul uw voornaam in: ",
 			"Vul uw achternaam in: ",
 			"Kies een menu: [Vis/Vega/Impala]",
-			"Heeft u allergieën? Zo ja, welke?",
+			"Heeft u allergieën? Zo ja, welke? Zo niet, druk op enter om door te gaan",
 			"Vul in hoeveel calorieën u wilt eten: ",
 			"Voor de reservering wil ik graag de informatie van uw reisgenoten hebben.",
 			"Vul een gast's voornaam in: ",
 			"Vul een gast's achternaam in: ",
 			"Kies een menu: [Vis/Vega/Impala]",
-			"Heeft deze gast allergieën? Zo ja, welke?",
-			"Vul in hoeveel calorieën u wilt eten: "
+			"Heeft deze gast allergieën? Zo ja, welke? Zo niet, druk op enter om door te gaan",
+			"Vul in hoeveel calorieën u wilt eten: ",
+			"Sinds u en uw kameraden meer dan 3 keer voor impala hebben gekozen, is mijn vraag als volgt: Wilt u zelf op de impala jagen? [Y/N] "
 		],
 		"create-customer": [
 			"Geweldig! Ik heb uw taal geleerd",

@@ -62,7 +62,7 @@ namespace ProjectB
             string json = File.ReadAllText(@"..\..\..\Storage\" + this.file);
             if (this.file == "settings.json") return JsonSerializer.Deserialize<SettingsJson>(json);
             if (this.file == "languages.json") return JsonSerializer.Deserialize<LanguageJson>(json);
-            if (this.file == "reservation.json") return JsonSerializer.Deserialize<ReservationJson>(json);
+            if (this.file == "reservation.json") return JsonSerializer.Deserialize<List<ReservationJson>>(json);
             if (this.file == "members.json") return JsonSerializer.Deserialize<List<MembersJson>>(json);
             if (this.file == "menu.json") return JsonSerializer.Deserialize<MenuJson>(json);
             return null;
@@ -440,7 +440,9 @@ namespace ProjectB
     {
         static void Main(string[] args)
         {
-            new Start();
+
+            //new Start();
+            new Reservation();
         }
     }
 }
