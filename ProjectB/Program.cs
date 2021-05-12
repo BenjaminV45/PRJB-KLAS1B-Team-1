@@ -2,18 +2,23 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Net.Mail;
+using System.Net;
 
 namespace ProjectB
 {
     class System
     {
-
+        public void SendMail(string email, string title, string content)
+        {
+            var client = new SmtpClient("smtp.gmail.com", 587)
+            {
+                Credentials = new NetworkCredential("team1.projectb@gmail.com", "V%cajS^JF[*tY2Sb"),
+                EnableSsl = true
+            };
+            client.Send(email, email, title, content);
+        }
     }
     class Json
     {
@@ -325,6 +330,7 @@ namespace ProjectB
 
             int id = this.customer.Count + 1;
 
+            new System().SendMail("1006255@hr.nl", "Verify account", "Even testen om te kijken als het werkt");
 
             var person = new MembersJson
             {
@@ -373,8 +379,8 @@ namespace ProjectB
         static void Main(string[] args)
         {
 
-            //new Start();
-            new Reservation();
+            new Start();
+
         }
     }
 }
