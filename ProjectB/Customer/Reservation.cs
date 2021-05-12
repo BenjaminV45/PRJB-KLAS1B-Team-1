@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.Text;
 
@@ -15,8 +16,8 @@ namespace ProjectB
             this.menu = new Json("menu.json").Read();
             this.data = new Json("reservation.json").Read();
             
-           // HowManyPersons();
-           // DateAndTime();
+           HowManyPersons();
+           //DateAndTime();
 
             var menuoptions = new[]
 {
@@ -109,28 +110,89 @@ namespace ProjectB
 
         public void GetNames()
         {
-          
+            new Alfred("reservation", 12).Write();
+            object[][] bookinfo = new object[this.persons][];
             int countImpala = 0;
+            bool complete = false;
+            string menu = null;
+
             new Alfred("reservation", 7).Line();
-            string guestfName = Console.ReadLine();
+            string fName = Console.ReadLine();
             new Alfred("reservation", 8).Line();
-            string guestSName = Console.ReadLine();
-            new Alfred("reservation", 9).Line();
-            string guestMenu = Console.ReadLine();
+            string SName = Console.ReadLine();
+            while (!complete)
+            {
+                new Alfred("reservation", 9).Line();
+                menu = Console.ReadLine();
+                if (menu.Contains("Vis") || menu.Contains("vis") || menu.Contains("Vega") || menu.Contains("vega") || menu.Contains("Fish") || menu.Contains("fish"))
+                {
+                    complete = true;
+                }
+                else if (menu.Contains("Impala") || menu.Contains("impala"))
+                {
+                    complete = true;
+                    countImpala++;
+                }
+                else
+                {
+                    new Alfred("error", 1).Write();
+                }
+            }
             new Alfred("reservation", 10).Line();
-            string guestAllergie = Console.ReadLine();
+            string Allergie = Console.ReadLine();
             new Alfred("reservation", 11).Line();
-            string guestKcal = Console.ReadLine();
+            string Kcal = Console.ReadLine();
 
-            if (guestMenu == "impala" || guestMenu == "Ïmpala")
-            {
-                countImpala++;
-            }
 
-            for (int i = 0; i < this.persons; i++)
+
+            bookinfo[0] = new object[]
             {
-                
+                   fName, SName, menu, Allergie, Kcal
+            };
+
+            Console.Clear();
+
+
+            for (int i = 1; i < this.persons; i++)
+            {
+                string guestMenu = null;
+                bool comp = false;
+                new Alfred("reservation", 13).Line();
+                string guestfName = Console.ReadLine();
+                new Alfred("reservation", 14).Line();
+                string guestSName = Console.ReadLine();
+                while (!comp)
+                {
+                    new Alfred("reservation", 15).Line();
+                    guestMenu = Console.ReadLine();
+                    if (guestMenu.Contains("Vis") || guestMenu.Contains("vis") || guestMenu.Contains("Vega") || guestMenu.Contains("vega"))
+                    {
+                        comp = true;
+                    }
+                    else if (guestMenu.Contains("Impala") || guestMenu.Contains("impala"))
+                    {
+                        comp = true;
+                        countImpala++;
+                    }
+                    else
+                    {
+                        new Alfred("error", 1).Write();
+                    }
+                }
+                new Alfred("reservation", 16).Line();
+                string guestAllergie = Console.ReadLine();
+                new Alfred("reservation", 17).Line();
+                string guestKcal = Console.ReadLine();
+
+                bookinfo[i] = new object[]
+                {
+                    guestfName, guestSName, guestMenu, guestAllergie, guestKcal
+                };
+                Console.Clear();
             }
+            Console.WriteLine(bookinfo[0][0]);
+            Console.WriteLine(countImpala);
+
         }
     }
 }
