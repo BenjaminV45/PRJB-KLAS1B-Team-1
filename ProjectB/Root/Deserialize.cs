@@ -30,6 +30,8 @@ namespace ProjectB
     public class ReservationJson
     {
         public int id { get; set; }
+
+        public string code { get; set; }
         public int memberID { get; set; }
         public int amount { get; set; }
         public string date { get; set; }

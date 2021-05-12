@@ -225,12 +225,28 @@ namespace ProjectB
                 people.Add(guest);
                 Console.Clear();
             }
-
+            string code = null;
             DateTime dateTime = DateTime.UtcNow.Date;
+            bool boolean = false;
+            while (!boolean)
+            {
+                boolean = true;
+                code = new System().RandomChar(3, 3);
+                foreach (var row in this.data)
+                {
+                    if (code == row.code)
+                    {
+                        boolean = false;
+                        break;
+                    }
+
+                }
+            }
 
             var reservation = new ReservationJson
             {
                 id = this.id,
+                code = code,
                 memberID = new Settings().Member_id,
                 amount = this.persons,
                 date = this.Date,
