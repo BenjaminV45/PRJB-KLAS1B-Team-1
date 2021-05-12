@@ -13,7 +13,7 @@ namespace ProjectB
         public static string SYSTEM_NAME = "La Mouette";
         public void SendMail(string email, string title, string content)
         {
-
+            content += "<p>Kind Regards,<br>Albert</p>";
             MailMessage mail = new MailMessage(email, email, $"{SYSTEM_NAME} - {title}", content);
             mail.IsBodyHtml = true;
 
@@ -24,6 +24,29 @@ namespace ProjectB
             };
 
             client.Send(mail);
+        }
+        public string RandomChar(int letters = 0, int numbers = 0)
+        {
+            char[] a = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
+            char[] n = "123456789".ToCharArray();
+            Random r = new Random();
+
+            string str = "";
+
+            for (int i = letters; i > 0; i--)
+            {
+
+                r.Next(a.Length);
+                str += a[i];
+            }
+
+            for (int i = numbers; i > 0; i--)
+            {
+                r.Next(n.Length);
+                str += n[i];
+            }
+
+            return new string(str.ToCharArray().OrderBy(s => (r.Next(2) % 2) == 0).ToArray());
         }
     }
     class Json
@@ -72,6 +95,7 @@ namespace ProjectB
         }
 
     }
+    
     public class Alfred : Settings
     {
         private string row;
@@ -196,7 +220,7 @@ namespace ProjectB
 
             while (!boolean)
             {
-                Console.Write("Input membership code: ");
+                Console.Write("[Albert] I would like to know your membership code: ");
                 string input = Console.ReadLine();
                 foreach (var row in this.customer)
                 {
@@ -301,30 +325,12 @@ namespace ProjectB
                 }
             }
 
-            char[] alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
-            char[] numbers = "123456789".ToCharArray();
-            Random r = new Random();
-
-            boolean = false;
             string code = "";
+            boolean = false;
             while (!boolean)
             {
-                string str = "";
 
-                for (int i = 3; i > 0; i--)
-                {
-
-                    r.Next(alpha.Length);
-                    str += alpha[i];
-                }
-
-                for (int i = 3; i > 0; i--)
-                {
-                    r.Next(numbers.Length);
-                    str += numbers[i];
-                }
-
-                code = new string(str.ToCharArray().OrderBy(s => (r.Next(2) % 2) == 0).ToArray());
+                code = new System().RandomChar(3, 3);
                 foreach (var row in this.customer)
                 {
                     if (code == row.code)
@@ -358,13 +364,13 @@ namespace ProjectB
             }
 
             string content = "";
+            content += $"<p>{firstname} {lastname}, you're now member of our beautiful restaurant!</p><br>";
             content += "<h2>Your account credentials</h2>";
             content += $"<p>Membership code: {code}</p>";
             content += $"<p>Email: {email}</p>";
-            content += $"<p>Name: {firstname} {lastname}</p>";
             content += $"<p>Creditcard number: {creditcard}</p>";
-            content += $"<p>Continent: {continent}";
-            content += $"<p>Rank: Bronze";
+            content += $"<p>Continent: {continent}</p>";
+            content += $"<p>Rank: Bronze</p>";
 
             new System().SendMail(email, "Account credentials", content);
 
@@ -391,7 +397,20 @@ namespace ProjectB
         
         public void Membership()
         {
-
+            new Alfred("membership", 0).Write();
+            foreach(var row in this.customer)
+            {
+                if(this.settings.member_id == row.id)
+                {
+                    Console.WriteLine($"\nCode: {row.code}");
+                    Console.WriteLine($"Name: {row.firstname} {row.lastname}");
+                    Console.WriteLine($"Email: {row.email}");
+                    Console.WriteLine($"Rank: {row.rank}");
+                    Console.WriteLine($"Continent: {row.continent}");
+                    Console.WriteLine($"Creditcard: {row.creditcard}");
+                    break;
+                }
+            }
         }
     }
 
