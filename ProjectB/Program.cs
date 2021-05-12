@@ -341,7 +341,7 @@ namespace ProjectB
                 }
             }
 
-            int id = this.customer.Count + 1;
+
 
             Guid myuuid = Guid.NewGuid();
             string myuuidAsString = myuuid.ToString();
@@ -373,7 +373,7 @@ namespace ProjectB
             content += $"<p>Rank: Bronze</p>";
 
             new System().SendMail(email, "Account credentials", content);
-
+            int id = this.customer.Count + 1;
             var person = new MembersJson
             {
                 id = id,
