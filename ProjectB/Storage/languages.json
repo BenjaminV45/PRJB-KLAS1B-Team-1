@@ -83,7 +83,12 @@
 			"Kies een menu: [Vis/Vega/Impala]",
 			"Heeft u allergieën? Zo ja, welke?",
 			"Vul in hoeveel calorieën u wilt eten: ",
-			"Voor de reservering wil ik graag de informatie van uw reisgenoten hebben."
+			"Voor de reservering wil ik graag de informatie van uw reisgenoten hebben.",
+			"Vul een gast's voornaam in: ",
+			"Vul een gast's achternaam in: ",
+			"Kies een menu: [Vis/Vega/Impala]",
+			"Heeft deze gast allergieën? Zo ja, welke?",
+			"Vul in hoeveel calorieën u wilt eten: "
 		],
 		"create-customer": [
 			"Geweldig! Ik heb uw taal geleerd",
