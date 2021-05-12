@@ -378,9 +378,7 @@ namespace ProjectB
     {
         static void Main(string[] args)
         {
-
             new Start();
-
         }
     }
 }
