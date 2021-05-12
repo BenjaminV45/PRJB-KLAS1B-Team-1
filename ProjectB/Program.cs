@@ -205,6 +205,9 @@ namespace ProjectB
                         boolean = true;
                         this.settings.member_id = row.id;
                         new Settings().Update(this.settings);
+
+                        this.settings.language = (row.continent == "Europa" || row.continent == "Africa" ? "NL" : "EN");
+                        new Settings().Update(this.settings);
                         break;
                     }
                 }
