@@ -329,15 +329,14 @@ namespace ProjectB
             boolean = false;
             while (!boolean)
             {
-
+                boolean = true;
                 code = new System().RandomChar(3, 3);
                 foreach (var row in this.customer)
                 {
                     if (code == row.code)
                     {
-                        break;
+                        boolean = false;
                     }
-                    boolean = true;
                 }
             }
 
