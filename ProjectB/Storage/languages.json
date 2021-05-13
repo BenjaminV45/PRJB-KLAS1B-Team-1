@@ -52,6 +52,10 @@
 		],
 		"membership": [
 			"Below your membership is shown."
+		],
+		"cancel": [
+			"For cancelling ur reservation, I need to know your reservation code: ",
+			"This code doesn't exist. Please try again or ga back."
 		]
 	},
 	"NL": {
@@ -113,6 +117,10 @@
 		],
 		"membership": [
 			"Hieronder wordt uw lidmaatschap weergegeven."
+		],
+		"cancel": [
+			"Voor het annuleren heb ik uw reservatie code nodig: ",
+			"Deze code bestaat niet. Probeer opnieuw of ga terug. "
 		]
 	}
 }
