@@ -20,8 +20,8 @@ namespace ProjectB
         {
             this.menu = new Json("menu.json").Read();
             this.data = new Json("reservation.json").Read();
-            this.id = this.data.Count + 1;
-            this.hunt = false;
+            this.id = this.data[this.data.Count - 1].id + 1;
+            this.hunt = false; 
             this.people = new List<People>();
 
             HowManyPersons();
