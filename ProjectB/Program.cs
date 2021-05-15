@@ -54,7 +54,6 @@ namespace ProjectB
         {
             dynamic File = new Json("logs.json").Read();
 
-            Console.WriteLine(File.Count);
             var log = new LogsJson
             {
                 id = File[File.Count -1].id + 1,
@@ -458,8 +457,8 @@ namespace ProjectB
     {
         static void Main(string[] args)
         {
-            new System().Log("Ik ben de test");
-            //new Start();
+            //new System().Log("Ik ben de test");
+            new Start();
         }
 
     }
