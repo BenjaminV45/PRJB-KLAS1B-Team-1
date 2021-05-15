@@ -148,6 +148,7 @@ namespace ProjectB
                 {
                     Console.Write("\nPick a number: ");
                     inputTmp = Console.ReadLine();
+                    //inputTmp = Console.ReadKey().KeyChar.ToString();
                     if (inputTmp != "sesame")
                     {
                         input = Convert.ToInt32(inputTmp);
@@ -441,9 +442,8 @@ namespace ProjectB
         {
 
             //new Start();
-            new Reservation();
+            // new Reservation();
             new CancelReservation();
-
         }
     }
 }
