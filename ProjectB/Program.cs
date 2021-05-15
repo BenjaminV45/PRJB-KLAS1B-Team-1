@@ -50,6 +50,21 @@ namespace ProjectB
 
             return new string(str.ToCharArray().OrderBy(s => (r.Next(2) % 2) == 0).ToArray());
         }
+        public void Log(string des)
+        {
+            dynamic File = new Json("logs.json").Read();
+
+            Console.WriteLine(File.Count);
+            var log = new LogsJson
+            {
+                id = File[File.Count -1].id + 1,
+                timestamp = string.Format("{0:yyyy-MM-dd HH:mm:ss}", DateTime.Now),
+                description = des
+            };
+
+            File.Add(log);
+            new Json("logs.json").Write(File);
+        }
     }
     class Json
     {
@@ -67,6 +82,7 @@ namespace ProjectB
             if (this.file == "reservation.json") return JsonSerializer.Deserialize<List<ReservationJson>>(json);
             if (this.file == "members.json") return JsonSerializer.Deserialize<List<MembersJson>>(json);
             if (this.file == "menu.json") return JsonSerializer.Deserialize<MenuJson>(json);
+            if (this.file == "logs.json") return JsonSerializer.Deserialize<List<LogsJson>>(json);
             return null;
         }
 
@@ -442,7 +458,8 @@ namespace ProjectB
     {
         static void Main(string[] args)
         {
-            new Start();
+            new System().Log("Ik ben de test");
+            //new Start();
         }
 
     }
