@@ -13,6 +13,7 @@ namespace ProjectB
     class System
     {
         public static string SYSTEM_NAME = "La Mouette";
+
         public void SendMail(string email, string title, string content)
         {
             content += "<p>Kind Regards,<br>Albert</p>";
@@ -56,7 +57,7 @@ namespace ProjectB
 
             var log = new LogsJson
             {
-                id = File[File.Count -1].id + 1,
+                id = File[File.Count - 1].id + 1,
                 timestamp = string.Format("{0:yyyy-MM-dd HH:mm:ss}", DateTime.Now),
                 description = des
             };
@@ -93,7 +94,6 @@ namespace ProjectB
 
 
     }
-
     public class Settings
     {
         public dynamic File = new Json("settings.json").Read();
@@ -112,7 +112,6 @@ namespace ProjectB
         }
 
     }
-    
     public class Alfred : Settings
     {
         private string row;
@@ -145,7 +144,6 @@ namespace ProjectB
         }
 
     }
-
     class Option : System
     {
         public void Menu(Tuple<int, string, Action>[] options)
@@ -206,7 +204,6 @@ namespace ProjectB
         }
 
     }
-
     class Customer : Option
     {
         public dynamic customer;
@@ -411,13 +408,13 @@ namespace ProjectB
             this.settings.member_id = id;
             new Settings().Update(this.settings);
         }
-        
+
         public void Membership()
         {
             new Alfred("membership", 0).Write();
-            foreach(var row in this.customer)
+            foreach (var row in this.customer)
             {
-                if(this.settings.member_id == row.id)
+                if (this.settings.member_id == row.id)
                 {
                     Console.WriteLine($"\nCode: {row.code}");
                     Console.WriteLine($"Name: {row.firstname} {row.lastname}");
@@ -430,7 +427,6 @@ namespace ProjectB
             }
         }
     }
-
     class Start : Option
     {
 
@@ -450,16 +446,42 @@ namespace ProjectB
             this.Menu(options);
         }
     }
-
-
-
     class Program
     {
         static void Main(string[] args)
         {
-            //new System().Log("Ik ben de test");
-            new Start();
-        }
+            // Auto complete work in progress
+            var commands = new List<string>();
+            dynamic members = new Json("members.json").Read();
+            int member_id = 0;
+            bool boolean = false;
+            while (!boolean)
+            {
+                Console.Write("Input the name: ");
+                string input = Console.ReadLine();
+                foreach (var row in members)
+                {
+                    string name = row.firstname + " " + row.lastname;
+                    if (name.ToLower().Contains(input.ToLower()))
+                    {
+                        member_id = row.id;
+                        Console.WriteLine(name);
+                        Console.WriteLine("Press [Enter] to use this name or any other [Key] to keep going!");
+                        if (Console.ReadKey().Key == ConsoleKey.Enter)
+                        {
+                            boolean = true;
+                            break;
+                        }
+                        Console.Clear();
+                        break;
+                    }
 
+                }
+            }
+            Console.WriteLine(member_id);
+            //new System().Log("Ik ben de test");
+            //new Start();
+        }
     }
 }
+
