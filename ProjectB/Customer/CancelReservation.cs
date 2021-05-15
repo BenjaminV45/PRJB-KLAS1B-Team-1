@@ -4,21 +4,23 @@ using System.Text;
 
 namespace ProjectB
 {
-    class CancelReservation
+    class CancelReservation : Option
     {
         public dynamic reservation;
         public DateTime dateTime;
         public DateTime reservationDate;
+        public int reservation_index;
+
         public CancelReservation()
         {
             this.reservation = new Json("reservation.json").Read();
-            DateTime dateTime = DateTime.UtcNow.Date;
+            this.dateTime = DateTime.Today;
+            this.reservation_index = 0;
             ReservationCode();
         }
 
         public void ReservationCode()
         {
-           
             bool comp = false;
             while (!comp)
             {
@@ -28,35 +30,46 @@ namespace ProjectB
                 {
                     if (row.code == resCode)
                     {
-                        getDate();
-                        comp = true;
+                        TimeSpan diff = this.dateTime - DateTime.Parse(row.currentdate);
+                        if (diff.TotalDays < 6)
+                        {
+                            Console.WriteLine(diff.TotalDays);
+                            comp = true;
+                            
+                        }
+                        else
+                        {
+                            new Alfred("cancel", 2).Write();
+                        }
+                        break;
                     }
-                    else
-                    {
-                        new Alfred("cancel", 1).Write();
-                    }
+                    this.reservation_index++;
                 }
-            }
-        }
-
-        public void getDate()
-        {
-            bool comp = false;
-            while (!comp)
-            {
-                foreach (var row in this.reservation)
+                if (!comp)
                 {
-                    if (dateTime > DateTime.Parse(row.currentdate))
-                    {
-                        Console.WriteLine("Shheeeessh");
-                    }
-                    else
-                    {
-                        Console.WriteLine("hoi");
-                    }
+                    new Alfred("cancel", 1).Write();
+                } else
+                {
+                    var options = new[]
+                           {
+                            Tuple.Create<int, string, Action>(1, new Alfred("cancel",3).Option(), () => DeleteReservation()),
+                            Tuple.Create<int, string, Action>(2, new Alfred("cancel",4).Option(), () => DeleteMember())
+                            };
+                    this.Menu(options);
                 }
             }
         }
 
+        public void DeleteMember()
+        {
+
+        }
+
+        public void DeleteReservation()
+        {
+            Console.WriteLine(this.reservation[1].code);
+            this.reservation.RemoveAt(1);
+            new Json("reservation.json").Write(this.reservation);
+        }
     }
 }
