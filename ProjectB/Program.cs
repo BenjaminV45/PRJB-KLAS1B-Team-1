@@ -5,6 +5,8 @@ using System.Text.Json;
 using System.Linq;
 using System.Net.Mail;
 using System.Net;
+using System.Text;
+using System.Globalization;
 
 namespace ProjectB
 {
@@ -233,7 +235,7 @@ namespace ProjectB
 
                         this.settings.language = (row.continent == "Europa" || row.continent == "Africa" ? "NL" : "EN");
                         new Settings().Update(this.settings);
-
+                        Console.Clear();
                         break;
                     }
                 }
@@ -373,7 +375,7 @@ namespace ProjectB
             content += $"<p>Rank: Bronze</p>";
 
             new System().SendMail(email, "Account credentials", content);
-            int id = this.customer.Count + 1;
+            int id = this.customer[this.customer.Count - 1].id + 1;
             var person = new MembersJson
             {
                 id = id,
@@ -440,9 +442,70 @@ namespace ProjectB
     {
         static void Main(string[] args)
         {
-
-            //new Start();
-            new Reservation();
+            new Start();
         }
+        //static void Main(string[] args)
+        //{
+        //    //var data = new[]
+        //    //{
+        //    //"Benjamin",
+        //    //"Leco",
+        //    //"Salar"
+        //    //};
+
+        //    List<object[]> data = new List<object[]>();
+        //    data.Add(new object[]{ 1, "Benjamin" });
+
+        //    var builder = new StringBuilder();
+        //    var input = Console.ReadKey(intercept: true);
+
+        //    while (input.Key != ConsoleKey.Enter)
+        //    {
+        //        var currentInput = builder.ToString();
+        //        if (input.Key == ConsoleKey.Tab)
+        //        {
+        //            var match = data.FirstOrDefault(item => item != currentInput && item.StartsWith(currentInput, true, CultureInfo.InvariantCulture));
+        //            if (string.IsNullOrEmpty(match))
+        //            {
+        //                input = Console.ReadKey(intercept: true);
+        //                continue;
+        //            }
+
+        //            ClearCurrentLine();
+        //            builder.Clear();
+
+        //            Console.Write(match);
+        //            builder.Append(match);
+        //        }
+        //        else
+        //        {
+        //            if (input.Key == ConsoleKey.Backspace && currentInput.Length > 0)
+        //            {
+        //                builder.Remove(builder.Length - 1, 1);
+        //                ClearCurrentLine();
+
+        //                currentInput = currentInput.Remove(currentInput.Length - 1);
+        //                Console.Write(currentInput);
+        //            }
+        //            else
+        //            {
+        //                var key = input.KeyChar;
+        //                builder.Append(key);
+        //                Console.Write(key);
+        //            }
+        //        }
+
+        //        input = Console.ReadKey(intercept: true);
+        //    }
+        //    Console.Write(input.KeyChar);
+        //}
+
+        //private static void ClearCurrentLine()
+        //{
+        //    var currentLine = Console.CursorTop;
+        //    Console.SetCursorPosition(0, Console.CursorTop);
+        //    Console.Write(new string(' ', Console.WindowWidth));
+        //    Console.SetCursorPosition(0, currentLine);
+        //}
     }
 }
