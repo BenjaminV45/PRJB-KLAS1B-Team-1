@@ -59,12 +59,5 @@ namespace ProjectB
         public List<List<object>> vis { get; set; }
         public List<List<object>> impala { get; set; }
     }
-
-    public class LogsJson
-    {
-        public int id { get; set; }
-        public string timestamp { get; set; }
-        public string description { get; set; }
-    }
 }
 

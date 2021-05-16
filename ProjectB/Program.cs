@@ -5,8 +5,6 @@ using System.Text.Json;
 using System.Linq;
 using System.Net.Mail;
 using System.Net;
-using System.Text;
-using System.Globalization;
 
 namespace ProjectB
 {
@@ -53,17 +51,15 @@ namespace ProjectB
         }
         public void Log(string des)
         {
-            dynamic File = new Json("logs.json").Read();
+            string content = "";
 
-            var log = new LogsJson
+            if (des == "System is running")
             {
-                id = File[File.Count - 1].id + 1,
-                timestamp = string.Format("{0:yyyy-MM-dd HH:mm:ss}", DateTime.Now),
-                description = des
-            };
+                content += $"\n";
+            }
 
-            File.Add(log);
-            new Json("logs.json").Write(File);
+            content += $"[{string.Format("{0:yyyy-MM-dd HH:mm:ss}", DateTime.Now)}] {des} {Environment.NewLine}";
+            File.AppendAllText(@"..\..\..\Storage\chatlog.txt", content);
         }
     }
     class Json
@@ -82,7 +78,6 @@ namespace ProjectB
             if (this.file == "reservation.json") return JsonSerializer.Deserialize<List<ReservationJson>>(json);
             if (this.file == "members.json") return JsonSerializer.Deserialize<List<MembersJson>>(json);
             if (this.file == "menu.json") return JsonSerializer.Deserialize<MenuJson>(json);
-            if (this.file == "logs.json") return JsonSerializer.Deserialize<List<LogsJson>>(json);
             return null;
         }
 
@@ -119,6 +114,7 @@ namespace ProjectB
         private dynamic data;
         public Alfred(string row, int col)
         {
+            new System().Log($"Alfred is being called. Data: {row} {col}");
             this.row = row;
             this.col = col;
             this.data = new Json("languages.json").Read();
@@ -148,6 +144,7 @@ namespace ProjectB
     {
         public void Menu(Tuple<int, string, Action>[] options)
         {
+            new System().Log("Calling menu options");
             foreach (Tuple<int, string, Action> row in options)
             {
                 Console.WriteLine($"[{row.Item1}] {row.Item2}");
@@ -196,6 +193,9 @@ namespace ProjectB
     {
         public Chef()
         {
+            new System().Log("Calling chef class");
+            Console.Write("Input date: ");
+            string date = Console.ReadLine();
             var options = new[]
             {
                 Tuple.Create<int, string, Action>(1, "Krijg menu", () => new GetMenu()),
@@ -232,7 +232,7 @@ namespace ProjectB
         public void Login()
         {
             bool boolean = false;
-
+            new System().Log("Calling login method");
             while (!boolean)
             {
                 Console.Write("[Albert] I would like to know your membership code: ");
@@ -257,7 +257,7 @@ namespace ProjectB
         public void Register()
 
         {
-
+            new System().Log("Calling register method");
             string[] continents = { "Europa", "Africa", "North-america", "South-america", "Asia", "Australia" };
             bool boolean = false;
             string continent = "";
@@ -432,6 +432,7 @@ namespace ProjectB
 
         public Start()
         {
+            new System().Log("Starting the program");
             dynamic Settings = new Settings().File;
             Settings.language = "EN";
             Settings.member_id = 0;
@@ -450,37 +451,37 @@ namespace ProjectB
     {
         static void Main(string[] args)
         {
+            new System().Log("System is running");
             // Auto complete work in progress
-            var commands = new List<string>();
-            dynamic members = new Json("members.json").Read();
-            int member_id = 0;
-            bool boolean = false;
-            while (!boolean)
-            {
-                Console.Write("Input the name: ");
-                string input = Console.ReadLine();
-                foreach (var row in members)
-                {
-                    string name = row.firstname + " " + row.lastname;
-                    if (name.ToLower().Contains(input.ToLower()))
-                    {
-                        member_id = row.id;
-                        Console.WriteLine(name);
-                        Console.WriteLine("Press [Enter] to use this name or any other [Key] to keep going!");
-                        if (Console.ReadKey().Key == ConsoleKey.Enter)
-                        {
-                            boolean = true;
-                            break;
-                        }
-                        Console.Clear();
-                        break;
-                    }
+            //var commands = new List<string>();
+            //dynamic members = new Json("members.json").Read();
+            //int member_id = 0;
+            //bool boolean = false;
+            //while (!boolean)
+            //{
+            //    Console.Write("Input the name: ");
+            //    string input = Console.ReadLine();
+            //    foreach (var row in members)
+            //    {
+            //        string name = row.firstname + " " + row.lastname;
+            //        if (name.ToLower().Contains(input.ToLower()))
+            //        {
+            //            member_id = row.id;
+            //            Console.WriteLine(name);
+            //            Console.WriteLine("Press [Enter] to use this name or any other [Key] to keep going!");
+            //            if (Console.ReadKey().Key == ConsoleKey.Enter)
+            //            {
+            //                boolean = true;
+            //                break;
+            //            }
+            //            Console.Clear();
+            //            break;
+            //        }
 
-                }
-            }
-            Console.WriteLine(member_id);
-            //new System().Log("Ik ben de test");
-            //new Start();
+            //    }
+            //}
+            //Console.WriteLine(member_id);
+            new Start();
         }
     }
 }
