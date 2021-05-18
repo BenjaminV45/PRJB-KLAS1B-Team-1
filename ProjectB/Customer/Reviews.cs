@@ -22,26 +22,43 @@ namespace ProjectB
             dynamic reviews = new Json("reviews.json").Read();
             dynamic reservation = new Json("reservation.json").Read();
 
+
+            
             bool tmp = false;
             while (!tmp)
             {
+                bool tmp5 = false;
                 new Alfred("leaveReview", 0).Write();
                 this.resCode = Console.ReadLine();
+
                 foreach (var row in reservation)
                 {
                     if (this.resCode == row.code)
                     {
                         this.resid = row.id;
+
                         tmp = true;
-                        Console.WriteLine(resid);
-                        break;
+                        tmp5 = true;
+                        foreach (var col in reviews)
+                        {
+                            if (col.resid == this.resid)
+                            {
+                                new Alfred("leaveReview", 4).Write();
+                                tmp = false;
+                                break;
+                            }
+                        }
                     }
                 }
-                if (!tmp)
+                Console.WriteLine(tmp5);
+                if (!tmp5)
                 {
-                    Console.WriteLine("Wrong input");
+                    Console.WriteLine("wrong input");
                 }
             }
+
+
+
 
             new Alfred("leaveReview", 1).Write();
             this.review = Console.ReadLine();
@@ -78,9 +95,20 @@ namespace ProjectB
             new Alfred("leaveReview", 3).Write();
             this.sterren = Convert.ToInt32(Console.ReadLine());
 
+            int id = 0;
+
+            try
+            {
+                id = reviews[reviews.Count - 1].id + 1;
+            }
+            catch
+            {
+                 id = 1;
+            }
+
             var newreview = new ReviewsJson
             {
-                id = reviews[reviews.Count - 1].id + 1,
+                id = id,
                 resid = this.resid,
                 memberid = new Settings().Member_id,
                 reviewtxt = this.review,
