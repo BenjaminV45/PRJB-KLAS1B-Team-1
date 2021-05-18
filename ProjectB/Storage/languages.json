@@ -60,6 +60,9 @@
 			"Nice try, you can't cancel ur reservation since the cancel date is expired.",
 			"Cancel whole reservation",
 			"Cancel reservation partly"
+		],
+		"lookup": [
+			"Search for a member: "
 		]
 	},
 	"NL": {
@@ -129,6 +132,9 @@
 			"Leuk geprobeerd maar de uiterlijke annuleer datum is al verstreken.",
 			"Annuleer de gehele reservering",
 			"Annuleer de reservering deels"
+		],
+		"lookup": [
+			"Zoek een lid: "
 		]
 	}
 }

@@ -371,3 +371,53 @@
 [2021-05-18 10:38:33] Alfred is being called. Data: option 3 
 [2021-05-18 10:38:33] Calling menu options 
 [2021-05-18 10:38:34] Alfred is being called. Data: membership 0 
+
+[2021-05-18 11:27:15] System is running 
+[2021-05-18 11:27:15] Starting the program 
+[2021-05-18 11:27:15] Alfred is being called. Data: start 0 
+[2021-05-18 11:27:15] Alfred is being called. Data: option 0 
+[2021-05-18 11:27:15] Alfred is being called. Data: option 1 
+[2021-05-18 11:27:15] Calling menu options 
+[2021-05-18 11:27:21] Calling menu options 
+[2021-05-18 11:27:26] Calling login method 
+[2021-05-18 11:27:34] Alfred is being called. Data: option 2 
+[2021-05-18 11:27:34] Alfred is being called. Data: option 1 
+[2021-05-18 11:27:34] Alfred is being called. Data: option 3 
+[2021-05-18 11:27:34] Calling menu options 
+[2021-05-18 11:27:36] Alfred is being called. Data: lookup 0 
+
+[2021-05-18 11:28:13] System is running 
+[2021-05-18 11:28:13] Starting the program 
+[2021-05-18 11:28:13] Alfred is being called. Data: start 0 
+[2021-05-18 11:28:13] Alfred is being called. Data: option 0 
+[2021-05-18 11:28:13] Alfred is being called. Data: option 1 
+[2021-05-18 11:28:13] Calling menu options 
+[2021-05-18 11:28:14] Calling menu options 
+[2021-05-18 11:28:15] Calling login method 
+[2021-05-18 11:28:17] Alfred is being called. Data: option 2 
+[2021-05-18 11:28:17] Alfred is being called. Data: option 1 
+[2021-05-18 11:28:17] Alfred is being called. Data: option 3 
+[2021-05-18 11:28:17] Calling menu options 
+[2021-05-18 11:28:25] Alfred is being called. Data: membership 0 
+
+[2021-05-18 11:28:36] System is running 
+[2021-05-18 11:28:36] Starting the program 
+[2021-05-18 11:28:36] Alfred is being called. Data: start 0 
+[2021-05-18 11:28:36] Alfred is being called. Data: option 0 
+[2021-05-18 11:28:36] Alfred is being called. Data: option 1 
+[2021-05-18 11:28:36] Calling menu options 
+[2021-05-18 11:28:37] Calling menu options 
+[2021-05-18 11:28:39] Calling login method 
+[2021-05-18 11:28:40] Alfred is being called. Data: option 2 
+[2021-05-18 11:28:40] Alfred is being called. Data: option 1 
+[2021-05-18 11:28:40] Alfred is being called. Data: option 3 
+[2021-05-18 11:28:40] Calling menu options 
+[2021-05-18 11:28:41] Alfred is being called. Data: lookup 0 
+
+[2021-05-18 11:31:42] System is running 
+[2021-05-18 11:31:42] Starting the program 
+[2021-05-18 11:31:42] Alfred is being called. Data: start 0 
+[2021-05-18 11:31:43] Alfred is being called. Data: option 0 
+[2021-05-18 11:31:43] Alfred is being called. Data: option 1 
+[2021-05-18 11:31:43] Calling menu options 
+[2021-05-18 11:31:43] Calling menu options 
