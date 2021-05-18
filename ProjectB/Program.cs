@@ -225,7 +225,8 @@ namespace ProjectB
             {
                 Tuple.Create<int, string, Action>(1, new Alfred("option", 2).Option(), () => this.Membership()),
                 Tuple.Create<int, string, Action>(2, new Alfred("option", 1).Option(), () => new Reservation()),
-                Tuple.Create<int, string, Action>(3, new Alfred("option", 3).Option(), () => this.Lookup())
+                Tuple.Create<int, string, Action>(3, new Alfred("option", 3).Option(), () => this.Lookup()),
+                Tuple.Create<int, string, Action>(4, new Alfred("option", 4).Option(), () => new leaveReview())
             };
 
             this.Menu(optionss);
@@ -495,7 +496,6 @@ namespace ProjectB
         {
             new System().Log("System is running");
             new Start();
-            new leaveReview();
         }
     }
 }
