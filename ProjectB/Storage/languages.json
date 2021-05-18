@@ -65,7 +65,8 @@
 			"This code doesn't exist. Please try again or ga back.",
 			"Nice try, you can't cancel ur reservation since the cancel date is expired.",
 			"Cancel whole reservation",
-			"Cancel reservation partly"
+			"Cancel reservation partly",
+			"Choose the number of the person who u want to cancel: "
 		],
 		"lookup": [
 			"Search for a member: "
@@ -137,7 +138,8 @@
 			"Deze code bestaat niet. Probeer opnieuw of ga terug. ",
 			"Leuk geprobeerd maar de uiterlijke annuleer datum is al verstreken.",
 			"Annuleer de gehele reservering",
-			"Annuleer de reservering deels"
+			"Annuleer de reservering deels",
+			"Kies het nummer van de naam die u wilt annuleren: "
 		],
 		"lookup": [
 			"Zoek een lid: "

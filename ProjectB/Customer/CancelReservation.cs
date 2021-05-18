@@ -8,7 +8,6 @@ namespace ProjectB
     {
         public dynamic reservation;
         public DateTime dateTime;
-        public DateTime reservationDate;
         public int reservation_index;
         public string resCode;
 
@@ -64,7 +63,7 @@ namespace ProjectB
         public void DeleteMember()
         {
             bool comp = false;
-            new Alfred("cancel", 5).Write();
+            new Alfred("cancel", 4).Write();
 
             while (!comp)
             {
@@ -72,24 +71,36 @@ namespace ProjectB
                 {
                     if (row.code == resCode)
                     {
-                        int index = 0;
+                        
                         comp = true;
-                        bool shees = false;
-                        Tuple<int, string>[] guests = new Tuple<int, string>[50];
-                        foreach (var col in row.People)
+                        bool sheesh = false;
+                        while (!false)
                         {
-                            guests[index] = Tuple.Create(index + 1, col.name);
-                            index++;
-                        }
-                        while (!shees)
-                        {
-                            for (int i = 0; i < guests.Length; i++)
+                            int counter = 1;
+                            foreach (var col in row.People)
                             {
-                                Console.WriteLine($"[{guests[i].Item1}] {guests[i].Item2}");
-                            }                                                    
-                            string inputTmp = Console.ReadLine();
-                            int input = Convert.ToInt32(inputTmp);
+
+                                Console.WriteLine($"[{counter}] {col.name}");
+                                counter++;
+                            }
+                            new Alfred("cancel", 5).Line();
+                            try
+                            { 
+                                int inputTmp = Convert.ToInt32(Console.ReadLine());
+                                if (inputTmp < row.people.Count && inputTmp > 0)
+                                {
+                                    this.reservation.People.RemoveAt(inputTmp - 1);
+                                    Console.WriteLine(this.reservation.People[inputTmp - 1].name);
+                                }
+                            }
+                            catch
+                            {
+                                new Alfred("error", 0).Write();
+                            }
                         }
+
+                        
+
                     }
                 }
             }
