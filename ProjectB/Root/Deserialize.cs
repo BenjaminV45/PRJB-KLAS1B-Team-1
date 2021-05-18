@@ -36,7 +36,7 @@ namespace ProjectB
         public int amount { get; set; }
         public string date { get; set; }
         public List<People> People { get; set; }
-        public object hunt { get; set; }
+        public bool hunt { get; set; }
         public string currentdate { get; set; }
     }
 

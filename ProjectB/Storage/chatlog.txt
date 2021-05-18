@@ -7,3 +7,367 @@
 [2021-05-16 11:42:24] Calling menu options 
 [2021-05-16 11:42:25] Calling chef class 
 [2021-05-16 11:42:27] Calling menu options 
+
+[2021-05-18 09:33:47] System is running 
+[2021-05-18 09:33:47] Starting the program 
+[2021-05-18 09:33:47] Alfred is being called. Data: start 0 
+[2021-05-18 09:33:47] Alfred is being called. Data: option 0 
+[2021-05-18 09:33:47] Alfred is being called. Data: option 1 
+[2021-05-18 09:33:47] Calling menu options 
+
+[2021-05-18 09:34:17] System is running 
+[2021-05-18 09:34:17] Starting the program 
+[2021-05-18 09:34:17] Alfred is being called. Data: start 0 
+[2021-05-18 09:34:17] Alfred is being called. Data: option 0 
+[2021-05-18 09:34:17] Alfred is being called. Data: option 1 
+[2021-05-18 09:34:17] Calling menu options 
+[2021-05-18 09:34:19] Calling menu options 
+[2021-05-18 09:34:23] Calling login method 
+[2021-05-18 09:34:48] Alfred is being called. Data: option 2 
+[2021-05-18 09:34:48] Alfred is being called. Data: option 1 
+[2021-05-18 09:34:48] Alfred is being called. Data: option 2 
+[2021-05-18 09:34:48] Calling menu options 
+
+[2021-05-18 09:35:05] System is running 
+[2021-05-18 09:35:05] Starting the program 
+[2021-05-18 09:35:05] Alfred is being called. Data: start 0 
+[2021-05-18 09:35:05] Alfred is being called. Data: option 0 
+[2021-05-18 09:35:05] Alfred is being called. Data: option 1 
+[2021-05-18 09:35:05] Calling menu options 
+[2021-05-18 09:35:06] Calling menu options 
+[2021-05-18 09:35:07] Calling login method 
+[2021-05-18 09:35:08] Alfred is being called. Data: option 2 
+[2021-05-18 09:35:08] Alfred is being called. Data: option 1 
+[2021-05-18 09:35:08] Alfred is being called. Data: option 3 
+[2021-05-18 09:35:08] Calling menu options 
+[2021-05-18 09:35:09] Alfred is being called. Data: lookup 0 
+
+[2021-05-18 09:37:19] System is running 
+[2021-05-18 09:37:19] Starting the program 
+[2021-05-18 09:37:20] Alfred is being called. Data: start 0 
+[2021-05-18 09:37:20] Alfred is being called. Data: option 0 
+[2021-05-18 09:37:20] Alfred is being called. Data: option 1 
+[2021-05-18 09:37:20] Calling menu options 
+[2021-05-18 09:37:22] Calling menu options 
+[2021-05-18 09:37:25] Calling login method 
+[2021-05-18 09:37:26] Alfred is being called. Data: option 2 
+[2021-05-18 09:37:26] Alfred is being called. Data: option 1 
+[2021-05-18 09:37:26] Alfred is being called. Data: option 3 
+[2021-05-18 09:37:26] Calling menu options 
+[2021-05-18 09:37:27] Alfred is being called. Data: lookup 0 
+[2021-05-18 09:37:30] Starting the program 
+[2021-05-18 09:37:30] Alfred is being called. Data: start 0 
+[2021-05-18 09:37:30] Alfred is being called. Data: option 0 
+[2021-05-18 09:37:30] Alfred is being called. Data: option 1 
+[2021-05-18 09:37:30] Calling menu options 
+
+[2021-05-18 09:39:04] System is running 
+[2021-05-18 09:39:04] Starting the program 
+[2021-05-18 09:39:04] Alfred is being called. Data: start 0 
+[2021-05-18 09:39:04] Alfred is being called. Data: option 0 
+[2021-05-18 09:39:04] Alfred is being called. Data: option 1 
+[2021-05-18 09:39:04] Calling menu options 
+[2021-05-18 09:39:09] Calling menu options 
+[2021-05-18 09:39:12] Calling login method 
+[2021-05-18 09:39:13] Alfred is being called. Data: option 2 
+[2021-05-18 09:39:13] Alfred is being called. Data: option 1 
+[2021-05-18 09:39:13] Alfred is being called. Data: option 3 
+[2021-05-18 09:39:13] Calling menu options 
+[2021-05-18 09:39:15] Alfred is being called. Data: lookup 0 
+[2021-05-18 09:39:19] Alfred is being called. Data: lookup 0 
+
+[2021-05-18 09:41:47] System is running 
+[2021-05-18 09:41:47] Starting the program 
+[2021-05-18 09:41:47] Alfred is being called. Data: start 0 
+[2021-05-18 09:41:47] Alfred is being called. Data: option 0 
+[2021-05-18 09:41:47] Alfred is being called. Data: option 1 
+[2021-05-18 09:41:47] Calling menu options 
+[2021-05-18 09:41:48] Calling menu options 
+[2021-05-18 09:41:49] Calling login method 
+[2021-05-18 09:41:51] Alfred is being called. Data: option 2 
+[2021-05-18 09:41:51] Alfred is being called. Data: option 1 
+[2021-05-18 09:41:51] Alfred is being called. Data: option 3 
+[2021-05-18 09:41:51] Calling menu options 
+[2021-05-18 09:42:02] Alfred is being called. Data: membership 0 
+
+[2021-05-18 09:46:03] System is running 
+[2021-05-18 09:46:03] Starting the program 
+[2021-05-18 09:46:03] Alfred is being called. Data: start 0 
+[2021-05-18 09:46:03] Alfred is being called. Data: option 0 
+[2021-05-18 09:46:03] Alfred is being called. Data: option 1 
+[2021-05-18 09:46:03] Calling menu options 
+[2021-05-18 09:46:04] Calling menu options 
+[2021-05-18 09:46:05] Calling login method 
+[2021-05-18 09:46:19] Alfred is being called. Data: option 2 
+[2021-05-18 09:46:19] Alfred is being called. Data: option 1 
+[2021-05-18 09:46:19] Alfred is being called. Data: option 3 
+[2021-05-18 09:46:19] Calling menu options 
+[2021-05-18 09:46:20] Alfred is being called. Data: lookup 0 
+
+[2021-05-18 09:46:24] System is running 
+[2021-05-18 09:46:24] Starting the program 
+[2021-05-18 09:46:24] Alfred is being called. Data: start 0 
+[2021-05-18 09:46:24] Alfred is being called. Data: option 0 
+[2021-05-18 09:46:24] Alfred is being called. Data: option 1 
+[2021-05-18 09:46:24] Calling menu options 
+[2021-05-18 09:46:29] Calling menu options 
+[2021-05-18 09:46:29] Calling login method 
+[2021-05-18 09:46:30] Alfred is being called. Data: option 2 
+[2021-05-18 09:46:30] Alfred is being called. Data: option 1 
+[2021-05-18 09:46:30] Alfred is being called. Data: option 3 
+[2021-05-18 09:46:30] Calling menu options 
+[2021-05-18 09:46:32] Alfred is being called. Data: membership 0 
+
+[2021-05-18 09:47:15] System is running 
+[2021-05-18 09:47:15] Starting the program 
+[2021-05-18 09:47:15] Alfred is being called. Data: start 0 
+
+[2021-05-18 09:47:18] System is running 
+[2021-05-18 09:47:18] Starting the program 
+[2021-05-18 09:47:18] Alfred is being called. Data: start 0 
+[2021-05-18 09:47:18] Alfred is being called. Data: option 0 
+[2021-05-18 09:47:18] Alfred is being called. Data: option 1 
+[2021-05-18 09:47:18] Calling menu options 
+[2021-05-18 09:47:38] Calling menu options 
+[2021-05-18 09:47:39] Calling login method 
+[2021-05-18 09:47:59] Alfred is being called. Data: option 2 
+[2021-05-18 09:47:59] Alfred is being called. Data: option 1 
+[2021-05-18 09:47:59] Alfred is being called. Data: option 3 
+[2021-05-18 09:47:59] Calling menu options 
+[2021-05-18 09:48:11] Alfred is being called. Data: lookup 0 
+
+[2021-05-18 09:48:16] System is running 
+[2021-05-18 09:48:16] Starting the program 
+[2021-05-18 09:48:16] Alfred is being called. Data: start 0 
+[2021-05-18 09:48:16] Alfred is being called. Data: option 0 
+[2021-05-18 09:48:16] Alfred is being called. Data: option 1 
+[2021-05-18 09:48:16] Calling menu options 
+[2021-05-18 09:48:32] Calling menu options 
+[2021-05-18 09:48:34] Calling login method 
+[2021-05-18 09:48:56] Alfred is being called. Data: option 2 
+[2021-05-18 09:48:56] Alfred is being called. Data: option 1 
+[2021-05-18 09:48:56] Alfred is being called. Data: option 3 
+[2021-05-18 09:48:56] Calling menu options 
+[2021-05-18 09:48:57] Alfred is being called. Data: membership 0 
+
+[2021-05-18 10:07:23] System is running 
+[2021-05-18 10:07:23] Starting the program 
+[2021-05-18 10:07:23] Alfred is being called. Data: start 0 
+[2021-05-18 10:07:23] Alfred is being called. Data: option 0 
+[2021-05-18 10:07:23] Alfred is being called. Data: option 1 
+[2021-05-18 10:07:23] Calling menu options 
+[2021-05-18 10:08:56] Calling menu options 
+[2021-05-18 10:08:58] Calling login method 
+[2021-05-18 10:09:07] Alfred is being called. Data: option 2 
+[2021-05-18 10:09:07] Alfred is being called. Data: option 1 
+[2021-05-18 10:09:07] Alfred is being called. Data: option 3 
+[2021-05-18 10:09:07] Calling menu options 
+[2021-05-18 10:09:11] Alfred is being called. Data: membership 0 
+
+[2021-05-18 10:14:35] System is running 
+[2021-05-18 10:14:35] Starting the program 
+[2021-05-18 10:14:35] Alfred is being called. Data: start 0 
+[2021-05-18 10:14:35] Alfred is being called. Data: option 0 
+[2021-05-18 10:14:35] Alfred is being called. Data: option 1 
+[2021-05-18 10:14:35] Calling menu options 
+[2021-05-18 10:14:37] Calling menu options 
+[2021-05-18 10:14:38] Calling login method 
+[2021-05-18 10:14:40] Alfred is being called. Data: option 2 
+[2021-05-18 10:14:40] Alfred is being called. Data: option 1 
+[2021-05-18 10:14:40] Alfred is being called. Data: option 3 
+[2021-05-18 10:14:40] Calling menu options 
+[2021-05-18 10:14:50] Alfred is being called. Data: membership 0 
+
+[2021-05-18 10:20:50] System is running 
+[2021-05-18 10:20:50] Starting the program 
+[2021-05-18 10:20:50] Alfred is being called. Data: start 0 
+[2021-05-18 10:20:50] Alfred is being called. Data: option 0 
+[2021-05-18 10:20:50] Alfred is being called. Data: option 1 
+[2021-05-18 10:20:50] Calling menu options 
+[2021-05-18 10:20:50] Calling menu options 
+[2021-05-18 10:20:51] Calling login method 
+[2021-05-18 10:21:01] Alfred is being called. Data: option 2 
+[2021-05-18 10:21:01] Alfred is being called. Data: option 1 
+[2021-05-18 10:21:01] Alfred is being called. Data: option 3 
+[2021-05-18 10:21:01] Calling menu options 
+[2021-05-18 10:21:02] Alfred is being called. Data: membership 0 
+
+[2021-05-18 10:28:00] System is running 
+[2021-05-18 10:28:00] Starting the program 
+[2021-05-18 10:28:00] Alfred is being called. Data: start 0 
+[2021-05-18 10:28:00] Alfred is being called. Data: option 0 
+[2021-05-18 10:28:00] Alfred is being called. Data: option 1 
+[2021-05-18 10:28:00] Calling menu options 
+[2021-05-18 10:28:02] Calling menu options 
+[2021-05-18 10:28:03] Calling login method 
+[2021-05-18 10:28:04] Alfred is being called. Data: option 2 
+[2021-05-18 10:28:04] Alfred is being called. Data: option 1 
+[2021-05-18 10:28:04] Alfred is being called. Data: option 3 
+[2021-05-18 10:28:04] Calling menu options 
+[2021-05-18 10:28:05] Alfred is being called. Data: membership 0 
+
+[2021-05-18 10:29:25] System is running 
+[2021-05-18 10:29:25] Starting the program 
+[2021-05-18 10:29:25] Alfred is being called. Data: start 0 
+[2021-05-18 10:29:25] Alfred is being called. Data: option 0 
+[2021-05-18 10:29:25] Alfred is being called. Data: option 1 
+[2021-05-18 10:29:25] Calling menu options 
+[2021-05-18 10:29:27] Calling menu options 
+[2021-05-18 10:29:27] Calling login method 
+[2021-05-18 10:29:28] Alfred is being called. Data: option 2 
+[2021-05-18 10:29:28] Alfred is being called. Data: option 1 
+[2021-05-18 10:29:28] Alfred is being called. Data: option 3 
+[2021-05-18 10:29:28] Calling menu options 
+[2021-05-18 10:29:29] Alfred is being called. Data: membership 0 
+
+[2021-05-18 10:29:42] System is running 
+[2021-05-18 10:29:42] Starting the program 
+[2021-05-18 10:29:42] Alfred is being called. Data: start 0 
+[2021-05-18 10:29:42] Alfred is being called. Data: option 0 
+[2021-05-18 10:29:42] Alfred is being called. Data: option 1 
+[2021-05-18 10:29:42] Calling menu options 
+[2021-05-18 10:29:44] Calling menu options 
+[2021-05-18 10:29:45] Calling login method 
+[2021-05-18 10:29:52] Alfred is being called. Data: option 2 
+[2021-05-18 10:29:52] Alfred is being called. Data: option 1 
+[2021-05-18 10:29:52] Alfred is being called. Data: option 3 
+[2021-05-18 10:29:52] Calling menu options 
+[2021-05-18 10:29:55] Alfred is being called. Data: membership 0 
+
+[2021-05-18 10:30:51] System is running 
+[2021-05-18 10:30:52] Starting the program 
+[2021-05-18 10:30:52] Alfred is being called. Data: start 0 
+
+[2021-05-18 10:30:56] System is running 
+[2021-05-18 10:30:56] Starting the program 
+[2021-05-18 10:30:56] Alfred is being called. Data: start 0 
+[2021-05-18 10:30:56] Alfred is being called. Data: option 0 
+[2021-05-18 10:30:56] Alfred is being called. Data: option 1 
+[2021-05-18 10:30:56] Calling menu options 
+[2021-05-18 10:31:00] Calling menu options 
+[2021-05-18 10:31:02] Calling login method 
+[2021-05-18 10:31:05] Alfred is being called. Data: option 2 
+[2021-05-18 10:31:05] Alfred is being called. Data: option 1 
+[2021-05-18 10:31:05] Alfred is being called. Data: option 3 
+[2021-05-18 10:31:05] Calling menu options 
+[2021-05-18 10:31:08] Alfred is being called. Data: membership 0 
+
+[2021-05-18 10:31:43] System is running 
+[2021-05-18 10:31:43] Starting the program 
+[2021-05-18 10:31:43] Alfred is being called. Data: start 0 
+
+[2021-05-18 10:32:01] System is running 
+[2021-05-18 10:32:01] Starting the program 
+[2021-05-18 10:32:01] Alfred is being called. Data: start 0 
+[2021-05-18 10:32:01] Alfred is being called. Data: option 0 
+[2021-05-18 10:32:01] Alfred is being called. Data: option 1 
+[2021-05-18 10:32:01] Calling menu options 
+
+[2021-05-18 10:33:49] System is running 
+[2021-05-18 10:33:49] Starting the program 
+[2021-05-18 10:33:49] Alfred is being called. Data: start 0 
+[2021-05-18 10:33:49] Alfred is being called. Data: option 0 
+[2021-05-18 10:33:49] Alfred is being called. Data: option 1 
+[2021-05-18 10:33:49] Calling menu options 
+[2021-05-18 10:33:50] Calling menu options 
+[2021-05-18 10:33:51] Calling login method 
+[2021-05-18 10:34:01] Alfred is being called. Data: option 2 
+[2021-05-18 10:34:01] Alfred is being called. Data: option 1 
+[2021-05-18 10:34:01] Alfred is being called. Data: option 3 
+[2021-05-18 10:34:01] Calling menu options 
+[2021-05-18 10:34:02] Alfred is being called. Data: membership 0 
+
+[2021-05-18 10:34:23] System is running 
+[2021-05-18 10:34:23] Starting the program 
+[2021-05-18 10:34:23] Alfred is being called. Data: start 0 
+[2021-05-18 10:34:23] Alfred is being called. Data: option 0 
+[2021-05-18 10:34:23] Alfred is being called. Data: option 1 
+[2021-05-18 10:34:23] Calling menu options 
+[2021-05-18 10:34:39] Calling menu options 
+[2021-05-18 10:34:40] Calling login method 
+[2021-05-18 10:34:41] Alfred is being called. Data: option 2 
+[2021-05-18 10:34:41] Alfred is being called. Data: option 1 
+[2021-05-18 10:34:41] Alfred is being called. Data: option 3 
+[2021-05-18 10:34:41] Calling menu options 
+[2021-05-18 10:34:42] Alfred is being called. Data: membership 0 
+
+[2021-05-18 10:35:10] System is running 
+[2021-05-18 10:35:10] Starting the program 
+[2021-05-18 10:35:10] Alfred is being called. Data: start 0 
+[2021-05-18 10:35:10] Alfred is being called. Data: option 0 
+[2021-05-18 10:35:10] Alfred is being called. Data: option 1 
+[2021-05-18 10:35:10] Calling menu options 
+
+[2021-05-18 10:35:18] System is running 
+[2021-05-18 10:35:18] Starting the program 
+[2021-05-18 10:35:19] Alfred is being called. Data: start 0 
+[2021-05-18 10:35:19] Alfred is being called. Data: option 0 
+[2021-05-18 10:35:19] Alfred is being called. Data: option 1 
+[2021-05-18 10:35:19] Calling menu options 
+[2021-05-18 10:35:19] Calling menu options 
+[2021-05-18 10:35:20] Calling login method 
+[2021-05-18 10:35:21] Alfred is being called. Data: option 2 
+[2021-05-18 10:35:21] Alfred is being called. Data: option 1 
+[2021-05-18 10:35:21] Alfred is being called. Data: option 3 
+[2021-05-18 10:35:21] Calling menu options 
+[2021-05-18 10:35:23] Alfred is being called. Data: membership 0 
+
+[2021-05-18 10:35:30] System is running 
+[2021-05-18 10:35:30] Starting the program 
+[2021-05-18 10:35:30] Alfred is being called. Data: start 0 
+[2021-05-18 10:35:30] Alfred is being called. Data: option 0 
+[2021-05-18 10:35:30] Alfred is being called. Data: option 1 
+[2021-05-18 10:35:30] Calling menu options 
+[2021-05-18 10:35:35] Calling menu options 
+[2021-05-18 10:35:36] Calling login method 
+[2021-05-18 10:35:38] Alfred is being called. Data: option 2 
+[2021-05-18 10:35:38] Alfred is being called. Data: option 1 
+[2021-05-18 10:35:38] Alfred is being called. Data: option 3 
+[2021-05-18 10:35:38] Calling menu options 
+[2021-05-18 10:35:38] Alfred is being called. Data: membership 0 
+
+[2021-05-18 10:36:03] System is running 
+[2021-05-18 10:36:03] Starting the program 
+[2021-05-18 10:36:03] Alfred is being called. Data: start 0 
+[2021-05-18 10:36:03] Alfred is being called. Data: option 0 
+[2021-05-18 10:36:03] Alfred is being called. Data: option 1 
+[2021-05-18 10:36:03] Calling menu options 
+[2021-05-18 10:36:04] Calling menu options 
+[2021-05-18 10:36:17] Calling login method 
+[2021-05-18 10:36:19] Alfred is being called. Data: option 2 
+[2021-05-18 10:36:19] Alfred is being called. Data: option 1 
+[2021-05-18 10:36:19] Alfred is being called. Data: option 3 
+[2021-05-18 10:36:19] Calling menu options 
+[2021-05-18 10:36:20] Alfred is being called. Data: membership 0 
+
+[2021-05-18 10:36:37] System is running 
+[2021-05-18 10:36:37] Starting the program 
+[2021-05-18 10:36:37] Alfred is being called. Data: start 0 
+
+[2021-05-18 10:36:42] System is running 
+[2021-05-18 10:36:42] Starting the program 
+[2021-05-18 10:36:42] Alfred is being called. Data: start 0 
+[2021-05-18 10:36:42] Alfred is being called. Data: option 0 
+[2021-05-18 10:36:42] Alfred is being called. Data: option 1 
+[2021-05-18 10:36:42] Calling menu options 
+[2021-05-18 10:37:36] Calling menu options 
+[2021-05-18 10:37:36] Calling login method 
+[2021-05-18 10:37:38] Alfred is being called. Data: option 2 
+[2021-05-18 10:37:38] Alfred is being called. Data: option 1 
+[2021-05-18 10:37:38] Alfred is being called. Data: option 3 
+[2021-05-18 10:37:38] Calling menu options 
+[2021-05-18 10:37:39] Alfred is being called. Data: membership 0 
+
+[2021-05-18 10:38:25] System is running 
+[2021-05-18 10:38:25] Starting the program 
+[2021-05-18 10:38:25] Alfred is being called. Data: start 0 
+[2021-05-18 10:38:25] Alfred is being called. Data: option 0 
+[2021-05-18 10:38:25] Alfred is being called. Data: option 1 
+[2021-05-18 10:38:25] Calling menu options 
+[2021-05-18 10:38:26] Calling menu options 
+[2021-05-18 10:38:28] Calling login method 
+[2021-05-18 10:38:33] Alfred is being called. Data: option 2 
+[2021-05-18 10:38:33] Alfred is being called. Data: option 1 
+[2021-05-18 10:38:33] Alfred is being called. Data: option 3 
+[2021-05-18 10:38:33] Calling menu options 
+[2021-05-18 10:38:34] Alfred is being called. Data: membership 0 

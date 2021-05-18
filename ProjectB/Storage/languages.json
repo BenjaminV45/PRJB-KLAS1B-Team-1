@@ -7,7 +7,8 @@
 		"option": [
 			"Reviews",
 			"Place a reservation",
-			"View membership"
+			"View membership",
+			"Lookup member"
 		],
 		"error": [
 			"This isn't a number. Please enter a number.",
@@ -59,6 +60,9 @@
 			"Nice try, you can't cancel ur reservation since the cancel date is expired.",
 			"Cancel whole reservation",
 			"Cancel reservation partly"
+		],
+		"lookup": [
+			"Search for a member: "
 		]
 	},
 	"NL": {
@@ -69,7 +73,8 @@
 		"option": [
 			"Reviews",
 			"Reservering plaatsen",
-			"Bekijk lidmaatschap"
+			"Bekijk lidmaatschap",
+			"Lid opzoeken"
 		],
 		"leaveReview": [
 			"\nVul uw unieke reserveringscode in: ",
@@ -127,6 +132,9 @@
 			"Leuk geprobeerd maar de uiterlijke annuleer datum is al verstreken.",
 			"Annuleer de gehele reservering",
 			"Annuleer de reservering deels"
+		],
+		"lookup": [
+			"Zoek een lid: "
 		]
 	}
 }

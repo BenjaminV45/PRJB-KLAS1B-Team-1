@@ -224,6 +224,7 @@ namespace ProjectB
             {
                 Tuple.Create<int, string, Action>(1, new Alfred("option", 2).Option(), () => this.Membership()),
                 Tuple.Create<int, string, Action>(2, new Alfred("option", 1).Option(), () => new Reservation()),
+                Tuple.Create<int, string, Action>(3, new Alfred("option", 3).Option(), () => this.Lookup())
             };
 
             this.Menu(optionss);
@@ -409,9 +410,38 @@ namespace ProjectB
             new Settings().Update(this.settings);
         }
 
+        public void Lookup()
+        {
+
+            dynamic members = new Json("members.json").Read();
+            bool boolean = false;
+            while (!boolean)
+            {
+                new Alfred("lookup", 0).Line();
+                string input = Console.ReadLine();
+                foreach (var row in members)
+                {
+                    string name = row.firstname + " " + row.lastname;
+                    if (name.ToLower().Contains(input.ToLower()))
+                    {
+                        Console.WriteLine(name);
+                        Console.WriteLine("Press [ESC] to stop or any other [Key] to keep going!");
+                        if (Console.ReadKey().Key == ConsoleKey.Escape)
+                        {
+                            boolean = true;
+                            break;
+                        }
+                        Console.Clear();
+                        break;
+                    }
+                }
+            }
+        }
         public void Membership()
         {
             new Alfred("membership", 0).Write();
+            dynamic Reservation = new Json("reservation.json").Read();
+            string content = "Nee";
             foreach (var row in this.customer)
             {
                 if (this.settings.member_id == row.id)
@@ -422,7 +452,19 @@ namespace ProjectB
                     Console.WriteLine($"Rank: {row.rank}");
                     Console.WriteLine($"Continent: {row.continent}");
                     Console.WriteLine($"Creditcard: {row.creditcard}");
-                    break;
+                    foreach(var col in Reservation)
+                    {
+                        if (row.id == col.memberID)
+                        {
+                            if(col.hunt == true)
+                            {
+                                content = "Ja";
+                                break;
+                            }
+
+                        }
+                    }
+                    Console.WriteLine($"Op impala gejaagd: {content}");
                 }
             }
         }
@@ -453,34 +495,7 @@ namespace ProjectB
         {
             new System().Log("System is running");
             // Auto complete work in progress
-            //var commands = new List<string>();
-            //dynamic members = new Json("members.json").Read();
-            //int member_id = 0;
-            //bool boolean = false;
-            //while (!boolean)
-            //{
-            //    Console.Write("Input the name: ");
-            //    string input = Console.ReadLine();
-            //    foreach (var row in members)
-            //    {
-            //        string name = row.firstname + " " + row.lastname;
-            //        if (name.ToLower().Contains(input.ToLower()))
-            //        {
-            //            member_id = row.id;
-            //            Console.WriteLine(name);
-            //            Console.WriteLine("Press [Enter] to use this name or any other [Key] to keep going!");
-            //            if (Console.ReadKey().Key == ConsoleKey.Enter)
-            //            {
-            //                boolean = true;
-            //                break;
-            //            }
-            //            Console.Clear();
-            //            break;
-            //        }
 
-            //    }
-            //}
-            //Console.WriteLine(member_id);
             new Start();
         }
     }
