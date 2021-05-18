@@ -9,6 +9,12 @@
 			"Place a reservation",
 			"View membership"
 		],
+		"leaveReview": [
+			"Enter your unique reservationcode (6 characters): ",
+			"Enter a review with a maximum of 512 characters: ",
+			"Not more than 512 characters allowed! Please rewrite your review: ",
+			"Rate your dinner from 1 to 5: "
+		],
 		"error": [
 			"This isn't a number. Please enter a number.",
 			"This isn't a option. Please choose the right menu.",
@@ -72,7 +78,7 @@
 			"Bekijk lidmaatschap"
 		],
 		"leaveReview": [
-			"\nVul uw unieke reserveringscode in: ",
+			"\nVul uw unieke reserveringscode in (6 karakters): ",
 			"\nUw review mag bestaan uit maximaal 512 karakters: ",
 			"\nNiet meer dan 512 karakters toegestaan!",
 			"\nGeef uw diner een beoordeling van 1 tot 5: "

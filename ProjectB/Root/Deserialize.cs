@@ -59,5 +59,18 @@ namespace ProjectB
         public List<List<object>> vis { get; set; }
         public List<List<object>> impala { get; set; }
     }
+
+
+    public class ReviewsJson
+    {
+        public int id { get; set; }
+        public int resid { get; set; }
+        public int memberid { get; set; }
+        public string reviewtxt { get; set; }
+        public int rating { get; set; }
+    }
+
+
+
 }
 

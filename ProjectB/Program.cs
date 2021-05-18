@@ -77,6 +77,7 @@ namespace ProjectB
             if (this.file == "languages.json") return JsonSerializer.Deserialize<LanguageJson>(json);
             if (this.file == "reservation.json") return JsonSerializer.Deserialize<List<ReservationJson>>(json);
             if (this.file == "members.json") return JsonSerializer.Deserialize<List<MembersJson>>(json);
+            if (this.file == "reviews.json") return JsonSerializer.Deserialize<List<ReviewsJson>>(json);
             if (this.file == "menu.json") return JsonSerializer.Deserialize<MenuJson>(json);
             return null;
         }
@@ -482,6 +483,7 @@ namespace ProjectB
             //}
             //Console.WriteLine(member_id);
             new Start();
+            new leaveReview();
         }
     }
 }
