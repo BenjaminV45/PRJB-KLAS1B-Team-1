@@ -1,0 +1,9 @@
+﻿
+[2021-05-16 11:42:24] System is running 
+[2021-05-16 11:42:24] Starting the program 
+[2021-05-16 11:42:24] Alfred is being called. Data: start 0 
+[2021-05-16 11:42:24] Alfred is being called. Data: option 0 
+[2021-05-16 11:42:24] Alfred is being called. Data: option 1 
+[2021-05-16 11:42:24] Calling menu options 
+[2021-05-16 11:42:25] Calling chef class 
+[2021-05-16 11:42:27] Calling menu options 

@@ -5,14 +5,13 @@ using System.Text.Json;
 using System.Linq;
 using System.Net.Mail;
 using System.Net;
-using System.Text;
-using System.Globalization;
 
 namespace ProjectB
 {
     class System
     {
         public static string SYSTEM_NAME = "La Mouette";
+
         public void SendMail(string email, string title, string content)
         {
             content += "<p>Kind Regards,<br>Albert</p>";
@@ -50,6 +49,18 @@ namespace ProjectB
 
             return new string(str.ToCharArray().OrderBy(s => (r.Next(2) % 2) == 0).ToArray());
         }
+        public void Log(string des)
+        {
+            string content = "";
+
+            if (des == "System is running")
+            {
+                content += $"\n";
+            }
+
+            content += $"[{string.Format("{0:yyyy-MM-dd HH:mm:ss}", DateTime.Now)}] {des} {Environment.NewLine}";
+            File.AppendAllText(@"..\..\..\Storage\chatlog.txt", content);
+        }
     }
     class Json
     {
@@ -78,7 +89,6 @@ namespace ProjectB
 
 
     }
-
     public class Settings
     {
         public dynamic File = new Json("settings.json").Read();
@@ -97,7 +107,6 @@ namespace ProjectB
         }
 
     }
-    
     public class Alfred : Settings
     {
         private string row;
@@ -105,6 +114,7 @@ namespace ProjectB
         private dynamic data;
         public Alfred(string row, int col)
         {
+            new System().Log($"Alfred is being called. Data: {row} {col}");
             this.row = row;
             this.col = col;
             this.data = new Json("languages.json").Read();
@@ -130,11 +140,11 @@ namespace ProjectB
         }
 
     }
-
     class Option : System
     {
         public void Menu(Tuple<int, string, Action>[] options)
         {
+            new System().Log("Calling menu options");
             foreach (Tuple<int, string, Action> row in options)
             {
                 Console.WriteLine($"[{row.Item1}] {row.Item2}");
@@ -183,6 +193,9 @@ namespace ProjectB
     {
         public Chef()
         {
+            new System().Log("Calling chef class");
+            Console.Write("Input date: ");
+            string date = Console.ReadLine();
             var options = new[]
             {
                 Tuple.Create<int, string, Action>(1, "Krijg menu", () => new GetMenu()),
@@ -191,7 +204,6 @@ namespace ProjectB
         }
 
     }
-
     class Customer : Option
     {
         public dynamic customer;
@@ -220,7 +232,7 @@ namespace ProjectB
         public void Login()
         {
             bool boolean = false;
-
+            new System().Log("Calling login method");
             while (!boolean)
             {
                 Console.Write("[Albert] I would like to know your membership code: ");
@@ -245,7 +257,7 @@ namespace ProjectB
         public void Register()
 
         {
-
+            new System().Log("Calling register method");
             string[] continents = { "Europa", "Africa", "North-america", "South-america", "Asia", "Australia" };
             bool boolean = false;
             string continent = "";
@@ -396,13 +408,13 @@ namespace ProjectB
             this.settings.member_id = id;
             new Settings().Update(this.settings);
         }
-        
+
         public void Membership()
         {
             new Alfred("membership", 0).Write();
-            foreach(var row in this.customer)
+            foreach (var row in this.customer)
             {
-                if(this.settings.member_id == row.id)
+                if (this.settings.member_id == row.id)
                 {
                     Console.WriteLine($"\nCode: {row.code}");
                     Console.WriteLine($"Name: {row.firstname} {row.lastname}");
@@ -415,12 +427,12 @@ namespace ProjectB
             }
         }
     }
-
     class Start : Option
     {
 
         public Start()
         {
+            new System().Log("Starting the program");
             dynamic Settings = new Settings().File;
             Settings.language = "EN";
             Settings.member_id = 0;
@@ -435,9 +447,6 @@ namespace ProjectB
             this.Menu(options);
         }
     }
-
-
-
     class Program
     {
         static void Main(string[] args)
@@ -446,6 +455,6 @@ namespace ProjectB
             //new Reservation();
             new CancelReservation();
         }
-
     }
 }
+

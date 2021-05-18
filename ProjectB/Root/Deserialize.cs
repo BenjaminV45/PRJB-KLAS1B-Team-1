@@ -59,7 +59,5 @@ namespace ProjectB
         public List<List<object>> vis { get; set; }
         public List<List<object>> impala { get; set; }
     }
-
-
 }
 
