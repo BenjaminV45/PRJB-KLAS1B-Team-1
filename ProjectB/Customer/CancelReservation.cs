@@ -10,6 +10,7 @@ namespace ProjectB
         public DateTime dateTime;
         public DateTime reservationDate;
         public int reservation_index;
+        public string resCode;
 
         public CancelReservation()
         {
@@ -25,7 +26,7 @@ namespace ProjectB
             while (!comp)
             {
                 new Alfred("cancel", 0).Write();
-                string resCode = Console.ReadLine();
+                resCode = Console.ReadLine();
                 foreach (var row in this.reservation)
                 {
                     if (row.code == resCode)
@@ -62,12 +63,42 @@ namespace ProjectB
 
         public void DeleteMember()
         {
+            bool comp = false;
+            new Alfred("cancel", 5).Write();
+
+            while (!comp)
+            {
+                foreach (var row in this.reservation)
+                {
+                    if (row.code == resCode)
+                    {
+                        int index = 0;
+                        comp = true;
+                        bool shees = false;
+                        Tuple<int, string>[] guests = new Tuple<int, string>[50];
+                        foreach (var col in row.People)
+                        {
+                            guests[index] = Tuple.Create(index + 1, col.name);
+                            index++;
+                        }
+                        while (!shees)
+                        {
+                            for (int i = 0; i < guests.Length; i++)
+                            {
+                                Console.WriteLine($"[{guests[i].Item1}] {guests[i].Item2}");
+                            }                                                    
+                            string inputTmp = Console.ReadLine();
+                            int input = Convert.ToInt32(inputTmp);
+                        }
+                    }
+                }
+            }
+            
 
         }
 
         public void DeleteReservation()
         {
-            Console.WriteLine(this.reservation[1].code);
             this.reservation.RemoveAt(1);
             new Json("reservation.json").Write(this.reservation);
         }

@@ -495,7 +495,34 @@ namespace ProjectB
         {
             new System().Log("System is running");
             // Auto complete work in progress
+            //var commands = new List<string>();
+            //dynamic members = new Json("members.json").Read();
+            //int member_id = 0;
+            //bool boolean = false;
+            //while (!boolean)
+            //{
+            //    Console.Write("Input the name: ");
+            //    string input = Console.ReadLine();
+            //    foreach (var row in members)
+            //    {
+            //        string name = row.firstname + " " + row.lastname;
+            //        if (name.ToLower().Contains(input.ToLower()))
+            //        {
+            //            member_id = row.id;
+            //            Console.WriteLine(name);
+            //            Console.WriteLine("Press [Enter] to use this name or any other [Key] to keep going!");
+            //            if (Console.ReadKey().Key == ConsoleKey.Enter)
+            //            {
+            //                boolean = true;
+            //                break;
+            //            }
+            //            Console.Clear();
+            //            break;
+            //        }
 
+            //    }
+            //}
+            //Console.WriteLine(member_id);
             new Start();
         }
     }
