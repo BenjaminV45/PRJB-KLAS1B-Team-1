@@ -153,7 +153,7 @@ namespace ProjectB
 
             var person = new People
             {
-                  name= fName,
+                  name= $"{fName} {SName}",
                   menu = menu,
                   allergies = Allergie,
                   kcal = Kcal
@@ -216,7 +216,7 @@ namespace ProjectB
                 }
                 var guest = new People
                 {
-                    name = guestfName + " " + guestSName,
+                    name = $"{guestfName} {guestSName}",
                     menu = guestMenu,
                     allergies = guestAllergie,
                     kcal = guestKcal

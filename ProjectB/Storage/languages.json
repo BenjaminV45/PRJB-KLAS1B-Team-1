@@ -16,7 +16,7 @@
 		],
 		"reservation": [
 			"For how many persons?",
-			"Choose a date [dd/MM/yyyy]: ",
+			"Choose a date [dd MM yyyy]: ",
 			"This date is already passed.",
 			"This isn't a date, please use the format as described.",
 			"We are closed on monday's, please choose another date.",
@@ -58,7 +58,8 @@
 			"This code doesn't exist. Please try again or ga back.",
 			"Nice try, you can't cancel ur reservation since the cancel date is expired.",
 			"Cancel whole reservation",
-			"Cancel reservation partly"
+			"Cancel reservation partly",
+			"For who do you want to cancel the reservation?"
 		]
 	},
 	"NL": {
@@ -84,7 +85,7 @@
 		],
 		"reservation": [
 			"Voor hoeveel personen?",
-			"Kies een datum [dd/MM/yyyy]: ",
+			"Kies een datum [dd MM yyyy]: ",
 			"Deze datum is al verstreken.",
 			"Dit is geen datum, houdt u zich alstublieft aan he format.",
 			"Op maandag zijn wij gesloten, kies alstublieft een andere datum.",
@@ -126,7 +127,9 @@
 			"Deze code bestaat niet. Probeer opnieuw of ga terug. ",
 			"Leuk geprobeerd maar de uiterlijke annuleer datum is al verstreken.",
 			"Annuleer de gehele reservering",
-			"Annuleer de reservering deels"
+			"Annuleer de reservering deels",
+			"Voor wie wilt u de reservatie annuleren?",
+			""
 		]
 	}
 }
