@@ -213,13 +213,16 @@ namespace ProjectB
         {
             this.customer = new Json("members.json").Read();
             this.settings = new Settings().File;
-            var options = new[]
+            if (new Settings().Member_id == 0)
             {
+                var options = new[]
+                {
                 Tuple.Create<int, string, Action>(1, "Login with membership code", () => this.Login()),
                 Tuple.Create<int, string, Action>(2, "Become a member", () => this.Register())
-            };
+                };
+                this.Menu(options);
+            }
 
-            this.Menu(options);
             this.Options();
 
         }
