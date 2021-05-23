@@ -77,6 +77,7 @@ namespace ProjectB
             if (this.file == "languages.json") return JsonSerializer.Deserialize<LanguageJson>(json);
             if (this.file == "reservation.json") return JsonSerializer.Deserialize<List<ReservationJson>>(json);
             if (this.file == "members.json") return JsonSerializer.Deserialize<List<MembersJson>>(json);
+            if (this.file == "reviews.json") return JsonSerializer.Deserialize<List<ReviewsJson>>(json);
             if (this.file == "menu.json") return JsonSerializer.Deserialize<MenuJson>(json);
             return null;
         }
@@ -228,7 +229,8 @@ namespace ProjectB
             {
                 Tuple.Create<int, string, Action>(1, new Alfred("option", 2).Option(), () => this.Membership()),
                 Tuple.Create<int, string, Action>(2, new Alfred("option", 1).Option(), () => new Reservation()),
-                Tuple.Create<int, string, Action>(3, new Alfred("option", 3).Option(), () => this.Lookup())
+                Tuple.Create<int, string, Action>(3, new Alfred("option", 3).Option(), () => this.Lookup()),
+                Tuple.Create<int, string, Action>(4, new Alfred("option", 4).Option(), () => new leaveReview())
             };
 
             this.Menu(options);
@@ -496,8 +498,6 @@ namespace ProjectB
 
         static void Main(string[] args)
         {
-            //List<Action> PREVIOUS = new List<Action>();
-            //PREVIOUS.Add();
             new System().Log("System is running");
             new Start();
         }

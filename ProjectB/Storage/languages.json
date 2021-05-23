@@ -8,7 +8,15 @@
 			"Reviews",
 			"Place a reservation",
 			"View membership",
-			"Lookup member"
+			"Lookup member",
+			"Leave a review"
+		],
+		"leaveReview": [
+			"Enter your unique reservationcode (6 characters): ",
+			"Enter a review with a maximum of 512 characters: ",
+			"Not more than 512 characters allowed! Please rewrite your review: ",
+			"Rate your dinner from 1 to 5: ",
+			"This reservation code has already been used to write a review."
 		],
 		"error": [
 			"This isn't a number. Please enter a number.",
@@ -59,7 +67,10 @@
 			"This code doesn't exist. Please try again or ga back.",
 			"Nice try, you can't cancel ur reservation since the cancel date is expired.",
 			"Cancel whole reservation",
-			"Cancel reservation partly"
+			"Cancel reservation partly",
+			"Choose the number of the person who u want to cancel: ",
+			"There too few people to cancel the reservation partly, please choose to cancel the whole reservation",
+			"Succesfully canceled the reservation."
 		],
 		"lookup": [
 			"Search for a member: "
@@ -74,13 +85,15 @@
 			"Reviews",
 			"Reservering plaatsen",
 			"Bekijk lidmaatschap",
-			"Lid opzoeken"
+			"Lid opzoeken",
+			"Review achterlaten"
 		],
 		"leaveReview": [
-			"\nVul uw unieke reserveringscode in: ",
-			"\nUw review mag bestaan uit maximaal 512 karakters: ",
-			"\nNiet meer dan 512 karakters toegestaan!",
-			"\nGeef uw diner een beoordeling van 1 tot 5: "
+			"Vul uw unieke reserveringscode in (6 karakters): ",
+			"Uw review mag bestaan uit maximaal 512 karakters: ",
+			"Niet meer dan 512 karakters toegestaan!",
+			"Geef uw diner een beoordeling van 1 tot 5: ",
+			"Deze reservatie code is al gebruikt om een review te schrijven."
 		],
 		"error": [
 			"Dit is geen nummer. Kies alstublieft een nummer.",
@@ -131,7 +144,12 @@
 			"Deze code bestaat niet. Probeer opnieuw of ga terug. ",
 			"Leuk geprobeerd maar de uiterlijke annuleer datum is al verstreken.",
 			"Annuleer de gehele reservering",
-			"Annuleer de reservering deels"
+			"Annuleer de reservering deels",
+			"Kies het nummer van de naam die u wilt annuleren: ",
+			"Er zijn te weinig mensen om de reservatie te annuleren. Kies alstublieft om de hele reservatie te annuleren.",
+			"Reservatie met succes geannuleerd.",
+			"Wilt u nog iemand annuleren? [Y/N]"
+
 		],
 		"lookup": [
 			"Zoek een lid: "
