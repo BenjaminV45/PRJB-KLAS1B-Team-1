@@ -7,3 +7,327 @@
 [2021-05-16 11:42:24] Calling menu options 
 [2021-05-16 11:42:25] Calling chef class 
 [2021-05-16 11:42:27] Calling menu options 
+
+[2021-05-21 17:12:42] System is running 
+[2021-05-21 17:12:42] Starting the program 
+[2021-05-21 17:12:42] Alfred is being called. Data: start 0 
+[2021-05-21 17:12:42] Alfred is being called. Data: option 0 
+[2021-05-21 17:12:42] Alfred is being called. Data: option 1 
+[2021-05-21 17:12:42] Calling menu options 
+[2021-05-21 17:12:44] Calling menu options 
+
+[2021-05-23 10:29:44] System is running 
+[2021-05-23 10:29:44] Starting the program 
+[2021-05-23 10:29:44] Alfred is being called. Data: start 0 
+[2021-05-23 10:29:44] Alfred is being called. Data: option 0 
+[2021-05-23 10:29:44] Alfred is being called. Data: option 1 
+[2021-05-23 10:29:44] Calling menu options 
+[2021-05-23 10:30:31] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:30:34] Alfred is being called. Data: cancel 3 
+[2021-05-23 10:30:34] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:30:34] Calling menu options 
+[2021-05-23 10:30:36] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:30:36] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:30:43] Alfred is being called. Data: error 0 
+[2021-05-23 10:30:43] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:30:55] Alfred is being called. Data: error 0 
+[2021-05-23 10:30:55] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:33:26] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:33:34] Alfred is being called. Data: cancel 3 
+[2021-05-23 10:33:34] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:33:34] Calling menu options 
+[2021-05-23 10:33:35] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:33:35] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:33:36] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:34:28] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:34:32] Alfred is being called. Data: cancel 3 
+[2021-05-23 10:34:32] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:34:32] Calling menu options 
+[2021-05-23 10:34:33] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:34:33] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:35:23] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:35:27] Alfred is being called. Data: cancel 3 
+[2021-05-23 10:35:27] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:35:27] Calling menu options 
+[2021-05-23 10:35:31] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:35:31] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:35:43] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:35:47] Alfred is being called. Data: cancel 3 
+[2021-05-23 10:35:47] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:35:47] Calling menu options 
+[2021-05-23 10:35:48] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:35:48] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:36:27] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:36:29] Alfred is being called. Data: cancel 3 
+[2021-05-23 10:36:29] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:36:29] Calling menu options 
+[2021-05-23 10:36:30] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:36:30] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:36:35] Alfred is being called. Data: error 0 
+[2021-05-23 10:36:35] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:37:35] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:37:42] Alfred is being called. Data: cancel 3 
+[2021-05-23 10:37:42] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:37:42] Calling menu options 
+[2021-05-23 10:37:43] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:37:43] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:37:45] Alfred is being called. Data: error 0 
+[2021-05-23 10:37:45] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:40:12] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:40:18] Alfred is being called. Data: cancel 3 
+[2021-05-23 10:40:18] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:40:18] Calling menu options 
+[2021-05-23 10:40:19] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:40:19] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:40:20] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:40:48] Alfred is being called. Data: error 0 
+[2021-05-23 10:40:48] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:45:53] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:45:58] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:46:02] Alfred is being called. Data: cancel 3 
+[2021-05-23 10:46:02] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:46:02] Calling menu options 
+[2021-05-23 10:46:02] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:46:02] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:46:10] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:47:05] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:47:06] Alfred is being called. Data: cancel 3 
+[2021-05-23 10:47:06] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:47:06] Calling menu options 
+[2021-05-23 10:47:07] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:47:07] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:47:11] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:47:11] Alfred is being called. Data: error 0 
+[2021-05-23 10:47:11] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:47:20] Alfred is being called. Data: error 0 
+[2021-05-23 10:47:20] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:47:20] Alfred is being called. Data: error 0 
+[2021-05-23 10:47:20] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:47:20] Alfred is being called. Data: error 0 
+[2021-05-23 10:47:20] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:47:20] Alfred is being called. Data: error 0 
+[2021-05-23 10:47:20] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:47:23] Alfred is being called. Data: error 0 
+[2021-05-23 10:47:23] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:47:27] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:47:29] Alfred is being called. Data: error 0 
+[2021-05-23 10:47:29] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:47:30] Alfred is being called. Data: error 0 
+[2021-05-23 10:47:30] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:48:32] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:48:42] Alfred is being called. Data: cancel 3 
+[2021-05-23 10:48:42] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:48:42] Calling menu options 
+[2021-05-23 10:48:43] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:48:43] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:48:48] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:48:56] Alfred is being called. Data: error 0 
+[2021-05-23 10:48:56] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:49:37] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:49:58] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:50:02] Alfred is being called. Data: cancel 3 
+[2021-05-23 10:50:02] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:50:02] Calling menu options 
+[2021-05-23 10:50:03] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:50:03] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:50:07] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:51:36] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:51:38] Alfred is being called. Data: cancel 1 
+[2021-05-23 10:51:38] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:51:38] Alfred is being called. Data: cancel 1 
+[2021-05-23 10:51:38] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:51:38] Alfred is being called. Data: cancel 1 
+[2021-05-23 10:51:38] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:51:42] Alfred is being called. Data: cancel 0 
+[2021-05-23 10:51:45] Alfred is being called. Data: cancel 3 
+[2021-05-23 10:51:45] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:51:45] Calling menu options 
+[2021-05-23 10:51:46] Alfred is being called. Data: cancel 4 
+[2021-05-23 10:51:46] Alfred is being called. Data: cancel 5 
+[2021-05-23 10:51:48] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:02:11] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:02:13] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:02:13] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:02:13] Calling menu options 
+[2021-05-23 11:02:15] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:02:15] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:02:19] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:04:57] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:05:00] Alfred is being called. Data: cancel 1 
+[2021-05-23 11:05:00] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:05:00] Alfred is being called. Data: cancel 1 
+[2021-05-23 11:05:00] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:05:00] Alfred is being called. Data: cancel 1 
+[2021-05-23 11:05:00] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:05:00] Alfred is being called. Data: cancel 1 
+[2021-05-23 11:05:00] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:05:04] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:05:08] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:05:08] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:05:08] Calling menu options 
+[2021-05-23 11:05:09] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:05:09] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:05:11] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:07:53] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:07:59] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:07:59] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:07:59] Calling menu options 
+[2021-05-23 11:08:00] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:08:00] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:08:02] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:08:20] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:08:25] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:08:25] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:08:25] Calling menu options 
+[2021-05-23 11:08:27] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:08:27] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:08:29] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:08:55] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:09:00] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:09:00] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:09:00] Calling menu options 
+[2021-05-23 11:09:01] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:09:01] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:09:03] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:09:04] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:11:09] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:11:10] Alfred is being called. Data: cancel 1 
+[2021-05-23 11:11:10] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:11:15] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:11:15] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:11:15] Calling menu options 
+[2021-05-23 11:11:16] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:11:16] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:11:18] Alfred is being called. Data: error 0 
+[2021-05-23 11:11:18] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:11:21] Alfred is being called. Data: error 0 
+[2021-05-23 11:11:21] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:11:21] Alfred is being called. Data: error 0 
+[2021-05-23 11:11:21] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:11:22] Alfred is being called. Data: error 0 
+[2021-05-23 11:11:22] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:11:22] Alfred is being called. Data: error 0 
+[2021-05-23 11:11:22] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:11:22] Alfred is being called. Data: error 0 
+[2021-05-23 11:11:22] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:11:22] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:11:22] Alfred is being called. Data: error 0 
+[2021-05-23 11:11:23] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:11:23] Alfred is being called. Data: error 0 
+[2021-05-23 11:11:23] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:11:23] Alfred is being called. Data: error 0 
+[2021-05-23 11:11:23] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:11:39] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:11:43] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:11:43] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:11:43] Calling menu options 
+[2021-05-23 11:11:45] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:11:45] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:11:48] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:14:31] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:14:39] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:14:39] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:14:39] Calling menu options 
+[2021-05-23 11:14:40] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:14:40] Alfred is being called. Data: cancel 5 
+[2021-05-23 11:20:56] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:21:01] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:21:01] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:21:01] Calling menu options 
+[2021-05-23 11:21:02] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:21:02] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:25:10] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:25:15] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:25:18] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:25:18] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:25:18] Calling menu options 
+[2021-05-23 11:25:19] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:25:36] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:25:37] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:25:37] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:25:37] Calling menu options 
+[2021-05-23 11:25:40] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:25:56] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:26:00] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:26:00] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:26:00] Calling menu options 
+[2021-05-23 11:26:48] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:26:54] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:26:54] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:26:54] Calling menu options 
+[2021-05-23 11:26:56] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:26:56] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:26:56] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:26:56] Calling menu options 
+[2021-05-23 11:28:28] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:28:34] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:28:34] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:28:34] Calling menu options 
+[2021-05-23 11:28:36] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:28:36] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:28:36] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:28:36] Calling menu options 
+[2021-05-23 11:30:03] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:30:05] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:30:05] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:30:05] Calling menu options 
+[2021-05-23 11:30:06] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:30:06] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:30:06] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:30:06] Calling menu options 
+[2021-05-23 11:30:25] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:30:27] Alfred is being called. Data: cancel 3 
+[2021-05-23 11:30:27] Alfred is being called. Data: cancel 4 
+[2021-05-23 11:30:27] Calling menu options 
+[2021-05-23 11:30:52] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:31:14] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:31:16] Alfred is being called. Data: cancel 1 
+[2021-05-23 11:31:16] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:55:36] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:55:46] Alfred is being called. Data: cancel 0 
+[2021-05-23 11:58:12] Alfred is being called. Data: cancel 0 
+[2021-05-23 12:02:53] Alfred is being called. Data: cancel 0 
+[2021-05-23 12:02:55] Alfred is being called. Data: cancel 2 
+[2021-05-23 12:02:55] Alfred is being called. Data: cancel 1 
+[2021-05-23 12:02:55] Alfred is being called. Data: cancel 0 
+[2021-05-23 12:03:38] Alfred is being called. Data: cancel 3 
+[2021-05-23 12:03:38] Alfred is being called. Data: cancel 4 
+[2021-05-23 12:03:38] Calling menu options 
+[2021-05-23 12:03:40] Alfred is being called. Data: cancel 4 
+[2021-05-23 12:03:40] Alfred is being called. Data: cancel 6 
+[2021-05-23 12:03:40] Alfred is being called. Data: cancel 3 
+[2021-05-23 12:03:40] Alfred is being called. Data: cancel 4 
+[2021-05-23 12:03:40] Calling menu options 
+[2021-05-23 12:04:33] Alfred is being called. Data: cancel 0 
+[2021-05-23 12:04:44] Alfred is being called. Data: cancel 3 
+[2021-05-23 12:04:44] Alfred is being called. Data: cancel 4 
+[2021-05-23 12:04:44] Calling menu options 
+[2021-05-23 12:04:47] Alfred is being called. Data: cancel 4 
+[2021-05-23 12:04:47] Alfred is being called. Data: cancel 5 
+[2021-05-23 12:04:51] Alfred is being called. Data: cancel 5 
+[2021-05-23 12:04:51] Alfred is being called. Data: error 0 
+[2021-05-23 12:04:51] Alfred is being called. Data: cancel 5 
+[2021-05-23 12:04:52] Alfred is being called. Data: cancel 6 
+[2021-05-23 12:05:36] Alfred is being called. Data: cancel 0 
+[2021-05-23 12:05:37] Alfred is being called. Data: cancel 3 
+[2021-05-23 12:05:37] Alfred is being called. Data: cancel 4 
+[2021-05-23 12:05:37] Calling menu options 
+[2021-05-23 12:05:39] Alfred is being called. Data: cancel 4 
+[2021-05-23 12:05:39] Alfred is being called. Data: cancel 6 
+[2021-05-23 12:05:39] Alfred is being called. Data: cancel 3 
+[2021-05-23 12:05:39] Alfred is being called. Data: cancel 4 
+[2021-05-23 12:05:39] Calling menu options 
+[2021-05-23 12:05:56] Alfred is being called. Data: cancel 0 
+[2021-05-23 12:06:03] Alfred is being called. Data: cancel 3 
+[2021-05-23 12:06:03] Alfred is being called. Data: cancel 4 
+[2021-05-23 12:06:03] Calling menu options 
+[2021-05-23 12:06:05] Alfred is being called. Data: cancel 4 
+[2021-05-23 12:06:05] Alfred is being called. Data: cancel 5 
+[2021-05-23 12:06:08] Alfred is being called. Data: cancel 7 
+[2021-05-23 12:07:12] Alfred is being called. Data: cancel 0 
+[2021-05-23 12:07:16] Alfred is being called. Data: cancel 3 
+[2021-05-23 12:07:16] Alfred is being called. Data: cancel 4 
+[2021-05-23 12:07:16] Calling menu options 
+[2021-05-23 12:07:17] Alfred is being called. Data: cancel 4 
+[2021-05-23 12:07:17] Alfred is being called. Data: cancel 5 
+[2021-05-23 12:07:20] Alfred is being called. Data: cancel 6 

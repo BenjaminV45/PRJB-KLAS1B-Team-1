@@ -68,7 +68,9 @@
 			"Nice try, you can't cancel ur reservation since the cancel date is expired.",
 			"Cancel whole reservation",
 			"Cancel reservation partly",
-			"Choose the number of the person who u want to cancel: "
+			"Choose the number of the person who u want to cancel: ",
+			"There too few people to cancel the reservation partly, please choose to cancel the whole reservation",
+			"Succesfully canceled the reservation."
 		],
 		"lookup": [
 			"Search for a member: "
@@ -143,7 +145,11 @@
 			"Leuk geprobeerd maar de uiterlijke annuleer datum is al verstreken.",
 			"Annuleer de gehele reservering",
 			"Annuleer de reservering deels",
-			"Kies het nummer van de naam die u wilt annuleren: "
+			"Kies het nummer van de naam die u wilt annuleren: ",
+			"Er zijn te weinig mensen om de reservatie te annuleren. Kies alstublieft om de hele reservatie te annuleren.",
+			"Reservatie met succes geannuleerd.",
+			"Wilt u nog iemand annuleren? [Y/N]"
+
 		],
 		"lookup": [
 			"Zoek een lid: "
