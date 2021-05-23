@@ -102,7 +102,7 @@ namespace ProjectB
                                 try
                                 {                                   
                                     int inputTmp = Convert.ToInt32(Console.ReadLine());
-                                    if (inputTmp > row.People.Count || inputTmp < 1)
+                                    if (inputTmp > row.People.Count  || inputTmp < 1)
                                     {
                                         new Alfred("error", 2).Write();
                                     }
@@ -111,21 +111,17 @@ namespace ProjectB
                                         this.reservation[this.reservation_index].People.RemoveAt(inputTmp - 1);
                                         if (row.People.Count < 2)
                                         {
-                                            new Alfred("cancel", 6).Write();
+                                            new Alfred("cancel", 9).Write();
                                             sheesh = true;
                                             comp = true;
-                                            break;
-
                                         }
                                         else
                                         {
                                             new Alfred("cancel", 8).Write();
-                                            if (Console.ReadKey().KeyChar == 'N' || Console.ReadKey().KeyChar == 'n')
+                                            if (Console.ReadKey().KeyChar == 'N')
                                             {
                                                 new Alfred("cancel", 7).Write();
                                                 sheesh = true;
-                                                comp = true;
-                                                break;
                                             }
                                         }
                                     }
@@ -142,6 +138,8 @@ namespace ProjectB
             if (comp && sheesh)
             {
                 new Json("reservation.json").Write(this.reservation);
+                Console.Clear();
+                new Customer().Options();
             }  else
             {
                 this.ReservationCode(code);
