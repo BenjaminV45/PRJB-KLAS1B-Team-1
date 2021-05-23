@@ -9,7 +9,8 @@
 			"Place a reservation",
 			"View membership",
 			"Lookup member",
-			"Leave a review"
+			"Leave a review",
+			"Cancel reservation"
 		],
 		"leaveReview": [
 			"Enter your unique reservationcode (6 characters): ",
@@ -75,7 +76,9 @@
 			"Cancel reservation partly",
 			"Choose the number of the person who u want to cancel: ",
 			"There too few people to cancel the reservation partly, please choose to cancel the whole reservation",
-			"Succesfully canceled the reservation."
+			"Succesfully canceled the reservation.",
+			"Do you  want to cancel another guests? [Y/N]",
+			"You cannot cancel anymore guests. Please cancel the whole reservation if u want to do so. You will now be sent to the main menu."
 		],
 		"lookup": [
 			"Search for a member: "
@@ -91,7 +94,8 @@
 			"Reservering plaatsen",
 			"Bekijk lidmaatschap",
 			"Lid opzoeken",
-			"Review achterlaten"
+			"Review achterlaten",
+			"Reservering annuleren"
 		],
 		"leaveReview": [
 			"Vul uw unieke reserveringscode in (6 karakters): ",
@@ -153,7 +157,8 @@
 			"Kies het nummer van de naam die u wilt annuleren: ",
 			"Er zijn te weinig mensen om de reservatie te annuleren. Kies alstublieft om de hele reservatie te annuleren.",
 			"Reservatie met succes geannuleerd.",
-			"Wilt u nog iemand annuleren? [Y/N]"
+			"Wilt u nog iemand annuleren? [Y/N]",
+			"U kunt niet voor meer personen annuleren. Annuleer de gehele reservatie als u dat wilt. U wordt nu terug gestuurd naar het menu."
 
 		],
 		"lookup": [

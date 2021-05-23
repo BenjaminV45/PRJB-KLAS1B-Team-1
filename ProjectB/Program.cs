@@ -213,25 +213,32 @@ namespace ProjectB
         {
             this.customer = new Json("members.json").Read();
             this.settings = new Settings().File;
-            var options = new[]
+            if (new Settings().Member_id == 0)
             {
+                var options = new[]
+                {
                 Tuple.Create<int, string, Action>(1, "Login with membership code", () => this.Login()),
                 Tuple.Create<int, string, Action>(2, "Become a member", () => this.Register())
-            };
+                };
+                this.Menu(options);
+            }
 
-            this.Menu(options);
+            this.Options();
 
-            var optionss = new[]
+        }
+        public void Options()
+        {
+            var options = new[]
             {
                 Tuple.Create<int, string, Action>(1, new Alfred("option", 2).Option(), () => this.Membership()),
                 Tuple.Create<int, string, Action>(2, new Alfred("option", 1).Option(), () => new Reservation()),
-                Tuple.Create<int, string, Action>(3, new Alfred("option", 3).Option(), () => this.Lookup()),
-                Tuple.Create<int, string, Action>(4, new Alfred("option", 4).Option(), () => new leaveReview())
+                Tuple.Create<int, string, Action>(3, new Alfred("option", 5).Option(), () => new CancelReservation()),
+                Tuple.Create<int, string, Action>(4, new Alfred("option", 3).Option(), () => this.Lookup()),
+                Tuple.Create<int, string, Action>(5, new Alfred("option", 4).Option(), () => new leaveReview())
             };
 
-            this.Menu(optionss);
+            this.Menu(options);
         }
-
         public void Login()
         {
             bool boolean = false;
@@ -492,6 +499,7 @@ namespace ProjectB
     }
     class Program
     {
+
         static void Main(string[] args)
         {
             new System().Log("System is running");
