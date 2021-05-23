@@ -16,7 +16,12 @@
 			"Enter a review with a maximum of 512 characters: ",
 			"Not more than 512 characters allowed! Please rewrite your review: ",
 			"Rate your dinner from 1 to 5: ",
-			"This reservation code has already been used to write a review."
+			"This reservation code has already been used to write a review.",
+			"Thank you for leaving a review! Press - to go back to the menu.",
+			"Thank you for leaving a review! You will receive a 10% discount on ur next visit.\nPress - to go back to the menu.",
+			"Thank you for leaving a review (●__●)\nPress - to go back to the menu.",
+			"Thank you for leaving a review (●__●)\nYou will receive a 10% discount on ur next visit! Press - to go back to the menu.",
+			"I said rate from 1 to 5... ⊙.☉"
 		],
 		"error": [
 			"This isn't a number. Please enter a number.",
