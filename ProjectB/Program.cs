@@ -219,17 +219,20 @@ namespace ProjectB
             };
 
             this.Menu(options);
+            this.Options();
 
-            var optionss = new[]
+        }
+        public void Options()
+        {
+            var options = new[]
             {
                 Tuple.Create<int, string, Action>(1, new Alfred("option", 2).Option(), () => this.Membership()),
                 Tuple.Create<int, string, Action>(2, new Alfred("option", 1).Option(), () => new Reservation()),
                 Tuple.Create<int, string, Action>(3, new Alfred("option", 3).Option(), () => this.Lookup())
             };
 
-            this.Menu(optionss);
+            this.Menu(options);
         }
-
         public void Login()
         {
             bool boolean = false;
@@ -490,8 +493,11 @@ namespace ProjectB
     }
     class Program
     {
+
         static void Main(string[] args)
         {
+            //List<Action> PREVIOUS = new List<Action>();
+            //PREVIOUS.Add();
             new System().Log("System is running");
             new Start();
         }
