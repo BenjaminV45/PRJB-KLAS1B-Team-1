@@ -232,8 +232,9 @@ namespace ProjectB
             {
                 Tuple.Create<int, string, Action>(1, new Alfred("option", 2).Option(), () => this.Membership()),
                 Tuple.Create<int, string, Action>(2, new Alfred("option", 1).Option(), () => new Reservation()),
-                Tuple.Create<int, string, Action>(3, new Alfred("option", 3).Option(), () => this.Lookup()),
-                Tuple.Create<int, string, Action>(4, new Alfred("option", 4).Option(), () => new leaveReview())
+                Tuple.Create<int, string, Action>(3, new Alfred("option", 5).Option(), () => new CancelReservation()),
+                Tuple.Create<int, string, Action>(4, new Alfred("option", 3).Option(), () => this.Lookup()),
+                Tuple.Create<int, string, Action>(5, new Alfred("option", 4).Option(), () => new leaveReview())
             };
 
             this.Menu(options);
@@ -502,7 +503,7 @@ namespace ProjectB
         static void Main(string[] args)
         {
             //new System().Log("System is running");
-            //new Start();
+            new Start();
             new CancelReservation();
         }
     }

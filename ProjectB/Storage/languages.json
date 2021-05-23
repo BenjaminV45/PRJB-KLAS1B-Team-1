@@ -9,7 +9,8 @@
 			"Place a reservation",
 			"View membership",
 			"Lookup member",
-			"Leave a review"
+			"Leave a review",
+			"Cancel reservation"
 		],
 		"leaveReview": [
 			"Enter your unique reservationcode (6 characters): ",
@@ -88,7 +89,8 @@
 			"Reservering plaatsen",
 			"Bekijk lidmaatschap",
 			"Lid opzoeken",
-			"Review achterlaten"
+			"Review achterlaten",
+			"Reservering annuleren"
 		],
 		"leaveReview": [
 			"Vul uw unieke reserveringscode in (6 karakters): ",
