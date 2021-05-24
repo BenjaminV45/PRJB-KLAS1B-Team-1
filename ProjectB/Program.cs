@@ -262,7 +262,6 @@ namespace ProjectB
                 }
             }
         }
-
         public void Register()
 
         {
@@ -417,7 +416,6 @@ namespace ProjectB
             this.settings.member_id = id;
             new Settings().Update(this.settings);
         }
-
         public void Lookup()
         {
 
@@ -501,9 +499,9 @@ namespace ProjectB
 
         static void Main(string[] args)
         {
-            //new System().Log("System is running");
-            //new Start();
-            new CancelReservation();
+            new System().Log("System is running");
+            new Start();
+            //new CancelReservation();
         }
     }
 }
