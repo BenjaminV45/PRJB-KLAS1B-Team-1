@@ -49,7 +49,13 @@
 			"Fill in their allergies, if you don't have any press enter to continue: ",
 			"Fill in how many calories this guests wants to eat: ",
 			"Since u and ur comrades are really interested in impala's, would u like to hunt them yourself? [Y/N] ",
-			"Would you like me to book your planeticket and hotel?"
+			"Would you like me to book your planeticket and hotel?",
+			"I will book your hotel and planeticket.",
+			"The total price will be: ",
+			"Can I charge this from the creditcard",
+			"Would you like to change something?",
+			"What would u like to change?",
+			"U have filled in: "
 		],
 		"create-customer": [
 			"Amazing! I've learned to speak your language",
@@ -120,7 +126,7 @@
 			"U heeft meerder personen nodig om een reservatie te plaatsen. Nodig alstublieft meer personen uit op uw reis.",
 			"Vul uw voornaam in: ",
 			"Vul uw achternaam in: ",
-			"Kies een menu: [Vis/Vega/Impala]",
+			"Kies een menu [Vis/Vega/Impala]: ",
 			"Heeft u allergieën? Zo ja, welke? Zo niet, druk op enter om door te gaan",
 			"Vul in hoeveel calorieën u wilt eten: ",
 			"Voor de reservering wil ik graag de informatie van uw reisgenoten hebben.",
@@ -130,7 +136,13 @@
 			"Heeft deze gast allergieën? Zo ja, welke? Zo niet, druk op enter om door te gaan",
 			"Vul in hoeveel calorieën u wilt eten: ",
 			"Sinds u en uw kameraden meer dan 3 keer voor impala hebben gekozen, is mijn vraag als volgt: Wilt u zelf op de impala jagen? [Y/N] ",
-			"Zal ik gelijk het vliegticket en hotel voor u boeken? "
+			"Zal ik gelijk het vliegticket en hotel voor u boeken? ",
+			"Ik ga aan de slag om uw vliegticket en hotel te boeken.",
+			"De totale prijs is: ",
+			"Kan ik dit bedrag afschrijven van de creditcard?",
+			"Wilt u nog wat aanpassen?",
+			"Wat wilt u veranderen?" ,
+			"U heeft ingevuld: " 
 		],
 		"create-customer": [
 			"Geweldig! Ik heb uw taal geleerd",
