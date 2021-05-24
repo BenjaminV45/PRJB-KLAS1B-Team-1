@@ -95,11 +95,21 @@ namespace ProjectB
         public dynamic File = new Json("settings.json").Read();
         public string Language;
         public int Member_id;
+        public int Member_ind;
 
         public Settings()
         {
             this.Language = this.File.language;
             this.Member_id = this.File.member_id;
+            this.Member_ind = 0;
+            foreach(var row in new Json("members.json").Read())
+            {
+                if(this.Member_id == row.id)
+                {
+                    break;
+                }
+                this.Member_ind++;
+            }
         }
 
         public void Update(dynamic data)
