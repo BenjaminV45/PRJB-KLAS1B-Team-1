@@ -102,9 +102,9 @@ namespace ProjectB
             this.Language = this.File.language;
             this.Member_id = this.File.member_id;
             this.Member_ind = 0;
-            foreach(var row in new Json("members.json").Read())
+            foreach (var row in new Json("members.json").Read())
             {
-                if(this.Member_id == row.id)
+                if (this.Member_id == row.id)
                 {
                     break;
                 }
@@ -232,7 +232,6 @@ namespace ProjectB
                 };
                 this.Menu(options);
             }
-
             this.Options();
 
         }
@@ -459,31 +458,26 @@ namespace ProjectB
             new Alfred("membership", 0).Write();
             dynamic Reservation = new Json("reservation.json").Read();
             string content = "Nee";
-            foreach (var row in this.customer)
+            dynamic customer = this.customer[new Settings().Member_ind];
+            Console.WriteLine($"\nCode: {customer.code}");
+            Console.WriteLine($"Name: {customer.firstname} {customer.lastname}");
+            Console.WriteLine($"Email: {customer.email}");
+            Console.WriteLine($"Rank: {customer.rank}");
+            Console.WriteLine($"Continent: {customer.continent}");
+            Console.WriteLine($"Creditcard: {customer.creditcard}");
+            foreach (var col in Reservation)
             {
-                if (this.settings.member_id == row.id)
+                if (customer.id == col.memberID)
                 {
-                    Console.WriteLine($"\nCode: {row.code}");
-                    Console.WriteLine($"Name: {row.firstname} {row.lastname}");
-                    Console.WriteLine($"Email: {row.email}");
-                    Console.WriteLine($"Rank: {row.rank}");
-                    Console.WriteLine($"Continent: {row.continent}");
-                    Console.WriteLine($"Creditcard: {row.creditcard}");
-                    foreach(var col in Reservation)
+                    if (col.hunt == true)
                     {
-                        if (row.id == col.memberID)
-                        {
-                            if(col.hunt == true)
-                            {
-                                content = "Ja";
-                                break;
-                            }
-
-                        }
+                        content = "Ja";
+                        break;
                     }
-                    Console.WriteLine($"Op impala gejaagd: {content}");
+
                 }
             }
+            Console.WriteLine($"Op impala gejaagd: {content}");
         }
     }
     class Start : Option
@@ -512,8 +506,9 @@ namespace ProjectB
         static void Main(string[] args)
         {
             //new System().Log("System is running");
-            //new Start();
-            new CancelReservation();
+            new Start();
+
+            //new CancelReservation();
         }
     }
 }
