@@ -15,25 +15,47 @@ namespace ProjectB
         public int id;
         public string Date;
         public List<People> people;
+        public bool hotel;
+        public bool discount;
+        public dynamic members;
 
         public Reservation()
         {
+            this.members = new Json("members.json").Read();
             this.menu = new Json("menu.json").Read();
             this.data = new Json("reservation.json").Read();
             this.id = this.data[this.data.Count - 1].id + 1;
             this.hunt = false; 
             this.people = new List<People>();
+            this.hotel = false;
+            this.discount = false;
+            foreach (var row in this.members)
+            {
+                if (new Settings().Member_id == row.id)
+                {
+                    this.discount = (row.discount == true ? true : false);
+                }
+            }
+
 
             HowManyPersons();
             DateAndTime();
 
             var menuoptions = new[]
-{
+            {
                 Tuple.Create<int, string, Action>(1, "Yes", () => ShowMenu()),
                 Tuple.Create<int, string, Action>(2, "No", () => GetNames())
             };
             new Alfred("reservation", 5).Write();
             this.Menu(menuoptions);
+
+            new Alfred("reservation", 19).Write();
+            var hoteloptions = new[]
+            {
+                Tuple.Create<int, string, Action>(1, "Yes", () => BookHotel()),
+                Tuple.Create<int, string, Action>(2, "No", () => Checkout())
+            };
+            this.Menu(hoteloptions);
         }
 
         public void HowManyPersons() {
@@ -243,20 +265,16 @@ namespace ProjectB
                 }
             }
 
-            var reservation = new ReservationJson
-            {
-                id = this.id,
-                code = code,
-                memberID = new Settings().Member_id,
-                amount = this.persons,
-                date = this.Date,
-                People = this.people,
-                hunt = this.hunt,
-                currentdate = dateTime.ToString("dd/MM/yyyy")
-            };
+        }  
+        
+        public void BookHotel()
+        {
+            this.hotel = true;
+        }
 
-            this.data.Add(reservation);
-            new Json("reservation.json").Write(this.data);
+        public void Checkout()
+        {
+
         }
     }
 }

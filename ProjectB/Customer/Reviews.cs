@@ -93,7 +93,18 @@ namespace ProjectB
             Console.WriteLine(this.woorden);
 
             new Alfred("leaveReview", 3).Write();
-            this.sterren = Convert.ToInt32(Console.ReadLine());
+
+            tmp = false;
+            while (!tmp)
+            {
+                this.sterren = Convert.ToInt32(Console.ReadLine());
+                if (this.sterren > 0 && this.sterren < 6)
+                {
+                    tmp = true;
+                    break;
+                }
+                new Alfred("leaveReview", 9).Write();
+            }
 
             int id = 0;
 
@@ -115,9 +126,25 @@ namespace ProjectB
                 rating = this.sterren
             };
 
+            if (this.korting && this.woorden)
+            {
+                new Alfred("leaveReview", 8).Write();
+            }
+            else if (this.korting)
+            {
+                new Alfred("leaveReview", 6).Write();
+            }
+            else if (this.woorden)
+            {
+                new Alfred("leaveReview", 7).Write();
+            }
+            else
+            {
+                new Alfred("leaveReview", 5).Write();
+            }
+
             reviews.Add(newreview);
             new Json("reviews.json").Write(reviews);
-
         }
     }
 }

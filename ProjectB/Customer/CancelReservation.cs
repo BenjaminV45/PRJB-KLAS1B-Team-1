@@ -138,8 +138,7 @@ namespace ProjectB
             if (comp && sheesh)
             {
                 new Json("reservation.json").Write(this.reservation);
-                Console.Clear();
-                new Customer().Options();
+                new Customer();
             }  else
             {
                 this.ReservationCode(code);
@@ -151,6 +150,8 @@ namespace ProjectB
         {
             this.reservation.RemoveAt(this.reservation_index);
             new Json("reservation.json").Write(this.reservation);
+            new Alfred("cancel", 7).Write();
+            new Customer();
         }
     }
 }

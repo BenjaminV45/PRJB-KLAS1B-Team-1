@@ -9,14 +9,20 @@
 			"Place a reservation",
 			"View membership",
 			"Lookup member",
-			"Leave a review"
+			"Leave a review",
+			"Cancel reservation"
 		],
 		"leaveReview": [
 			"Enter your unique reservationcode (6 characters): ",
 			"Enter a review with a maximum of 512 characters: ",
 			"Not more than 512 characters allowed! Please rewrite your review: ",
 			"Rate your dinner from 1 to 5: ",
-			"This reservation code has already been used to write a review."
+			"This reservation code has already been used to write a review.",
+			"Thank you for leaving a review! Press - to go back to the menu.",
+			"Thank you for leaving a review! You will receive a 10% discount on ur next visit.\nPress - to go back to the menu.",
+			"Thank you for leaving a review (●__●)\nPress - to go back to the menu.",
+			"Thank you for leaving a review (●__●)\nYou will receive a 10% discount on ur next visit! Press - to go back to the menu.",
+			"I said rate from 1 to 5... ⊙.☉"
 		],
 		"error": [
 			"This isn't a number. Please enter a number.",
@@ -42,7 +48,8 @@
 			"Which menu would the guest like? [Fish/Vega/Impala]: ",
 			"Fill in their allergies, if you don't have any press enter to continue: ",
 			"Fill in how many calories this guests wants to eat: ",
-			"Since u and ur comrades are really interested in impala's, would u like to hunt them yourself? [Y/N] "
+			"Since u and ur comrades are really interested in impala's, would u like to hunt them yourself? [Y/N] ",
+			"Would you like me to book your planeticket and hotel?"
 		],
 		"create-customer": [
 			"Amazing! I've learned to speak your language",
@@ -88,7 +95,8 @@
 			"Reservering plaatsen",
 			"Bekijk lidmaatschap",
 			"Lid opzoeken",
-			"Review achterlaten"
+			"Review achterlaten",
+			"Reservering annuleren"
 		],
 		"leaveReview": [
 			"Vul uw unieke reserveringscode in (6 karakters): ",
@@ -121,7 +129,8 @@
 			"Kies een menu: [Vis/Vega/Impala]",
 			"Heeft deze gast allergieën? Zo ja, welke? Zo niet, druk op enter om door te gaan",
 			"Vul in hoeveel calorieën u wilt eten: ",
-			"Sinds u en uw kameraden meer dan 3 keer voor impala hebben gekozen, is mijn vraag als volgt: Wilt u zelf op de impala jagen? [Y/N] "
+			"Sinds u en uw kameraden meer dan 3 keer voor impala hebben gekozen, is mijn vraag als volgt: Wilt u zelf op de impala jagen? [Y/N] ",
+			"Zal ik gelijk het vliegticket en hotel voor u boeken? "
 		],
 		"create-customer": [
 			"Geweldig! Ik heb uw taal geleerd",
