@@ -407,7 +407,7 @@ namespace ProjectB
                 creditcard = creditcard,
                 continent = continent,
                 rank = "Bronze",
-                discount = true
+                discount = false
             };
 
             new Alfred("create-customer", 12).Write();
