@@ -43,7 +43,8 @@
 			"Which menu would the guest like? [Fish/Vega/Impala]: ",
 			"Fill in their allergies, if you don't have any press enter to continue: ",
 			"Fill in how many calories this guests wants to eat: ",
-			"Since u and ur comrades are really interested in impala's, would u like to hunt them yourself? [Y/N] "
+			"Since u and ur comrades are really interested in impala's, would u like to hunt them yourself? [Y/N] ",
+			"Would you like me to book your planeticket and hotel?"
 		],
 		"create-customer": [
 			"Amazing! I've learned to speak your language",
@@ -123,7 +124,8 @@
 			"Kies een menu: [Vis/Vega/Impala]",
 			"Heeft deze gast allergieën? Zo ja, welke? Zo niet, druk op enter om door te gaan",
 			"Vul in hoeveel calorieën u wilt eten: ",
-			"Sinds u en uw kameraden meer dan 3 keer voor impala hebben gekozen, is mijn vraag als volgt: Wilt u zelf op de impala jagen? [Y/N] "
+			"Sinds u en uw kameraden meer dan 3 keer voor impala hebben gekozen, is mijn vraag als volgt: Wilt u zelf op de impala jagen? [Y/N] ",
+			"Zal ik gelijk het vliegticket en hotel voor u boeken? "
 		],
 		"create-customer": [
 			"Geweldig! Ik heb uw taal geleerd",
