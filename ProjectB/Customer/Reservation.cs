@@ -564,7 +564,7 @@ namespace ProjectB
                 Tuple.Create<int, string, Action>(1, "Yes", () => finalize()),
                 Tuple.Create<int, string, Action>(2, "No", () => changeReservation())
             };
-            this.Menu(changeoptions);
+            this.Menu(final);
             Console.Write("dit werkt.");
         }
     }
