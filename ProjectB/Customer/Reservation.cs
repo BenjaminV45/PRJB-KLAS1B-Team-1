@@ -374,10 +374,7 @@ namespace ProjectB
                 Tuple.Create<int, string, Action>(2, "No", () => finalize())
             };
             this.Menu(changeoptions);
-
-            new Alfred("reservation", 22).Write();
             this.data.Add(reservation);
-
         }
 
         public void changeReservation()
@@ -398,8 +395,9 @@ namespace ProjectB
                 {
                     counter--;
                 }
-                if (counter < 0)
+                if (counter < 0 || counter > 3)
                 {
+                    Console.Clear();
                     new Alfred("reservation", 26).Write();
                     var changeoptions = new[]
                     {
@@ -410,7 +408,7 @@ namespace ProjectB
                 }
                 else if (counter == 1)
                 {
-
+                    Console.Clear();
                     new Alfred("reservation", 25).Line();
                     Console.Write("[Date]: ");
                     Console.Write(this.Date);
@@ -423,6 +421,7 @@ namespace ProjectB
                 }
                 else if (counter == 2)
                 {
+                    Console.Clear();
                     Console.Write("\n");
                     new Alfred("reservation", 25).Line();
                     Console.Write("[Guests]: \n");
@@ -438,6 +437,18 @@ namespace ProjectB
                     if (tmp.Key == ConsoleKey.Enter)
                     {
                         changeMember();
+                    }
+                } else if (counter == 3)
+                {
+                    Console.Clear();
+                    Console.Write("\n");
+                    new Alfred("reservation", 25).Line();
+                    Console.Write("[Hotel]: ");
+                    Console.Write(this.hotel);
+                    ConsoleKeyInfo tmp = Console.ReadKey();
+                    if (tmp.Key == ConsoleKey.Enter)
+                    {
+                        BookHotel();
                     }
                 }
             }
@@ -531,7 +542,7 @@ namespace ProjectB
                             };
                             this.people[inputTmp - 1] = person;
                             new Alfred("reservation", 32).Write();
-                            if (Console.ReadKey().KeyChar == 'N' || Console.ReadKey().KeyChar == 'n')
+                            if (Console.ReadKey().KeyChar == 'N')
                             {
                                 new Alfred("reservation", 33).Write();
                                 sheesh = true;
@@ -547,7 +558,14 @@ namespace ProjectB
         }
         public void finalize()
         {
-
+            new Alfred("reservation", 22).Write();
+            var final = new[]
+            {
+                Tuple.Create<int, string, Action>(1, "Yes", () => finalize()),
+                Tuple.Create<int, string, Action>(2, "No", () => changeReservation())
+            };
+            this.Menu(changeoptions);
+            Console.Write("dit werkt.");
         }
     }
 }
