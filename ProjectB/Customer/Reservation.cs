@@ -9,6 +9,7 @@ namespace ProjectB
     class Reservation : Option
     {
         public int countImpala;
+        public string code;
         public dynamic[] currentres;
         private int persons;
         public dynamic data;
@@ -21,6 +22,9 @@ namespace ProjectB
         public double discount;
         public dynamic members;
         public double prijsmenu;
+        public ReservationJson reservation;
+        public double totalcost;
+        public People guests;
 
         public Reservation()
         {
@@ -36,6 +40,8 @@ namespace ProjectB
             this.prijsmenu = 0;
             this.currentres = new dynamic[3];
             this.countImpala = 0;
+            this.code = null;
+            this.totalcost = 0;
 
             HowManyPersons();
             DateAndTime();
@@ -199,7 +205,7 @@ namespace ProjectB
             new Alfred("reservation", 11).Line();
             string Kcal = Console.ReadLine();
 
-            var person = new People
+            this.guests = new People
             {
                 name = $"{fName} {SName}",
                 menu = menu,
@@ -207,7 +213,7 @@ namespace ProjectB
                 kcal = Kcal
             };
 
-            this.people.Add(person);
+            this.people.Add(this.guests);
 
             Console.Clear();
 
@@ -276,14 +282,14 @@ namespace ProjectB
                         }
                     }
                 }
-                var guest = new People
+                this.guests = new People
                 {
                     name = $"{guestfName} {guestSName}",
                     menu = guestMenu,
                     allergies = guestAllergie,
                     kcal = guestKcal
                 };
-                people.Add(guest);
+                people.Add(this.guests);
                 Console.Clear();
             }
 
@@ -292,7 +298,32 @@ namespace ProjectB
         public void BookHotel()
         {
             new System().Log("BookHotel was called");
-            this.hotel = true;
+            if (this.hotel == false)
+            {
+                this.hotel = true;
+            } else
+            {
+                Tuple<string, int>[] km =
+                {
+                    Tuple.Create("Europa", 9100),
+                    Tuple.Create("North-america", 14822),
+                    Tuple.Create("Africa", 5004),
+                    Tuple.Create("South-america", 7763),
+                    Tuple.Create("Asia", 12324),
+                    Tuple.Create("Australia", 10520)
+                };
+
+                string index = this.members[new Settings().Member_ind].continent;
+
+                foreach (var row in km)
+                {
+                    if (index == row.Item1)
+                    {
+                        this.totalcost += ((row.Item2 / 100) * 13.55) * this.persons;
+                        this.totalcost += 7350 * this.persons;
+                    }
+                }
+            }
             new Alfred("reservation", 20).Write();
             Checkout();
         }
@@ -300,16 +331,15 @@ namespace ProjectB
         public void Checkout()
         {
             new System().Log("Checkout was called");
-            string code = null;
             DateTime dateTime = DateTime.UtcNow.Date;
             bool boolean = false;
             while (!boolean)
             {
                 boolean = true;
-                code = new System().RandomChar(3, 3);
+                this.code = new System().RandomChar(3, 3);
                 foreach (var row in this.data)
                 {
-                    if (code == row.code)
+                    if (this.code == row.code)
                     {
                         boolean = false;
                         break;
@@ -317,10 +347,10 @@ namespace ProjectB
 
                 }
             }
-            var reservation = new ReservationJson
+            this.reservation = new ReservationJson
             {
                 id = this.id,
-                code = code,
+                code = this.code,
                 memberID = new Settings().Member_id,
                 amount = this.persons,
                 date = this.Date,
@@ -364,9 +394,10 @@ namespace ProjectB
             {
                 prijsmenu += 1900 * this.persons;
             }
-            double totalcost = prijsmenu * this.discount;
+            this.totalcost = prijsmenu;
+
             new Alfred("reservation", 21).Line();
-            Console.Write($"{totalcost} euro.");
+            Console.Write($"{this.totalcost * this.discount} euro.");
             new Alfred("reservation", 23).Write(); // butler vraagt om aanpassingen aanpassingen
             var changeoptions = new[]
             {
@@ -374,7 +405,7 @@ namespace ProjectB
                 Tuple.Create<int, string, Action>(2, "No", () => finalize())
             };
             this.Menu(changeoptions);
-            this.data.Add(reservation);
+            
         }
 
         public void changeReservation()
@@ -469,7 +500,7 @@ namespace ProjectB
 
             while (!comp)
             {
-
+                
                 comp = true;
                 while (!sheesh)
                 {
@@ -489,7 +520,14 @@ namespace ProjectB
                         }
                         else
                         {
-
+                            dynamic tmpmenu = this.reservation.People[inputTmp - 1].menu;
+                            for (int i = 0; i < optionsmenu.Length; i++)
+                            {
+                                if (tmpmenu == optionsmenu[i].Item2)
+                                {
+                                    this.totalcost -= optionsmenu[i].Item3;
+                                }
+                            }
                             new Alfred("reservation", 7).Line();
                             string fName = Console.ReadLine();
                             new Alfred("reservation", 8).Line();
@@ -506,7 +544,7 @@ namespace ProjectB
                                 {
                                     int menuTmp = Convert.ToInt32(Console.ReadLine());
                                     menu = optionsmenu[menuTmp - 1].Item2;
-                                    this.prijsmenu += optionsmenu[menuTmp - 1].Item3;
+                                    this.totalcost += optionsmenu[menuTmp - 1].Item3;
                                     if (menuTmp == 1 || menuTmp == 3)
                                     {
                                         complete = true;
@@ -533,14 +571,14 @@ namespace ProjectB
                             new Alfred("reservation", 11).Line();
                             string Kcal = Console.ReadLine();
 
-                            var person = new People
+                            this.guests = new People
                             {
                                 name = $"{fName} {SName}",
                                 menu = menu,
                                 allergies = Allergie,
                                 kcal = Kcal
                             };
-                            this.people[inputTmp - 1] = person;
+                            this.people[inputTmp - 1] = this.guests;
                             new Alfred("reservation", 32).Write();
                             if (Console.ReadKey().KeyChar == 'N')
                             {
@@ -558,14 +596,21 @@ namespace ProjectB
         }
         public void finalize()
         {
+            Console.Write($"{this.totalcost * this.discount} euro.");
             new Alfred("reservation", 22).Write();
             var final = new[]
             {
-                Tuple.Create<int, string, Action>(1, "Yes", () => finalize()),
+                Tuple.Create<int, string, Action>(1, "Yes", () => email()),
                 Tuple.Create<int, string, Action>(2, "No", () => changeReservation())
             };
             this.Menu(final);
-            Console.Write("dit werkt.");
+        }
+
+        public void email()
+        {
+            this.data.Add(this.reservation);
+            new Json("reservation.json").Write(this.data);
+            new Alfred("reservation", 34).Write();
         }
     }
 }

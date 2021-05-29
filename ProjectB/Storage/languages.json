@@ -63,7 +63,8 @@
 			"Do you want to change something about the guests information? ",
 			"Choose the number of the person who u want to change information about: ",
 			"Do you want to change information for another guests? [Y/N]",
-			"Reservatie Succesfully changed. "
+			"Reservatie Succesfully changed. ",
+			"An email has been send to your emailadress with booking information, you can change or cancel your reservation within 7 days from now."
 		],
 		"create-customer": [
 			"Amazing! I've learned to speak your language",
@@ -158,7 +159,8 @@
 			"Wilt u wat veranderen aan de informatie van een gast? ",
 			"Kies het nummer van de gast die u wilt veranderen: ",
 			"Wilt u nog informatie van andere gasten veranderen? [Y/N]",
-			"Reservatie met succes aangepast. "
+			"Reservatie met succes aangepast. ",
+			"Een email is verstuurt naar het email adres met boekingsinformatie, u kunt uw reservatie tot 7 dagen na boeking nog wijzigen/annuleren."
 		],
 		"create-customer": [
 			"Geweldig! Ik heb uw taal geleerd",
