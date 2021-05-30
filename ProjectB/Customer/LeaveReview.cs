@@ -21,9 +21,10 @@ namespace ProjectB
 
             dynamic reviews = new Json("reviews.json").Read();
             dynamic reservation = new Json("reservation.json").Read();
+            dynamic members = new Json("members.json").Read();
 
 
-            
+
             bool tmp = false;
             while (!tmp)
             {
@@ -44,13 +45,17 @@ namespace ProjectB
                             if (col.resid == this.resid)
                             {
                                 new Alfred("leaveReview", 4).Write();
+                                Console.WriteLine("col in reviews");
                                 tmp = false;
                                 break;
                             }
                         }
+                        if (tmp == false)
+                        {
+                            break;
+                        }
                     }
                 }
-                Console.WriteLine(tmp5);
                 if (!tmp5)
                 {
                     Console.WriteLine("wrong input");
@@ -82,7 +87,7 @@ namespace ProjectB
                     this.korting = true;
                 }
             }
-            Console.WriteLine(this.korting);
+            Console.WriteLine("korting" + this.korting);
             foreach (var row in woordenarr)
             {
                 if (this.review.ToLower().Contains(row))
@@ -90,7 +95,7 @@ namespace ProjectB
                     this.woorden = true;
                 }
             }
-            Console.WriteLine(this.woorden);
+            Console.WriteLine("frons" + this.woorden);
 
             new Alfred("leaveReview", 3).Write();
 
@@ -145,6 +150,12 @@ namespace ProjectB
 
             reviews.Add(newreview);
             new Json("reviews.json").Write(reviews);
+
+            if (this.korting)
+            {
+                members[new Settings().Member_ind].discount = true;
+                new Json("members.json").Write(members);
+            }
         }
     }
 }

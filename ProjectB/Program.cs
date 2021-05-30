@@ -494,7 +494,7 @@ namespace ProjectB
             new Alfred("start", 0).Write();
             var options = new[]
             {
-                Tuple.Create<int, string, Action>(1, new Alfred("option", 0).Option(), () => new GetMenu()),
+                Tuple.Create<int, string, Action>(1, new Alfred("option", 0).Option(), () => new AskReview()),
                 Tuple.Create<int, string, Action>(2, new Alfred("option", 1).Option(), () => new Customer())
             };
             this.Menu(options);
@@ -505,9 +505,8 @@ namespace ProjectB
 
         static void Main(string[] args)
         {
-            //new System().Log("System is running");
-            //new Start();
-            new CancelReservation();
+            new System().Log("System is running");
+            new Start();
         }
     }
 }
