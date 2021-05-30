@@ -61,6 +61,39 @@ namespace ProjectB
             content += $"[{string.Format("{0:yyyy-MM-dd HH:mm:ss}", DateTime.Now)}] {des} {Environment.NewLine}";
             File.AppendAllText(@"..\..\..\Storage\chatlog.txt", content);
         }
+        
+
+    }
+    class Previous
+    {
+        static List<Action> PREVIOUS;
+        static Previous()
+        {
+            PREVIOUS = new List<Action>();
+        }
+
+        public static void Add(Action p)
+        {
+            PREVIOUS.Add(p);
+        }
+        public static void Restore()
+        {
+            Console.WriteLine("Press <ANY> key to start or <ESCAPE> to go back");
+            ConsoleKeyInfo inp = Console.ReadKey();
+            Console.Clear();
+            if (inp.Key == ConsoleKey.Escape)
+            {
+                Console.WriteLine(PREVIOUS.Count);
+                if (PREVIOUS.Count > 0)
+                {
+                    PREVIOUS[PREVIOUS.Count - 1]();
+                }
+                else
+                {
+                    new Start();
+                }
+            }
+        }
     }
     class Json
     {
@@ -202,16 +235,52 @@ namespace ProjectB
     }
     class Chef : Option
     {
+        private dynamic reservations;
         public Chef()
         {
+            this.reservations = new Json("reservation.json").Read();
             new System().Log("Calling chef class");
-            Console.Write("Input date: ");
-            string date = Console.ReadLine();
-            var options = new[]
+            bool boolean = false;
+            var resDate = new List<Tuple<int, string, int>>();
+            while (!boolean)
             {
-                Tuple.Create<int, string, Action>(1, "Krijg menu", () => new GetMenu()),
-            };
-            this.Menu(options);
+                Console.Write("Input date: ");
+                string date = Console.ReadLine();
+                int counter = 1;
+                int index = 0;
+                foreach (var row in this.reservations)
+                {
+                    if (row.date == date)
+                    {
+                        resDate.Add(new Tuple<int, string, int>(counter, row.People[0].name, index));
+                        counter++;
+                    }
+                    index++;
+                }
+
+                if (resDate.Count < 1)
+                {
+                    Console.WriteLine("Geen reservarties op deze dag gevonden");
+                }
+                else
+                {
+                    boolean = true;
+                }
+            }
+            foreach(var row in resDate)
+            {
+                Console.WriteLine($"[{row.Item1}] {row.Item2}");
+            }
+            boolean = false;
+            while (!boolean)
+            {
+
+            }
+            //var options = new[]
+            //{
+            //    Tuple.Create<int, string, Action>(1, "Krijg menu", () => new GetMenu()),
+            //};
+            //this.Menu(options);
         }
 
     }
@@ -237,6 +306,7 @@ namespace ProjectB
         }
         public void Options()
         {
+
             var options = new[]
             {
                 Tuple.Create<int, string, Action>(1, new Alfred("option", 2).Option(), () => this.Membership()),
@@ -441,16 +511,21 @@ namespace ProjectB
                     if (name.ToLower().Contains(input.ToLower()))
                     {
                         Console.WriteLine(name);
-                        Console.WriteLine("Press [ESC] to stop or any other [Key] to keep going!");
-                        if (Console.ReadKey().Key == ConsoleKey.Escape)
-                        {
-                            boolean = true;
-                            break;
-                        }
-                        Console.Clear();
-                        break;
+
+
                     }
                 }
+                Console.WriteLine("Press [ESC] to stop or any other [Key] to keep going!");
+                if (Console.ReadKey().Key == ConsoleKey.Escape)
+                {
+                    boolean = true;
+                    break;
+                }
+            }
+            if (boolean)
+            {
+                Console.Clear();
+                this.Options();
             }
         }
         public void Membership()
@@ -458,6 +533,8 @@ namespace ProjectB
             new Alfred("membership", 0).Write();
             dynamic Reservation = new Json("reservation.json").Read();
             string content = "Nee";
+            int travelCount = 0;
+            int travelKm = 0;
             dynamic customer = this.customer[new Settings().Member_ind];
             Console.WriteLine($"\nCode: {customer.code}");
             Console.WriteLine($"Name: {customer.firstname} {customer.lastname}");
@@ -465,19 +542,41 @@ namespace ProjectB
             Console.WriteLine($"Rank: {customer.rank}");
             Console.WriteLine($"Continent: {customer.continent}");
             Console.WriteLine($"Creditcard: {customer.creditcard}");
-            foreach (var col in Reservation)
+            foreach (var row in Reservation)
             {
-                if (customer.id == col.memberID)
+                if (customer.id == row.memberID)
                 {
-                    if (col.hunt == true)
+                    if (row.hunt == true)
                     {
                         content = "Ja";
-                        break;
                     }
 
+                    if(row.hotel == true)
+                    {
+                        travelCount++;
+                    }
                 }
             }
+
+            Tuple<string, int>[] km =
+            {
+                    Tuple.Create("Europa", 9100),
+                    Tuple.Create("North-america", 14822),
+                    Tuple.Create("Africa", 5004),
+                    Tuple.Create("South-america", 7763),
+                    Tuple.Create("Asia", 12324),
+                    Tuple.Create("Australia", 10520)
+            };
             Console.WriteLine($"Op impala gejaagd: {content}");
+            foreach (var row in km)
+            {
+                if (customer.continent == row.Item1)
+                {
+                    travelKm = row.Item2;
+                    break;
+                }
+            }
+            Console.WriteLine($"Bomen planten om C02 uitstoot te compenseren: {(travelCount * travelKm / 1000) * 37 }");
         }
     }
     class Start : Option
@@ -485,6 +584,7 @@ namespace ProjectB
 
         public Start()
         {
+
             new System().Log("Starting the program");
             dynamic Settings = new Settings().File;
             Settings.language = "EN";
@@ -505,9 +605,9 @@ namespace ProjectB
 
         static void Main(string[] args)
         {
-            //new System().Log("System is running");
-            //new Start();
-            new CancelReservation();
+            new System().Log("System is running");
+            new Start();
+            //new CancelReservation();
         }
     }
 }
