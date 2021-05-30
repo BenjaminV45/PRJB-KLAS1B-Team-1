@@ -580,7 +580,8 @@ namespace ProjectB
                             };
                             this.people[inputTmp - 1] = this.guests;
                             new Alfred("reservation", 32).Write();
-                            if (Console.ReadKey().KeyChar == 'N')
+                            ConsoleKeyInfo temp = Console.ReadKey();
+                            if (temp.Key == ConsoleKey.N)
                             {
                                 new Alfred("reservation", 33).Write();
                                 sheesh = true;
@@ -611,6 +612,26 @@ namespace ProjectB
             this.data.Add(this.reservation);
             new Json("reservation.json").Write(this.data);
             new Alfred("reservation", 34).Write();
+            dynamic customer = this.members[new Settings().Member_ind];
+
+            string content = "";
+            content += $"<p>Thank you for your reservation!</p><br>";
+            content += $"<h2>Your reservation code is: {this.code}</h2>";
+            content += $"<p>You can cancel your reservation before 7 days from the date of this email was sent</p>";
+            content += $"<p>Creditcard number: {customer.creditcard}</p>";
+
+            new System().SendMail(customer.email, "Reservation conformation", content);
+
+            new Alfred("reservation", 35).Write();
+            ConsoleKeyInfo tmp = Console.ReadKey();
+            if (tmp.Key == ConsoleKey.Y)
+            {
+                Console.Clear();
+                new Customer();
+            } else
+            {
+                new Alfred("reservation", 36).Write();
+            }
         }
     }
 }
