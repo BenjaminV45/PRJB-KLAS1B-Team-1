@@ -331,3 +331,43 @@
 [2021-05-23 12:07:17] Alfred is being called. Data: cancel 4 
 [2021-05-23 12:07:17] Alfred is being called. Data: cancel 5 
 [2021-05-23 12:07:20] Alfred is being called. Data: cancel 6 
+
+[2021-05-23 15:59:18] System is running 
+[2021-05-23 15:59:18] Starting the program 
+[2021-05-23 15:59:19] Alfred is being called. Data: start 0 
+[2021-05-23 15:59:19] Alfred is being called. Data: option 0 
+[2021-05-23 15:59:19] Alfred is being called. Data: option 1 
+[2021-05-23 15:59:19] Calling menu options 
+[2021-05-23 15:59:20] Calling menu options 
+[2021-05-23 15:59:20] Calling login method 
+[2021-05-23 15:59:24] Alfred is being called. Data: option 2 
+[2021-05-23 15:59:24] Alfred is being called. Data: option 1 
+[2021-05-23 15:59:24] Alfred is being called. Data: option 5 
+[2021-05-23 15:59:24] Alfred is being called. Data: option 3 
+[2021-05-23 15:59:24] Alfred is being called. Data: option 4 
+[2021-05-23 15:59:24] Calling menu options 
+[2021-05-23 15:59:25] Alfred is being called. Data: lookup 0 
+[2021-05-23 15:59:29] Alfred is being called. Data: lookup 0 
+
+[2021-05-23 15:59:39] System is running 
+[2021-05-23 15:59:40] Starting the program 
+[2021-05-23 15:59:40] Alfred is being called. Data: start 0 
+[2021-05-23 15:59:40] Alfred is being called. Data: option 0 
+[2021-05-23 15:59:40] Alfred is being called. Data: option 1 
+[2021-05-23 15:59:40] Calling menu options 
+[2021-05-23 15:59:41] Calling menu options 
+[2021-05-23 15:59:41] Calling login method 
+[2021-05-23 15:59:44] Alfred is being called. Data: option 2 
+[2021-05-23 15:59:44] Alfred is being called. Data: option 1 
+[2021-05-23 15:59:44] Alfred is being called. Data: option 5 
+[2021-05-23 15:59:44] Alfred is being called. Data: option 3 
+[2021-05-23 15:59:44] Alfred is being called. Data: option 4 
+[2021-05-23 15:59:44] Calling menu options 
+[2021-05-23 15:59:46] Alfred is being called. Data: leaveReview 0 
+[2021-05-23 15:59:49] Alfred is being called. Data: leaveReview 0 
+[2021-05-23 15:59:56] Alfred is being called. Data: leaveReview 0 
+[2021-05-23 16:00:22] Alfred is being called. Data: leaveReview 1 
+[2021-05-23 16:00:26] Alfred is being called. Data: leaveReview 3 
+[2021-05-23 16:00:27] Alfred is being called. Data: leaveReview 9 
+[2021-05-23 16:00:29] Alfred is being called. Data: leaveReview 9 
+[2021-05-23 16:00:29] Alfred is being called. Data: leaveReview 6 
