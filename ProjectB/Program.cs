@@ -506,9 +506,8 @@ namespace ProjectB
         static void Main(string[] args)
         {
             //new System().Log("System is running");
-            new Start();
-
-            //new CancelReservation();
+            //new Start();
+            new CancelReservation();
         }
     }
 }
