@@ -38,6 +38,8 @@ namespace ProjectB
         public List<People> People { get; set; }
         public bool hunt { get; set; }
         public string currentdate { get; set; }
+        public bool discount { get; set;  }
+        public bool hotel { get; set; }
     }
 
 
@@ -51,6 +53,7 @@ namespace ProjectB
         public string creditcard { get; set; }
         public string continent { get; set; }
         public string rank { get; set; }
+        public bool discount { get; set; }
     }
 
     public class MenuJson
