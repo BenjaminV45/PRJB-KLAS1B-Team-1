@@ -20,9 +20,9 @@
 			"This reservation code has already been used to write a review.",
 			"Thank you for leaving a review! Press - to go back to the menu.",
 			"Thank you for leaving a review! You will receive a 10% discount on ur next visit.\nPress - to go back to the menu.",
-			"Thank you for leaving a review (●__●)\nPress - to go back to the menu.",
-			"Thank you for leaving a review (●__●)\nYou will receive a 10% discount on ur next visit! Press - to go back to the menu.",
-			"I said rate from 1 to 5... ⊙.☉"
+			"Thank you for leaving a review •_•\nPress - to go back to the menu.",
+			"Thank you for leaving a review •_• You will receive a 10% discount on ur next visit!\nPress - to go back to the menu.",
+			"I said rate from 1 to 5... -.-"
 		],
 		"error": [
 			"This isn't a number. Please enter a number.",
@@ -64,7 +64,9 @@
 			"Choose the number of the person who u want to change information about: ",
 			"Do you want to change information for another guests? [Y/N]",
 			"Reservatie Succesfully changed. ",
-			"An email has been send to your emailadress with booking information, you can change or cancel your reservation within 7 days from now."
+			"An email has been send to your emailadress with booking information, you can change or cancel your reservation within 7 days from now.",
+			"Can I be of furhter use? Press 'Y' to go to the main menu. ",
+			"You can now close the program. "
 		],
 		"create-customer": [
 			"Amazing! I've learned to speak your language",
@@ -160,7 +162,9 @@
 			"Kies het nummer van de gast die u wilt veranderen: ",
 			"Wilt u nog informatie van andere gasten veranderen? [Y/N]",
 			"Reservatie met succes aangepast. ",
-			"Een email is verstuurt naar het email adres met boekingsinformatie, u kunt uw reservatie tot 7 dagen na boeking nog wijzigen/annuleren."
+			"Een email is verstuurt naar het email adres met boekingsinformatie, u kunt uw reservatie tot 7 dagen na boeking nog wijzigen/annuleren.",
+			"Kan ik nog verder van dienst zijn? Druk 'Y' om naar het hoofmenu te gaan. ",
+			"U kunt nu de applicatie sluiten. "
 		],
 		"create-customer": [
 			"Geweldig! Ik heb uw taal geleerd",
