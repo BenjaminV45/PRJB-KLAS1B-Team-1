@@ -65,7 +65,7 @@
 			"Do you want to change information for another guests? [Y/N]",
 			"Reservatie Succesfully changed. ",
 			"An email has been send to your emailadress with booking information, you can change or cancel your reservation within 7 days from now.",
-			"Can I be of furhter use? Press 'Y' to go to the main menu. ",
+			"Can I be of furhter use? Press Enter to go to the main menu. ",
 			"You can now close the program. "
 		],
 		"create-customer": [
@@ -163,7 +163,7 @@
 			"Wilt u nog informatie van andere gasten veranderen? [Y/N]",
 			"Reservatie met succes aangepast. ",
 			"Een email is verstuurt naar het email adres met boekingsinformatie, u kunt uw reservatie tot 7 dagen na boeking nog wijzigen/annuleren.",
-			"Kan ik nog verder van dienst zijn? Druk 'Y' om naar het hoofmenu te gaan. ",
+			"Kan ik nog verder van dienst zijn? Druk enter om naar het hoofmenu te gaan. ",
 			"U kunt nu de applicatie sluiten. "
 		],
 		"create-customer": [
