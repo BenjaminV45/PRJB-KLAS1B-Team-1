@@ -626,7 +626,7 @@ namespace ProjectB
 
             new Alfred("reservation", 35).Write();
             ConsoleKeyInfo tmp = Console.ReadKey();
-            if (tmp.Key == ConsoleKey.Y)
+            if (tmp.Key == ConsoleKey.Enter)
             {
                 Console.Clear();
                 new Customer();
