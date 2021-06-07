@@ -30,7 +30,6 @@ namespace ProjectB
     public class ReservationJson
     {
         public int id { get; set; }
-
         public string code { get; set; }
         public int memberID { get; set; }
         public int amount { get; set; }
@@ -73,6 +72,13 @@ namespace ProjectB
         public int rating { get; set; }
     }
 
+    public class TablesJson
+    {
+        public string date { get; set; }
+        public List<string> row1 { get; set; }
+        public List<string> row2 { get; set; }
+        public List<string> row3 { get; set; }
+    }
 
 }
 
