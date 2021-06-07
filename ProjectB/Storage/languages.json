@@ -25,7 +25,7 @@
 			"I said rate from 1 to 5... -.-"
 		],
 		"AskReview": [
-		"",
+		"Press -> to see another review. Press - to go back to the menu."
 		],
 		"error": [
 			"This isn't a number. Please enter a number.",
@@ -130,7 +130,7 @@
 			"Bedankt voor het achterlaten van een review.. Als dank krijgt u op uw volgend bezoek een korting van 10%.\nKlik op - om terug te gaan naar het menu"
 		],
 		"AskReview": [
-		""
+		"Klik op -> om nog een review te bekijken. Klik op - om terug te gaan naar het menu."
 		],
 		"error": [
 			"Dit is geen nummer. Kies alstublieft een nummer.",
