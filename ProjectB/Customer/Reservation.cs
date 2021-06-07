@@ -293,6 +293,11 @@ namespace ProjectB
                 people.Add(this.guests);
                 Console.Clear();
             }
+            Tables();
+        }
+
+        public void Tables()
+        {
 
         }
 
