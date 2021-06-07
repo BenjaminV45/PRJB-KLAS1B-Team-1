@@ -1577,3 +1577,10 @@
 [2021-05-31 15:47:03] Alfred is being called. Data: leaveReview 1 
 [2021-05-31 15:48:00] Alfred is being called. Data: leaveReview 3 
 [2021-05-31 15:48:11] Alfred is being called. Data: leaveReview 5 
+
+[2021-06-07 13:41:17] System is running 
+[2021-06-07 13:41:17] Starting the program 
+[2021-06-07 13:41:18] Alfred is being called. Data: start 0 
+[2021-06-07 13:41:18] Alfred is being called. Data: option 0 
+[2021-06-07 13:41:18] Alfred is being called. Data: option 1 
+[2021-06-07 13:41:18] Calling menu options 

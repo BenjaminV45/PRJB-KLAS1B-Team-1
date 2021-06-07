@@ -24,6 +24,9 @@
 			"Thank you for leaving a review •_• You will receive a 10% discount on ur next visit!\nPress - to go back to the menu.",
 			"I said rate from 1 to 5... -.-"
 		],
+		"AskReview": [
+		"",
+		],
 		"error": [
 			"This isn't a number. Please enter a number.",
 			"This isn't a option. Please choose the right menu.",
@@ -120,7 +123,14 @@
 			"Uw review mag bestaan uit maximaal 512 karakters: ",
 			"Niet meer dan 512 karakters toegestaan!",
 			"Geef uw diner een beoordeling van 1 tot 5: ",
-			"Deze reservatie code is al gebruikt om een review te schrijven."
+			"Deze reservatie code is al gebruikt om een review te schrijven.",
+			"Bedankt voor het achterlaten van een review! Klik op - om terug te gaan naar het menu.",
+			"Bedankt voor het achterlaten van een review! Als dank krijgt u op uw volgend bezoek een korting van 10%.\nKlik op - om terug te gaan naar het menu.",
+			"Bedankt voor het achterlaten van een review.. \nKlik op - om terug te gaan naar het menu.",
+			"Bedankt voor het achterlaten van een review.. Als dank krijgt u op uw volgend bezoek een korting van 10%.\nKlik op - om terug te gaan naar het menu"
+		],
+		"AskReview": [
+		""
 		],
 		"error": [
 			"Dit is geen nummer. Kies alstublieft een nummer.",
