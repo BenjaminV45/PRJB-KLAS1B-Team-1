@@ -156,6 +156,11 @@ namespace ProjectB
                 members[new Settings().Member_ind].discount = true;
                 new Json("members.json").Write(members);
             }
+
+            ConsoleKeyInfo tmpkey = Console.ReadKey();
+            Console.Clear();
+            new Customer();
+         
         }
     }
 }

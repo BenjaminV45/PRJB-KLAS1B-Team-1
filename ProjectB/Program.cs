@@ -504,6 +504,7 @@ namespace ProjectB
             bool boolean = false;
             while (!boolean)
             {
+                Console.Clear();
                 new Alfred("lookup", 0).Line();
                 string input = Console.ReadLine();
                 foreach (var row in this.customer)
