@@ -24,6 +24,9 @@
 			"Thank you for leaving a review •_• You will receive a 10% discount on ur next visit!\nPress - to go back to the menu.",
 			"I said rate from 1 to 5... -.-"
 		],
+		"AskReview": [
+		"Press -> to see another review. Press - to go back to the menu."
+		],
 		"error": [
 			"This isn't a number. Please enter a number.",
 			"This isn't a option. Please choose the right menu.",
@@ -65,7 +68,7 @@
 			"Do you want to change information for another guests? [Y/N]",
 			"Reservatie Succesfully changed. ",
 			"An email has been send to your emailadress with booking information, you can change or cancel your reservation within 7 days from now.",
-			"Can I be of furhter use? Press 'Y' to go to the main menu. ",
+			"Can I be of furhter use? Press Enter to go to the main menu. ",
 			"You can now close the program. "
 		],
 		"create-customer": [
@@ -120,7 +123,14 @@
 			"Uw review mag bestaan uit maximaal 512 karakters: ",
 			"Niet meer dan 512 karakters toegestaan!",
 			"Geef uw diner een beoordeling van 1 tot 5: ",
-			"Deze reservatie code is al gebruikt om een review te schrijven."
+			"Deze reservatie code is al gebruikt om een review te schrijven.",
+			"Bedankt voor het achterlaten van een review! Klik op - om terug te gaan naar het menu.",
+			"Bedankt voor het achterlaten van een review! Als dank krijgt u op uw volgend bezoek een korting van 10%.\nKlik op - om terug te gaan naar het menu.",
+			"Bedankt voor het achterlaten van een review.. \nKlik op - om terug te gaan naar het menu.",
+			"Bedankt voor het achterlaten van een review.. Als dank krijgt u op uw volgend bezoek een korting van 10%.\nKlik op - om terug te gaan naar het menu"
+		],
+		"AskReview": [
+		"Klik op -> om nog een review te bekijken. Klik op - om terug te gaan naar het menu."
 		],
 		"error": [
 			"Dit is geen nummer. Kies alstublieft een nummer.",
@@ -163,7 +173,7 @@
 			"Wilt u nog informatie van andere gasten veranderen? [Y/N]",
 			"Reservatie met succes aangepast. ",
 			"Een email is verstuurt naar het email adres met boekingsinformatie, u kunt uw reservatie tot 7 dagen na boeking nog wijzigen/annuleren.",
-			"Kan ik nog verder van dienst zijn? Druk 'Y' om naar het hoofmenu te gaan. ",
+			"Kan ik nog verder van dienst zijn? Druk enter om naar het hoofmenu te gaan. ",
 			"U kunt nu de applicatie sluiten. "
 		],
 		"create-customer": [

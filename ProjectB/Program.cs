@@ -112,6 +112,7 @@ namespace ProjectB
             if (this.file == "members.json") return JsonSerializer.Deserialize<List<MembersJson>>(json);
             if (this.file == "reviews.json") return JsonSerializer.Deserialize<List<ReviewsJson>>(json);
             if (this.file == "menu.json") return JsonSerializer.Deserialize<MenuJson>(json);
+            if (this.file == "tables.json") return JsonSerializer.Deserialize<List<TablesJson>>(json);
             return null;
         }
 

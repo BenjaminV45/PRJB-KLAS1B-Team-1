@@ -146,6 +146,7 @@ namespace ProjectB
                     }
                 }
             }
+            GetNames();
         }
 
         public void GetNames()
@@ -178,7 +179,7 @@ namespace ProjectB
                 {
                     int menuTmp = Convert.ToInt32(Console.ReadLine());
                     menu = optionsmenu[menuTmp - 1].Item2;
-                    this.prijsmenu += optionsmenu[menuTmp - 1].Item3;
+                    this.totalcost += optionsmenu[menuTmp - 1].Item3;
                     if (menuTmp == 1 || menuTmp == 3)
                     {
                         complete = true;
@@ -236,7 +237,7 @@ namespace ProjectB
                     {
                         int menuTmp = Convert.ToInt32(Console.ReadLine());
                         guestMenu = optionsmenu[menuTmp - 1].Item2;
-                        this.prijsmenu += optionsmenu[menuTmp - 1].Item3;
+                        this.totalcost += optionsmenu[menuTmp - 1].Item3;
                         if (menuTmp == 1 || menuTmp == 3)
                         {
                             comp = true;
@@ -292,6 +293,11 @@ namespace ProjectB
                 people.Add(this.guests);
                 Console.Clear();
             }
+            Tables();
+        }
+
+        public void Tables()
+        {
 
         }
 
@@ -301,8 +307,9 @@ namespace ProjectB
             if (this.hotel == false)
             {
                 this.hotel = true;
-            } else
+            } else 
             {
+                this.hotel = false;
                 Tuple<string, int>[] km =
                 {
                     Tuple.Create("Europa", 9100),
@@ -319,8 +326,8 @@ namespace ProjectB
                 {
                     if (index == row.Item1)
                     {
-                        this.totalcost += ((row.Item2 / 100) * 13.55) * this.persons;
-                        this.totalcost += 7350 * this.persons;
+                        this.totalcost -= ((row.Item2 / 100) * 13.55) * this.persons;
+                        this.totalcost -= 7350 * this.persons;
                     }
                 }
             }
@@ -385,16 +392,16 @@ namespace ProjectB
                 {
                     if (index == row.Item1)
                     {
-                        prijsmenu += ((row.Item2 / 100) * 13.55) * this.persons;
-                        prijsmenu += 7350 * this.persons;
+                        this.totalcost += ((row.Item2 / 100) * 13.55) * this.persons;
+                        this.totalcost += 7350 * this.persons;
+                        break;
                     }
                 }
             }
             if (this.hunt)
             {
-                prijsmenu += 1900 * this.persons;
+                this.totalcost += 1900 * this.persons;
             }
-            this.totalcost = prijsmenu;
 
             new Alfred("reservation", 21).Line();
             Console.Write($"{this.totalcost * this.discount} euro.");
@@ -624,7 +631,7 @@ namespace ProjectB
 
             new Alfred("reservation", 35).Write();
             ConsoleKeyInfo tmp = Console.ReadKey();
-            if (tmp.Key == ConsoleKey.Y)
+            if (tmp.Key == ConsoleKey.Enter)
             {
                 Console.Clear();
                 new Customer();
