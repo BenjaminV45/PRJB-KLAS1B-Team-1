@@ -53,7 +53,7 @@
 			"Which menu would the guest like? [Fish/Vega/Impala]: ",
 			"Fill in their allergies, if you don't have any press enter to continue: ",
 			"Fill in how many calories this guests wants to eat: ",
-			"Since u and ur comrades are really interested in impala's, would u like to hunt them yourself? [Y/N] ",
+			"Since u and ur comrades are really interested in impala's, would u like to hunt them yourself? Press enter to hunt the Impala's yourself. ",
 			"Would you like me to book your planeticket and hotel?",
 			"I will book your hotel and planeticket.",
 			"The total price will be: ",
@@ -71,7 +71,13 @@
 			"Reservatie Succesfully changed. ",
 			"An email has been send to your emailadress with booking information, you can change or cancel your reservation within 7 days from now.",
 			"Can I be of furhter use? Press Enter to go to the main menu. ",
-			"You can now close the program. "
+			"You can now close the program. ",
+			"You are going to hunt the Impala's yourself. '"
+		],
+		"tables": [
+			"This is where you will be seated in our dining room: ",
+			"There is not enough space for this much guests. Please leave some guests at home. ",
+			"There is not enough space on this date. Please choose another date. "
 		],
 		"create-customer": [
 			"Amazing! I've learned to speak your language",
@@ -160,7 +166,7 @@
 			"Kies een menu: [Vis/Vega/Impala]",
 			"Heeft deze gast allergieën? Zo ja, welke? Zo niet, druk op enter om door te gaan: ",
 			"Vul in hoeveel calorieën u wilt eten: ",
-			"Sinds u en uw kameraden meer dan 3 keer voor impala hebben gekozen, is mijn vraag als volgt: Wilt u zelf op de impala jagen? [Y/N] ",
+			"Sinds u en uw kameraden meer dan 3 keer voor impala hebben gekozen, is mijn vraag als volgt: Wilt u zelf op de impala jagen? Druk op enter om zelf op Imapala's te jagen ",
 			"Zal ik gelijk het vliegticket en hotel voor u boeken? ",
 			"Ik ga aan de slag om uw vliegticket en hotel te boeken.",
 			"De totale prijs is: ",
@@ -178,7 +184,13 @@
 			"Reservatie met succes aangepast. ",
 			"Een email is verstuurt naar het email adres met boekingsinformatie, u kunt uw reservatie tot 7 dagen na boeking nog wijzigen/annuleren.",
 			"Kan ik nog verder van dienst zijn? Druk enter om naar het hoofmenu te gaan. ",
-			"U kunt nu de applicatie sluiten. "
+			"U kunt nu de applicatie sluiten. ",
+			"U gaat de Impala's zelf jagen. "
+		],
+		"tables" :[
+		"Dit is waar u komt te zitten in onze diner zaal: ",
+		"Wij hebben een te kleine zaal om u en uw reisgenoten ontvangen, laat alstublieft wat mensen thuis.",
+		"Er is geen tafel meer beschikbaar op deze datum. Kies alstublieft een andere datum. "
 		],
 		"create-customer": [
 			"Geweldig! Ik heb uw taal geleerd",
