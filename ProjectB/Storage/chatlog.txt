@@ -1,0 +1,31 @@
+
+[2021-05-30 23:04:59] System is running 
+[2021-05-30 23:04:59] Starting the program 
+[2021-05-30 23:05:00] Alfred is being called. Data: start 0 
+[2021-05-30 23:05:00] Alfred is being called. Data: option 0 
+[2021-05-30 23:05:00] Alfred is being called. Data: option 1 
+[2021-05-30 23:05:00] Calling menu options 
+[2021-05-30 23:05:01] Calling menu options 
+[2021-05-30 23:05:02] Calling login method 
+[2021-05-30 23:05:05] Alfred is being called. Data: option 2 
+[2021-05-30 23:05:05] Alfred is being called. Data: option 1 
+[2021-05-30 23:05:05] Alfred is being called. Data: option 5 
+[2021-05-30 23:05:05] Alfred is being called. Data: option 3 
+[2021-05-30 23:05:05] Alfred is being called. Data: option 4 
+[2021-05-30 23:05:05] Calling menu options 
+[2021-05-30 23:05:07] Alfred is being called. Data: lookup 0 
+[2021-05-30 23:05:13] Alfred is being called. Data: option 2 
+[2021-05-30 23:05:13] Alfred is being called. Data: option 1 
+[2021-05-30 23:05:13] Alfred is being called. Data: option 5 
+[2021-05-30 23:05:13] Alfred is being called. Data: option 3 
+[2021-05-30 23:05:13] Alfred is being called. Data: option 4 
+[2021-05-30 23:05:13] Calling menu options 
+
+[2021-05-30 23:22:44] System is running 
+[2021-05-30 23:22:44] Starting the program 
+[2021-05-30 23:22:45] Alfred is being called. Data: start 0 
+[2021-05-30 23:22:45] Alfred is being called. Data: option 0 
+[2021-05-30 23:22:45] Alfred is being called. Data: option 1 
+[2021-05-30 23:22:45] Calling menu options 
+[2021-05-30 23:22:46] Calling menu options 
+[2021-05-30 23:22:48] Calling register method 
