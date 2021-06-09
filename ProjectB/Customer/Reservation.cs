@@ -56,6 +56,7 @@ namespace ProjectB
             };
             new Alfred("reservation", 5).Write();
             this.Menu(menuoptions);
+
             new Alfred("reservation", 19).Write();
             var hoteloptions = new[]
             {
@@ -317,8 +318,6 @@ namespace ProjectB
                 int row1 = this.tables[i].row1.Count;
                 int row2 = this.tables[i].row2.Count;
                 int row3 = this.tables[i].row3.Count;
-
-
                 if (resdate == this.Date)
                 {
                     if (row1 + this.persons > 22)
@@ -347,22 +346,34 @@ namespace ProjectB
                         break;
                     }
                 }
-                if (resindex == this.tables.Count - 1)
-                {
-                    if (this.tables[resindex].date != this.Date)
+            }
+            if (resindex == this.tables.Count - 1 && this.tables[resindex].date != this.Date)
+            {
+                    this.newtabledate = new TablesJson
                     {
-                        this.newtabledate = new TablesJson
+                        date = this.Date,
+                        row1 = new List<string>(),
+                        row2 = new List<string>(),
+                        row3 = new List<string>()
+                    };
+                    this.tables.Add(this.newtabledate);
+            } else
+            {
+                if (this.tables[resindex].row1.Count + this.persons < 24)
+                {
+                    if (this.tables[resindex].row1.Count + this.persons < 24)
+                    {
+                        if (this.persons <= 2)
                         {
-                            date = this.Date,
-                            row1 = new List<string>(),
-                            row2 = new List<string>(),
-                            row3 = new List<string>()
-                        };
-                        this.tables.Add(this.newtabledate);                      
+                            this.tables[resindex].row1.Add("[");
+                            this.tables[resindex].row1.Add("]");
+                            this.tables[resindex].row1.Add(" ");
+                            this.tables[resindex].row1.Add(" ");
+                            Console.WriteLine(this.tables[resindex].row1.Count);
+                        }
                     }
                 }
             }
-            Console.WriteLine(this.tables[resindex+1].row1);
         }
 
         public void BookHotel()
