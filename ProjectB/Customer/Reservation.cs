@@ -27,6 +27,7 @@ namespace ProjectB
         public People guests;
         public dynamic tables;
         public TablesJson newtabledate;
+        public int resindex;
 
         public Reservation()
         {
@@ -56,7 +57,7 @@ namespace ProjectB
             };
             new Alfred("reservation", 5).Write();
             this.Menu(menuoptions);
-
+            
             new Alfred("reservation", 19).Write();
             var hoteloptions = new[]
             {
@@ -284,8 +285,8 @@ namespace ProjectB
             if (this.countImpala > 3)
             {
                 Hunt();
-            }           
-            Tables();            
+            }
+            Tables();
         }
 
         public void Hunt()
@@ -310,7 +311,7 @@ namespace ProjectB
 
         public void Tables()
         {
-            int resindex = 0;
+            this.resindex = 0;
             for (int i = 0; i < this.tables.Count; i++)
             {
                 resindex = i;
@@ -326,7 +327,7 @@ namespace ProjectB
                         {
                             if (row3 + this.persons > 22)
                             {
-                                Console.WriteLine("hoi");
+                                new Alfred("tables", 2).Write();
                                 DateAndTime();
                                 Tables();
                             }
@@ -347,33 +348,82 @@ namespace ProjectB
                     }
                 }
             }
-            if (resindex == this.tables.Count - 1 && this.tables[resindex].date != this.Date)
+            if (this.resindex == this.tables.Count - 1 && this.tables[resindex].date != this.Date)
             {
-                    this.newtabledate = new TablesJson
-                    {
-                        date = this.Date,
-                        row1 = new List<string>(),
-                        row2 = new List<string>(),
-                        row3 = new List<string>()
-                    };
-                    this.tables.Add(this.newtabledate);
-            } else
-            {
-                if (this.tables[resindex].row1.Count + this.persons < 24)
+                this.newtabledate = new TablesJson
                 {
-                    if (this.tables[resindex].row1.Count + this.persons < 24)
+                    date = this.Date,
+                    row1 = new List<string>(),
+                    row2 = new List<string>(),
+                    row3 = new List<string>()
+                };
+                this.tables.Add(this.newtabledate);
+            }
+            if (this.tables[this.resindex].row1.Count + this.persons < 24)
+            {
+                if (this.tables[this.resindex].row1.Count + this.persons + 2 < 24)
+                {
+                    if (this.persons <= 2)
                     {
-                        if (this.persons <= 2)
-                        {
-                            this.tables[resindex].row1.Add("[");
-                            this.tables[resindex].row1.Add("]");
-                            this.tables[resindex].row1.Add(" ");
-                            this.tables[resindex].row1.Add(" ");
-                            Console.WriteLine(this.tables[resindex].row1.Count);
-                        }
+                        this.tables[this.resindex].row1.Add("[");
+                        this.tables[this.resindex].row1.Add("]");
+                        this.tables[this.resindex].row1.Add(" ");
+                        this.tables[this.resindex].row1.Add(" ");
                     }
+
                 }
             }
+            DisplayTables();
+        }
+
+        public void DisplayTables()
+        {
+            Console.WriteLine("############################");
+
+            Console.WriteLine("#                          #");
+
+            Console.Write("#  ");
+            Console.Write(String.Join("", this.tables[this.resindex].row1));
+            if (this.tables[this.resindex].row1.Count <= 24)
+            {
+
+                Console.Write(new String(' ', 24 - this.tables[this.resindex].row1.Count));
+                Console.Write("#\n");
+            } else
+            {
+                Console.Write("#\n");
+            }
+
+            Console.WriteLine("#                          #");
+
+            Console.Write("#  ");
+            Console.Write(String.Join("", this.tables[this.resindex].row2));
+            if (this.tables[this.resindex].row2.Count <= 24)
+            {
+                Console.Write(new String(' ', 24 - this.tables[this.resindex].row2.Count));
+                Console.Write("#\n");
+            }
+            else
+            {
+                Console.Write("#\n");
+            }
+
+            Console.WriteLine("#                          #");
+
+            Console.Write("#  ");
+            Console.Write(String.Join("", this.tables[this.resindex].row3));
+            if (this.tables[this.resindex].row3.Count <= 24)
+            {
+                Console.Write(new String(' ', 24 - this.tables[this.resindex].row3.Count));
+                Console.Write("#\n");
+            }
+            else
+            {
+                Console.Write("#\n");
+            }
+
+            Console.WriteLine("#                          #");
+            Console.WriteLine("############################");
         }
 
         public void BookHotel()
