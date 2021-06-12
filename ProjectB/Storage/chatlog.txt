@@ -2347,3 +2347,2605 @@
 [2021-06-10 15:57:18] Alfred is being called. Data: reservation 11 
 [2021-06-10 15:57:19] Alfred is being called. Data: reservation 19 
 [2021-06-10 15:57:19] Calling menu options 
+[2021-06-12 10:00:16] Reservation has been initialized 
+[2021-06-12 10:00:16] HowManyPersons was called 
+[2021-06-12 10:00:16] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:00:19] DateAndTime was called 
+[2021-06-12 10:00:19] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:00:25] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:00:25] Calling menu options 
+[2021-06-12 10:00:27] GetNames was called 
+[2021-06-12 10:00:27] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:00:27] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:00:28] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:00:28] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:00:28] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:00:28] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:00:29] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:00:30] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:00:30] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:00:30] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:00:30] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:00:31] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:00:31] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:00:31] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:00:32] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:00:32] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:00:32] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:00:33] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:00:33] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:00:33] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:00:34] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:00:34] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:00:34] Calling menu options 
+[2021-06-12 10:03:29] Reservation has been initialized 
+[2021-06-12 10:03:29] HowManyPersons was called 
+[2021-06-12 10:03:29] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:03:32] DateAndTime was called 
+[2021-06-12 10:03:32] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:03:35] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:03:35] Calling menu options 
+[2021-06-12 10:03:35] GetNames was called 
+[2021-06-12 10:03:35] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:03:35] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:03:36] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:03:36] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:03:37] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:03:37] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:03:38] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:03:38] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:03:38] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:03:39] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:03:39] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:03:39] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:03:40] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:03:40] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:03:40] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:03:40] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:03:41] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:03:41] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:03:41] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:03:42] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:03:42] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:03:42] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:03:42] Calling menu options 
+[2021-06-12 10:04:31] Reservation has been initialized 
+[2021-06-12 10:04:31] HowManyPersons was called 
+[2021-06-12 10:04:31] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:04:35] DateAndTime was called 
+[2021-06-12 10:04:35] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:04:38] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:04:38] Calling menu options 
+[2021-06-12 10:04:39] GetNames was called 
+[2021-06-12 10:04:39] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:04:39] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:04:40] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:04:40] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:04:41] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:04:41] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:04:41] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:04:42] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:04:42] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:04:42] Alfred is being called. Data: error 1 
+[2021-06-12 10:04:42] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:04:43] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:04:43] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:04:44] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:04:44] Calling menu options 
+[2021-06-12 10:04:48] Reservation has been initialized 
+[2021-06-12 10:04:48] HowManyPersons was called 
+[2021-06-12 10:04:48] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:04:54] DateAndTime was called 
+[2021-06-12 10:04:54] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:04:57] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:04:57] Calling menu options 
+[2021-06-12 10:04:59] GetNames was called 
+[2021-06-12 10:04:59] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:04:59] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:05:00] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:05:00] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:05:00] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:05:01] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:05:01] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:05:02] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:05:02] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:05:02] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:05:03] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:05:03] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:05:04] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:05:04] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:05:06] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:05:06] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:05:07] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:05:07] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:05:08] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:05:08] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:05:08] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:05:09] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:05:09] Calling menu options 
+[2021-06-12 10:06:25] Reservation has been initialized 
+[2021-06-12 10:06:25] HowManyPersons was called 
+[2021-06-12 10:06:25] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:06:31] DateAndTime was called 
+[2021-06-12 10:06:31] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:06:33] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:06:33] Calling menu options 
+[2021-06-12 10:06:36] GetNames was called 
+[2021-06-12 10:06:36] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:06:36] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:06:36] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:06:37] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:06:37] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:06:37] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:06:38] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:06:38] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:06:38] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:06:39] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:06:39] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:06:41] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:06:41] Calling menu options 
+[2021-06-12 10:27:33] Reservation has been initialized 
+[2021-06-12 10:27:33] HowManyPersons was called 
+[2021-06-12 10:27:33] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:27:43] DateAndTime was called 
+[2021-06-12 10:27:43] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:27:50] Alfred is being called. Data: reservation 4 
+[2021-06-12 10:27:54] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:27:54] Calling menu options 
+[2021-06-12 10:27:55] GetNames was called 
+[2021-06-12 10:27:55] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:27:55] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:27:56] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:27:56] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:27:58] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:27:58] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:27:58] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:27:59] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:27:59] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:27:59] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:28:00] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:28:00] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:28:00] Calling menu options 
+[2021-06-12 10:28:21] Reservation has been initialized 
+[2021-06-12 10:28:21] HowManyPersons was called 
+[2021-06-12 10:28:21] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:28:25] DateAndTime was called 
+[2021-06-12 10:28:25] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:28:34] Alfred is being called. Data: reservation 4 
+[2021-06-12 10:28:42] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:28:42] Calling menu options 
+[2021-06-12 10:28:43] GetNames was called 
+[2021-06-12 10:28:43] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:28:43] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:28:44] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:28:44] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:28:45] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:28:45] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:28:45] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:28:46] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:28:46] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:28:46] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:28:47] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:28:47] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:28:47] Calling menu options 
+[2021-06-12 10:30:49] Reservation has been initialized 
+[2021-06-12 10:30:49] HowManyPersons was called 
+[2021-06-12 10:30:49] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:30:50] DateAndTime was called 
+[2021-06-12 10:30:50] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:30:55] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:30:55] Calling menu options 
+[2021-06-12 10:30:55] GetNames was called 
+[2021-06-12 10:30:55] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:30:55] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:30:56] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:30:56] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:30:57] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:30:57] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:30:57] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:30:57] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:30:58] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:30:58] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:30:58] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:30:58] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:30:58] Calling menu options 
+[2021-06-12 10:32:42] Reservation has been initialized 
+[2021-06-12 10:32:42] HowManyPersons was called 
+[2021-06-12 10:32:42] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:32:43] DateAndTime was called 
+[2021-06-12 10:32:43] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:32:48] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:32:48] Calling menu options 
+[2021-06-12 10:32:48] GetNames was called 
+[2021-06-12 10:32:48] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:32:48] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:32:49] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:32:49] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:32:50] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:32:50] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:32:50] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:32:50] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:32:51] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:32:51] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:32:51] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:32:51] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:32:51] Calling menu options 
+[2021-06-12 10:34:19] Reservation has been initialized 
+[2021-06-12 10:34:19] HowManyPersons was called 
+[2021-06-12 10:34:19] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:34:23] DateAndTime was called 
+[2021-06-12 10:34:23] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:34:25] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:34:25] Calling menu options 
+[2021-06-12 10:34:26] GetNames was called 
+[2021-06-12 10:34:26] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:34:26] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:34:27] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:34:27] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:34:27] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:34:28] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:34:28] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:34:28] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:34:28] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:34:29] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:34:29] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:34:29] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:34:29] Calling menu options 
+[2021-06-12 10:36:48] Reservation has been initialized 
+[2021-06-12 10:36:49] HowManyPersons was called 
+[2021-06-12 10:36:49] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:36:53] Reservation has been initialized 
+[2021-06-12 10:36:53] HowManyPersons was called 
+[2021-06-12 10:36:53] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:36:54] DateAndTime was called 
+[2021-06-12 10:36:54] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:36:58] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:36:58] Calling menu options 
+[2021-06-12 10:36:59] GetNames was called 
+[2021-06-12 10:36:59] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:36:59] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:36:59] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:37:00] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:37:00] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:37:00] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:37:00] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:37:01] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:37:01] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:37:01] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:37:01] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:37:02] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:37:02] Calling menu options 
+[2021-06-12 10:38:28] Reservation has been initialized 
+[2021-06-12 10:38:29] HowManyPersons was called 
+[2021-06-12 10:38:29] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:38:30] DateAndTime was called 
+[2021-06-12 10:38:30] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:38:32] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:38:32] Calling menu options 
+[2021-06-12 10:38:32] GetNames was called 
+[2021-06-12 10:38:32] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:38:32] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:38:33] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:38:33] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:38:34] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:38:34] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:38:34] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:38:35] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:38:35] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:38:35] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:38:35] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:38:36] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:38:36] Calling menu options 
+[2021-06-12 10:38:50] Reservation has been initialized 
+[2021-06-12 10:38:50] HowManyPersons was called 
+[2021-06-12 10:38:50] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:39:04] Reservation has been initialized 
+[2021-06-12 10:39:04] HowManyPersons was called 
+[2021-06-12 10:39:04] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:39:07] DateAndTime was called 
+[2021-06-12 10:39:07] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:39:10] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:39:10] Calling menu options 
+[2021-06-12 10:39:11] GetNames was called 
+[2021-06-12 10:39:11] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:39:11] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:39:11] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:39:12] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:39:12] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:39:12] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:39:12] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:39:13] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:39:13] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:39:13] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:39:13] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:39:14] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:39:14] Calling menu options 
+[2021-06-12 10:41:22] Reservation has been initialized 
+[2021-06-12 10:41:22] HowManyPersons was called 
+[2021-06-12 10:41:22] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:41:38] Reservation has been initialized 
+[2021-06-12 10:41:38] HowManyPersons was called 
+[2021-06-12 10:41:38] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:41:43] Reservation has been initialized 
+[2021-06-12 10:41:44] HowManyPersons was called 
+[2021-06-12 10:41:44] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:41:45] DateAndTime was called 
+[2021-06-12 10:41:45] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:41:47] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:41:47] Calling menu options 
+[2021-06-12 10:41:48] GetNames was called 
+[2021-06-12 10:41:48] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:41:48] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:41:48] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:41:48] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:41:49] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:41:49] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:41:49] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:41:50] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:41:50] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:41:50] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:41:50] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:41:51] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:41:51] Calling menu options 
+[2021-06-12 10:42:35] Reservation has been initialized 
+[2021-06-12 10:42:36] HowManyPersons was called 
+[2021-06-12 10:42:36] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:42:46] DateAndTime was called 
+[2021-06-12 10:42:46] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:42:53] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:42:53] Calling menu options 
+[2021-06-12 10:42:55] GetNames was called 
+[2021-06-12 10:42:55] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:42:55] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:42:56] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:42:56] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:42:57] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:42:57] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:42:57] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:42:57] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:42:58] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:42:58] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:42:58] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:42:58] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:42:58] Calling menu options 
+[2021-06-12 10:43:07] Checkout was called 
+[2021-06-12 10:43:07] Alfred is being called. Data: reservation 21 
+[2021-06-12 10:43:07] Alfred is being called. Data: reservation 23 
+[2021-06-12 10:43:07] Calling menu options 
+[2021-06-12 10:43:37] Reservation has been initialized 
+[2021-06-12 10:43:37] HowManyPersons was called 
+[2021-06-12 10:43:37] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:43:40] DateAndTime was called 
+[2021-06-12 10:43:40] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:43:47] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:43:47] Calling menu options 
+[2021-06-12 10:43:48] GetNames was called 
+[2021-06-12 10:43:48] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:43:48] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:43:49] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:43:49] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:43:49] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:43:49] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:43:49] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:43:50] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:43:50] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:43:50] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:43:50] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:43:51] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:43:51] Calling menu options 
+[2021-06-12 10:44:36] Reservation has been initialized 
+[2021-06-12 10:44:36] HowManyPersons was called 
+[2021-06-12 10:44:36] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:44:39] DateAndTime was called 
+[2021-06-12 10:44:39] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:44:42] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:44:42] Calling menu options 
+[2021-06-12 10:44:44] GetNames was called 
+[2021-06-12 10:44:44] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:44:44] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:44:44] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:44:45] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:44:45] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:44:46] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:44:46] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:44:46] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:44:46] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:44:47] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:44:47] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:44:47] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:44:47] Calling menu options 
+[2021-06-12 10:45:04] Reservation has been initialized 
+[2021-06-12 10:45:04] HowManyPersons was called 
+[2021-06-12 10:45:04] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:45:06] DateAndTime was called 
+[2021-06-12 10:45:06] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:45:10] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:45:10] Calling menu options 
+[2021-06-12 10:45:10] GetNames was called 
+[2021-06-12 10:45:10] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:45:10] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:45:11] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:45:11] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:45:12] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:45:12] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:45:12] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:45:12] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:45:12] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:45:13] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:45:13] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:45:13] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:45:13] Calling menu options 
+[2021-06-12 10:45:49] Reservation has been initialized 
+[2021-06-12 10:45:49] HowManyPersons was called 
+[2021-06-12 10:45:49] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:45:54] Reservation has been initialized 
+[2021-06-12 10:45:54] HowManyPersons was called 
+[2021-06-12 10:45:54] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:46:00] Reservation has been initialized 
+[2021-06-12 10:46:00] HowManyPersons was called 
+[2021-06-12 10:46:00] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:46:08] Alfred is being called. Data: error 0 
+[2021-06-12 10:46:10] DateAndTime was called 
+[2021-06-12 10:46:10] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:46:12] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:46:12] Calling menu options 
+[2021-06-12 10:46:13] GetNames was called 
+[2021-06-12 10:46:13] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:46:13] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:46:13] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:46:14] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:46:14] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:46:14] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:46:15] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:46:15] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:46:15] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:46:15] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:46:16] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:46:16] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:46:16] Calling menu options 
+[2021-06-12 10:48:21] Reservation has been initialized 
+[2021-06-12 10:48:21] HowManyPersons was called 
+[2021-06-12 10:48:21] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:48:25] DateAndTime was called 
+[2021-06-12 10:48:25] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:48:28] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:48:28] Calling menu options 
+[2021-06-12 10:48:29] GetNames was called 
+[2021-06-12 10:48:29] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:48:29] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:48:29] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:48:29] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:48:30] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:48:30] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:48:30] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:48:31] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:48:31] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:48:33] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:48:33] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:48:33] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:48:33] Calling menu options 
+[2021-06-12 10:49:37] Reservation has been initialized 
+[2021-06-12 10:49:37] HowManyPersons was called 
+[2021-06-12 10:49:37] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:49:41] DateAndTime was called 
+[2021-06-12 10:49:41] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:49:43] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:49:43] Calling menu options 
+[2021-06-12 10:49:46] GetNames was called 
+[2021-06-12 10:49:46] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:49:46] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:49:46] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:49:46] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:49:47] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:49:47] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:49:47] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:49:47] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:49:48] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:49:48] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:49:48] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:49:48] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:49:48] Calling menu options 
+[2021-06-12 10:50:37] Reservation has been initialized 
+[2021-06-12 10:50:37] HowManyPersons was called 
+[2021-06-12 10:50:37] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:50:38] DateAndTime was called 
+[2021-06-12 10:50:38] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:50:41] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:50:41] Calling menu options 
+[2021-06-12 10:50:42] GetNames was called 
+[2021-06-12 10:50:42] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:50:42] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:50:42] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:50:43] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:50:43] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:50:43] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:50:44] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:50:44] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:50:44] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:50:45] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:50:45] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:50:45] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:50:45] Calling menu options 
+[2021-06-12 10:51:34] Reservation has been initialized 
+[2021-06-12 10:51:34] HowManyPersons was called 
+[2021-06-12 10:51:34] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:51:36] DateAndTime was called 
+[2021-06-12 10:51:36] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:51:38] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:51:38] Calling menu options 
+[2021-06-12 10:51:39] GetNames was called 
+[2021-06-12 10:51:39] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:51:39] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:51:40] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:51:40] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:51:40] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:51:40] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:51:41] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:51:41] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:51:41] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:51:41] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:51:42] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:51:42] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:51:42] Calling menu options 
+[2021-06-12 10:53:46] Reservation has been initialized 
+[2021-06-12 10:53:46] HowManyPersons was called 
+[2021-06-12 10:53:46] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:54:00] Reservation has been initialized 
+[2021-06-12 10:54:00] HowManyPersons was called 
+[2021-06-12 10:54:00] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:54:01] DateAndTime was called 
+[2021-06-12 10:54:01] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:54:03] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:54:03] Calling menu options 
+[2021-06-12 10:54:03] GetNames was called 
+[2021-06-12 10:54:03] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:54:03] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:54:04] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:54:04] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:54:05] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:54:05] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:54:05] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:54:06] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:54:06] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:54:07] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:54:07] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:54:07] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:54:07] Calling menu options 
+[2021-06-12 10:54:23] Reservation has been initialized 
+[2021-06-12 10:54:24] HowManyPersons was called 
+[2021-06-12 10:54:24] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:54:25] DateAndTime was called 
+[2021-06-12 10:54:25] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:54:28] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:54:28] Calling menu options 
+[2021-06-12 10:54:28] GetNames was called 
+[2021-06-12 10:54:28] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:54:28] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:54:29] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:54:29] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:54:29] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:54:29] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:54:30] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:54:30] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:54:30] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:54:31] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:54:31] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:54:31] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:54:31] Calling menu options 
+[2021-06-12 10:55:23] Reservation has been initialized 
+[2021-06-12 10:55:24] HowManyPersons was called 
+[2021-06-12 10:55:24] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:55:26] DateAndTime was called 
+[2021-06-12 10:55:26] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:55:31] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:55:31] Calling menu options 
+[2021-06-12 10:55:33] GetNames was called 
+[2021-06-12 10:55:33] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:55:33] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:55:33] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:55:34] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:55:34] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:55:34] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:55:35] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:55:35] Calling menu options 
+[2021-06-12 10:57:24] Reservation has been initialized 
+[2021-06-12 10:57:24] HowManyPersons was called 
+[2021-06-12 10:57:24] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:57:34] DateAndTime was called 
+[2021-06-12 10:57:34] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:57:43] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:57:43] Calling menu options 
+[2021-06-12 10:57:45] GetNames was called 
+[2021-06-12 10:57:45] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:57:45] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:57:45] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:57:46] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:57:47] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:57:47] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:57:47] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:57:48] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:57:48] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:57:49] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:57:49] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:57:50] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:57:50] Calling menu options 
+[2021-06-12 10:57:55] Reservation has been initialized 
+[2021-06-12 10:57:55] HowManyPersons was called 
+[2021-06-12 10:57:55] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:57:58] DateAndTime was called 
+[2021-06-12 10:57:58] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:58:00] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:58:00] Calling menu options 
+[2021-06-12 10:58:02] GetNames was called 
+[2021-06-12 10:58:02] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:58:02] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:58:02] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:58:02] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:58:03] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:58:03] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:58:04] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:58:06] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:58:06] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:58:07] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:58:07] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:58:08] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:58:08] Calling menu options 
+[2021-06-12 10:58:50] Reservation has been initialized 
+[2021-06-12 10:58:50] HowManyPersons was called 
+[2021-06-12 10:58:50] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:58:52] DateAndTime was called 
+[2021-06-12 10:58:52] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:58:54] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:58:54] Calling menu options 
+[2021-06-12 10:58:56] GetNames was called 
+[2021-06-12 10:58:56] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:58:56] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:58:57] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:58:57] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:58:58] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:58:58] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:58:58] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:58:58] Calling menu options 
+[2021-06-12 10:59:19] Reservation has been initialized 
+[2021-06-12 10:59:19] HowManyPersons was called 
+[2021-06-12 10:59:19] Alfred is being called. Data: reservation 0 
+[2021-06-12 10:59:20] DateAndTime was called 
+[2021-06-12 10:59:20] Alfred is being called. Data: reservation 1 
+[2021-06-12 10:59:24] Alfred is being called. Data: reservation 5 
+[2021-06-12 10:59:24] Calling menu options 
+[2021-06-12 10:59:25] GetNames was called 
+[2021-06-12 10:59:25] Alfred is being called. Data: reservation 12 
+[2021-06-12 10:59:25] Alfred is being called. Data: reservation 7 
+[2021-06-12 10:59:25] Alfred is being called. Data: reservation 8 
+[2021-06-12 10:59:26] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:59:26] Alfred is being called. Data: reservation 10 
+[2021-06-12 10:59:26] Alfred is being called. Data: reservation 11 
+[2021-06-12 10:59:27] Alfred is being called. Data: reservation 13 
+[2021-06-12 10:59:27] Alfred is being called. Data: reservation 14 
+[2021-06-12 10:59:27] Alfred is being called. Data: reservation 9 
+[2021-06-12 10:59:28] Alfred is being called. Data: reservation 16 
+[2021-06-12 10:59:28] Alfred is being called. Data: reservation 17 
+[2021-06-12 10:59:28] Alfred is being called. Data: reservation 19 
+[2021-06-12 10:59:28] Calling menu options 
+[2021-06-12 11:01:23] Reservation has been initialized 
+[2021-06-12 11:01:23] HowManyPersons was called 
+[2021-06-12 11:01:23] Alfred is being called. Data: reservation 0 
+[2021-06-12 11:01:24] DateAndTime was called 
+[2021-06-12 11:01:24] Alfred is being called. Data: reservation 1 
+[2021-06-12 11:01:26] Alfred is being called. Data: reservation 5 
+[2021-06-12 11:01:26] Calling menu options 
+[2021-06-12 11:01:28] GetNames was called 
+[2021-06-12 11:01:28] Alfred is being called. Data: reservation 12 
+[2021-06-12 11:01:28] Alfred is being called. Data: reservation 7 
+[2021-06-12 11:01:29] Alfred is being called. Data: reservation 8 
+[2021-06-12 11:01:29] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:01:30] Alfred is being called. Data: error 1 
+[2021-06-12 11:01:30] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:01:30] Alfred is being called. Data: error 1 
+[2021-06-12 11:01:30] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:01:31] Alfred is being called. Data: reservation 10 
+[2021-06-12 11:01:32] Alfred is being called. Data: reservation 11 
+[2021-06-12 11:01:33] Alfred is being called. Data: reservation 13 
+[2021-06-12 11:01:34] Alfred is being called. Data: reservation 14 
+[2021-06-12 11:01:34] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:01:35] Alfred is being called. Data: reservation 16 
+[2021-06-12 11:01:35] Alfred is being called. Data: reservation 17 
+[2021-06-12 11:01:35] Alfred is being called. Data: reservation 19 
+[2021-06-12 11:01:35] Calling menu options 
+[2021-06-12 11:02:44] Reservation has been initialized 
+[2021-06-12 11:02:44] HowManyPersons was called 
+[2021-06-12 11:02:44] Alfred is being called. Data: reservation 0 
+[2021-06-12 11:02:46] DateAndTime was called 
+[2021-06-12 11:02:46] Alfred is being called. Data: reservation 1 
+[2021-06-12 11:02:50] Alfred is being called. Data: reservation 5 
+[2021-06-12 11:02:50] Calling menu options 
+[2021-06-12 11:02:52] GetNames was called 
+[2021-06-12 11:02:52] Alfred is being called. Data: reservation 12 
+[2021-06-12 11:02:52] Alfred is being called. Data: reservation 7 
+[2021-06-12 11:02:53] Alfred is being called. Data: reservation 8 
+[2021-06-12 11:02:53] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:02:54] Alfred is being called. Data: reservation 10 
+[2021-06-12 11:02:54] Alfred is being called. Data: reservation 11 
+[2021-06-12 11:02:55] Alfred is being called. Data: reservation 19 
+[2021-06-12 11:02:55] Calling menu options 
+[2021-06-12 11:15:48] Reservation has been initialized 
+[2021-06-12 11:15:49] HowManyPersons was called 
+[2021-06-12 11:15:49] Alfred is being called. Data: reservation 0 
+[2021-06-12 11:15:51] DateAndTime was called 
+[2021-06-12 11:15:51] Alfred is being called. Data: reservation 1 
+[2021-06-12 11:15:58] Alfred is being called. Data: reservation 5 
+[2021-06-12 11:15:58] Calling menu options 
+[2021-06-12 11:15:59] GetNames was called 
+[2021-06-12 11:15:59] Alfred is being called. Data: reservation 12 
+[2021-06-12 11:15:59] Alfred is being called. Data: reservation 7 
+[2021-06-12 11:16:00] Alfred is being called. Data: reservation 8 
+[2021-06-12 11:16:00] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:16:01] Alfred is being called. Data: error 1 
+[2021-06-12 11:16:01] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:16:01] Alfred is being called. Data: reservation 10 
+[2021-06-12 11:16:02] Alfred is being called. Data: reservation 11 
+[2021-06-12 11:16:02] Alfred is being called. Data: reservation 13 
+[2021-06-12 11:16:03] Alfred is being called. Data: reservation 14 
+[2021-06-12 11:16:03] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:16:04] Alfred is being called. Data: reservation 16 
+[2021-06-12 11:16:04] Alfred is being called. Data: reservation 17 
+[2021-06-12 11:16:05] Alfred is being called. Data: reservation 19 
+[2021-06-12 11:16:05] Calling menu options 
+[2021-06-12 11:17:08] Reservation has been initialized 
+[2021-06-12 11:17:08] HowManyPersons was called 
+[2021-06-12 11:17:08] Alfred is being called. Data: reservation 0 
+[2021-06-12 11:17:11] DateAndTime was called 
+[2021-06-12 11:17:11] Alfred is being called. Data: reservation 1 
+[2021-06-12 11:17:14] Alfred is being called. Data: reservation 5 
+[2021-06-12 11:17:14] Calling menu options 
+[2021-06-12 11:17:15] GetNames was called 
+[2021-06-12 11:17:15] Alfred is being called. Data: reservation 12 
+[2021-06-12 11:17:15] Alfred is being called. Data: reservation 7 
+[2021-06-12 11:17:15] Alfred is being called. Data: reservation 8 
+[2021-06-12 11:17:16] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:17:16] Alfred is being called. Data: reservation 10 
+[2021-06-12 11:17:16] Alfred is being called. Data: reservation 11 
+[2021-06-12 11:17:17] Alfred is being called. Data: reservation 19 
+[2021-06-12 11:17:17] Calling menu options 
+[2021-06-12 11:18:52] Reservation has been initialized 
+[2021-06-12 11:18:52] HowManyPersons was called 
+[2021-06-12 11:18:52] Alfred is being called. Data: reservation 0 
+[2021-06-12 11:18:53] DateAndTime was called 
+[2021-06-12 11:18:53] Alfred is being called. Data: reservation 1 
+[2021-06-12 11:18:55] Alfred is being called. Data: reservation 5 
+[2021-06-12 11:18:55] Calling menu options 
+[2021-06-12 11:18:56] GetNames was called 
+[2021-06-12 11:18:56] Alfred is being called. Data: reservation 12 
+[2021-06-12 11:18:56] Alfred is being called. Data: reservation 7 
+[2021-06-12 11:18:56] Alfred is being called. Data: reservation 8 
+[2021-06-12 11:18:56] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:18:57] Alfred is being called. Data: reservation 10 
+[2021-06-12 11:18:57] Alfred is being called. Data: reservation 11 
+[2021-06-12 11:18:57] Alfred is being called. Data: reservation 19 
+[2021-06-12 11:18:57] Calling menu options 
+[2021-06-12 11:22:06] Reservation has been initialized 
+[2021-06-12 11:22:06] HowManyPersons was called 
+[2021-06-12 11:22:06] Alfred is being called. Data: reservation 0 
+[2021-06-12 11:23:16] Reservation has been initialized 
+[2021-06-12 11:23:16] HowManyPersons was called 
+[2021-06-12 11:23:16] Alfred is being called. Data: reservation 0 
+[2021-06-12 11:23:18] DateAndTime was called 
+[2021-06-12 11:23:18] Alfred is being called. Data: reservation 1 
+[2021-06-12 11:23:21] Alfred is being called. Data: reservation 5 
+[2021-06-12 11:23:21] Calling menu options 
+[2021-06-12 11:23:22] GetNames was called 
+[2021-06-12 11:23:22] Alfred is being called. Data: reservation 12 
+[2021-06-12 11:23:22] Alfred is being called. Data: reservation 7 
+[2021-06-12 11:23:22] Alfred is being called. Data: reservation 8 
+[2021-06-12 11:23:22] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:23:23] Alfred is being called. Data: reservation 10 
+[2021-06-12 11:23:23] Alfred is being called. Data: reservation 11 
+[2021-06-12 11:23:23] Alfred is being called. Data: reservation 13 
+[2021-06-12 11:23:24] Alfred is being called. Data: reservation 14 
+[2021-06-12 11:23:24] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:23:24] Alfred is being called. Data: reservation 16 
+[2021-06-12 11:23:24] Alfred is being called. Data: reservation 17 
+[2021-06-12 11:23:25] Alfred is being called. Data: reservation 19 
+[2021-06-12 11:23:25] Calling menu options 
+[2021-06-12 11:25:01] Reservation has been initialized 
+[2021-06-12 11:25:01] HowManyPersons was called 
+[2021-06-12 11:25:01] Alfred is being called. Data: reservation 0 
+[2021-06-12 11:25:06] DateAndTime was called 
+[2021-06-12 11:25:06] Alfred is being called. Data: reservation 1 
+[2021-06-12 11:25:08] Alfred is being called. Data: reservation 5 
+[2021-06-12 11:25:08] Calling menu options 
+[2021-06-12 11:25:09] GetNames was called 
+[2021-06-12 11:25:09] Alfred is being called. Data: reservation 12 
+[2021-06-12 11:25:09] Alfred is being called. Data: reservation 7 
+[2021-06-12 11:25:09] Alfred is being called. Data: reservation 8 
+[2021-06-12 11:25:09] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:25:10] Alfred is being called. Data: reservation 10 
+[2021-06-12 11:25:10] Alfred is being called. Data: reservation 11 
+[2021-06-12 11:25:11] Alfred is being called. Data: reservation 19 
+[2021-06-12 11:25:11] Calling menu options 
+[2021-06-12 11:25:20] Reservation has been initialized 
+[2021-06-12 11:25:21] HowManyPersons was called 
+[2021-06-12 11:25:21] Alfred is being called. Data: reservation 0 
+[2021-06-12 11:25:21] DateAndTime was called 
+[2021-06-12 11:25:21] Alfred is being called. Data: reservation 1 
+[2021-06-12 11:25:26] Alfred is being called. Data: reservation 5 
+[2021-06-12 11:25:26] Calling menu options 
+[2021-06-12 11:25:27] GetNames was called 
+[2021-06-12 11:25:27] Alfred is being called. Data: reservation 12 
+[2021-06-12 11:25:27] Alfred is being called. Data: reservation 7 
+[2021-06-12 11:25:27] Alfred is being called. Data: reservation 8 
+[2021-06-12 11:25:27] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:25:28] Alfred is being called. Data: reservation 10 
+[2021-06-12 11:25:29] Alfred is being called. Data: reservation 11 
+[2021-06-12 11:25:29] Alfred is being called. Data: reservation 19 
+[2021-06-12 11:25:29] Calling menu options 
+[2021-06-12 11:26:50] Reservation has been initialized 
+[2021-06-12 11:26:50] HowManyPersons was called 
+[2021-06-12 11:26:50] Alfred is being called. Data: reservation 0 
+[2021-06-12 11:26:52] DateAndTime was called 
+[2021-06-12 11:26:52] Alfred is being called. Data: reservation 1 
+[2021-06-12 11:26:55] Alfred is being called. Data: reservation 5 
+[2021-06-12 11:26:55] Calling menu options 
+[2021-06-12 11:26:56] GetNames was called 
+[2021-06-12 11:26:56] Alfred is being called. Data: reservation 12 
+[2021-06-12 11:26:56] Alfred is being called. Data: reservation 7 
+[2021-06-12 11:26:57] Alfred is being called. Data: reservation 8 
+[2021-06-12 11:26:57] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:26:57] Alfred is being called. Data: reservation 10 
+[2021-06-12 11:26:57] Alfred is being called. Data: reservation 11 
+[2021-06-12 11:26:58] Alfred is being called. Data: reservation 13 
+[2021-06-12 11:26:58] Alfred is being called. Data: reservation 14 
+[2021-06-12 11:26:58] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:26:59] Alfred is being called. Data: reservation 16 
+[2021-06-12 11:26:59] Alfred is being called. Data: reservation 17 
+[2021-06-12 11:26:59] Alfred is being called. Data: reservation 19 
+[2021-06-12 11:26:59] Calling menu options 
+[2021-06-12 11:31:22] Reservation has been initialized 
+[2021-06-12 11:31:22] HowManyPersons was called 
+[2021-06-12 11:31:22] Alfred is being called. Data: reservation 0 
+[2021-06-12 11:31:25] DateAndTime was called 
+[2021-06-12 11:31:25] Alfred is being called. Data: reservation 1 
+[2021-06-12 11:31:29] Alfred is being called. Data: reservation 5 
+[2021-06-12 11:31:29] Calling menu options 
+[2021-06-12 11:31:31] GetNames was called 
+[2021-06-12 11:31:31] Alfred is being called. Data: reservation 12 
+[2021-06-12 11:31:31] Alfred is being called. Data: reservation 7 
+[2021-06-12 11:31:32] Alfred is being called. Data: reservation 8 
+[2021-06-12 11:31:32] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:31:33] Alfred is being called. Data: reservation 10 
+[2021-06-12 11:31:33] Alfred is being called. Data: reservation 11 
+[2021-06-12 11:31:33] Alfred is being called. Data: reservation 13 
+[2021-06-12 11:31:34] Alfred is being called. Data: reservation 14 
+[2021-06-12 11:31:34] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:31:34] Alfred is being called. Data: reservation 16 
+[2021-06-12 11:31:35] Alfred is being called. Data: reservation 17 
+[2021-06-12 11:31:35] Alfred is being called. Data: reservation 19 
+[2021-06-12 11:31:35] Calling menu options 
+[2021-06-12 11:31:44] Reservation has been initialized 
+[2021-06-12 11:31:44] HowManyPersons was called 
+[2021-06-12 11:31:44] Alfred is being called. Data: reservation 0 
+[2021-06-12 11:31:45] DateAndTime was called 
+[2021-06-12 11:31:45] Alfred is being called. Data: reservation 1 
+[2021-06-12 11:31:47] Alfred is being called. Data: reservation 5 
+[2021-06-12 11:31:47] Calling menu options 
+[2021-06-12 11:31:48] GetNames was called 
+[2021-06-12 11:31:48] Alfred is being called. Data: reservation 12 
+[2021-06-12 11:31:48] Alfred is being called. Data: reservation 7 
+[2021-06-12 11:31:48] Alfred is being called. Data: reservation 8 
+[2021-06-12 11:31:49] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:31:49] Alfred is being called. Data: reservation 10 
+[2021-06-12 11:31:50] Alfred is being called. Data: reservation 11 
+[2021-06-12 11:31:50] Alfred is being called. Data: reservation 13 
+[2021-06-12 11:31:50] Alfred is being called. Data: reservation 14 
+[2021-06-12 11:31:50] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:31:51] Alfred is being called. Data: reservation 16 
+[2021-06-12 11:31:51] Alfred is being called. Data: reservation 17 
+[2021-06-12 11:31:51] Alfred is being called. Data: reservation 19 
+[2021-06-12 11:31:51] Calling menu options 
+[2021-06-12 11:32:13] Reservation has been initialized 
+[2021-06-12 11:32:14] HowManyPersons was called 
+[2021-06-12 11:32:14] Alfred is being called. Data: reservation 0 
+[2021-06-12 11:32:16] DateAndTime was called 
+[2021-06-12 11:32:16] Alfred is being called. Data: reservation 1 
+[2021-06-12 11:32:19] Alfred is being called. Data: reservation 5 
+[2021-06-12 11:32:19] Calling menu options 
+[2021-06-12 11:32:20] GetNames was called 
+[2021-06-12 11:32:20] Alfred is being called. Data: reservation 12 
+[2021-06-12 11:32:20] Alfred is being called. Data: reservation 7 
+[2021-06-12 11:32:21] Alfred is being called. Data: reservation 8 
+[2021-06-12 11:32:21] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:32:21] Alfred is being called. Data: reservation 10 
+[2021-06-12 11:32:22] Alfred is being called. Data: reservation 11 
+[2021-06-12 11:32:22] Alfred is being called. Data: reservation 13 
+[2021-06-12 11:32:22] Alfred is being called. Data: reservation 14 
+[2021-06-12 11:32:22] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:32:23] Alfred is being called. Data: reservation 16 
+[2021-06-12 11:32:23] Alfred is being called. Data: reservation 17 
+[2021-06-12 11:32:23] Alfred is being called. Data: reservation 19 
+[2021-06-12 11:32:23] Calling menu options 
+[2021-06-12 11:58:53] Reservation has been initialized 
+[2021-06-12 11:58:53] HowManyPersons was called 
+[2021-06-12 11:58:53] Alfred is being called. Data: reservation 0 
+[2021-06-12 11:58:54] DateAndTime was called 
+[2021-06-12 11:58:54] Alfred is being called. Data: reservation 1 
+[2021-06-12 11:58:57] Alfred is being called. Data: reservation 5 
+[2021-06-12 11:58:57] Calling menu options 
+[2021-06-12 11:58:58] GetNames was called 
+[2021-06-12 11:58:58] Alfred is being called. Data: reservation 12 
+[2021-06-12 11:58:58] Alfred is being called. Data: reservation 7 
+[2021-06-12 11:58:58] Alfred is being called. Data: reservation 8 
+[2021-06-12 11:58:58] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:58:59] Alfred is being called. Data: reservation 10 
+[2021-06-12 11:58:59] Alfred is being called. Data: reservation 11 
+[2021-06-12 11:58:59] Alfred is being called. Data: reservation 19 
+[2021-06-12 11:58:59] Calling menu options 
+[2021-06-12 11:59:47] Reservation has been initialized 
+[2021-06-12 11:59:47] HowManyPersons was called 
+[2021-06-12 11:59:47] Alfred is being called. Data: reservation 0 
+[2021-06-12 11:59:51] DateAndTime was called 
+[2021-06-12 11:59:51] Alfred is being called. Data: reservation 1 
+[2021-06-12 11:59:54] Alfred is being called. Data: reservation 5 
+[2021-06-12 11:59:54] Calling menu options 
+[2021-06-12 11:59:55] GetNames was called 
+[2021-06-12 11:59:55] Alfred is being called. Data: reservation 12 
+[2021-06-12 11:59:55] Alfred is being called. Data: reservation 7 
+[2021-06-12 11:59:55] Alfred is being called. Data: reservation 8 
+[2021-06-12 11:59:56] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:59:57] Alfred is being called. Data: reservation 10 
+[2021-06-12 11:59:57] Alfred is being called. Data: reservation 11 
+[2021-06-12 11:59:57] Alfred is being called. Data: reservation 13 
+[2021-06-12 11:59:58] Alfred is being called. Data: reservation 14 
+[2021-06-12 11:59:58] Alfred is being called. Data: reservation 9 
+[2021-06-12 11:59:58] Alfred is being called. Data: reservation 16 
+[2021-06-12 11:59:58] Alfred is being called. Data: reservation 17 
+[2021-06-12 11:59:59] Alfred is being called. Data: reservation 19 
+[2021-06-12 11:59:59] Calling menu options 
+[2021-06-12 12:00:12] Reservation has been initialized 
+[2021-06-12 12:00:12] HowManyPersons was called 
+[2021-06-12 12:00:12] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:00:18] DateAndTime was called 
+[2021-06-12 12:00:18] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:00:20] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:00:20] Calling menu options 
+[2021-06-12 12:00:20] GetNames was called 
+[2021-06-12 12:00:20] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:00:20] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:00:21] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:00:21] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:00:21] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:00:22] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:00:22] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:00:22] Calling menu options 
+[2021-06-12 12:00:48] Reservation has been initialized 
+[2021-06-12 12:00:48] HowManyPersons was called 
+[2021-06-12 12:00:48] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:00:53] DateAndTime was called 
+[2021-06-12 12:00:53] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:01:00] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:01:00] Calling menu options 
+[2021-06-12 12:01:00] GetNames was called 
+[2021-06-12 12:01:00] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:01:00] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:01:01] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:01:01] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:01:02] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:01:03] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:01:03] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:01:03] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:01:04] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:01:04] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:01:04] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:01:05] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:01:05] Calling menu options 
+[2021-06-12 12:02:03] Reservation has been initialized 
+[2021-06-12 12:02:03] HowManyPersons was called 
+[2021-06-12 12:02:03] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:02:06] DateAndTime was called 
+[2021-06-12 12:02:06] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:02:08] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:02:08] Calling menu options 
+[2021-06-12 12:02:08] GetNames was called 
+[2021-06-12 12:02:08] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:02:08] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:02:09] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:02:09] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:02:09] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:02:10] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:02:10] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:02:10] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:02:10] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:02:11] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:02:11] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:02:11] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:02:11] Calling menu options 
+[2021-06-12 12:02:35] Reservation has been initialized 
+[2021-06-12 12:02:35] HowManyPersons was called 
+[2021-06-12 12:02:35] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:02:39] DateAndTime was called 
+[2021-06-12 12:02:39] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:02:43] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:02:43] Calling menu options 
+[2021-06-12 12:02:43] GetNames was called 
+[2021-06-12 12:02:43] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:02:43] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:02:44] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:02:44] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:02:46] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:02:46] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:02:46] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:02:46] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:02:47] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:02:47] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:02:47] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:02:48] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:02:48] Calling menu options 
+[2021-06-12 12:03:57] Reservation has been initialized 
+[2021-06-12 12:03:58] HowManyPersons was called 
+[2021-06-12 12:03:58] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:03:58] DateAndTime was called 
+[2021-06-12 12:03:58] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:04:01] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:04:01] Calling menu options 
+[2021-06-12 12:04:01] GetNames was called 
+[2021-06-12 12:04:01] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:04:01] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:04:01] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:04:02] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:04:02] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:04:02] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:04:02] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:04:03] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:04:03] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:04:03] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:04:04] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:04:04] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:04:04] Calling menu options 
+[2021-06-12 12:04:54] Reservation has been initialized 
+[2021-06-12 12:04:55] HowManyPersons was called 
+[2021-06-12 12:04:55] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:04:58] DateAndTime was called 
+[2021-06-12 12:04:58] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:05:01] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:05:01] Calling menu options 
+[2021-06-12 12:05:02] GetNames was called 
+[2021-06-12 12:05:02] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:05:02] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:05:02] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:05:02] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:05:03] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:05:03] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:05:03] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:05:03] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:05:03] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:05:04] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:05:04] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:05:04] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:05:04] Calling menu options 
+[2021-06-12 12:05:28] Reservation has been initialized 
+[2021-06-12 12:05:28] HowManyPersons was called 
+[2021-06-12 12:05:28] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:05:28] DateAndTime was called 
+[2021-06-12 12:05:28] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:05:30] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:05:30] Calling menu options 
+[2021-06-12 12:05:31] GetNames was called 
+[2021-06-12 12:05:31] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:05:31] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:05:32] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:05:32] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:05:32] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:05:32] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:05:33] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:05:33] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:05:33] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:05:34] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:05:34] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:05:34] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:05:34] Calling menu options 
+[2021-06-12 12:08:30] Reservation has been initialized 
+[2021-06-12 12:08:30] HowManyPersons was called 
+[2021-06-12 12:08:30] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:08:34] DateAndTime was called 
+[2021-06-12 12:08:34] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:08:36] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:08:36] Calling menu options 
+[2021-06-12 12:08:36] GetNames was called 
+[2021-06-12 12:08:36] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:08:36] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:08:37] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:08:37] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:08:37] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:08:37] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:08:38] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:08:38] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:08:38] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:08:39] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:08:39] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:08:39] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:08:39] Calling menu options 
+[2021-06-12 12:09:02] Reservation has been initialized 
+[2021-06-12 12:09:02] HowManyPersons was called 
+[2021-06-12 12:09:02] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:09:05] DateAndTime was called 
+[2021-06-12 12:09:05] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:09:07] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:09:07] Calling menu options 
+[2021-06-12 12:09:07] GetNames was called 
+[2021-06-12 12:09:07] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:09:07] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:09:07] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:09:08] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:09:08] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:09:08] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:09:08] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:09:09] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:09:09] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:09:09] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:09:09] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:09:10] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:09:10] Calling menu options 
+[2021-06-12 12:10:04] Reservation has been initialized 
+[2021-06-12 12:10:04] HowManyPersons was called 
+[2021-06-12 12:10:04] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:10:06] DateAndTime was called 
+[2021-06-12 12:10:06] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:10:08] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:10:08] Calling menu options 
+[2021-06-12 12:10:09] GetNames was called 
+[2021-06-12 12:10:09] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:10:09] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:10:09] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:10:09] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:10:10] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:10:10] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:10:10] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:10:10] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:10:11] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:10:11] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:10:11] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:10:11] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:10:11] Calling menu options 
+[2021-06-12 12:11:13] Reservation has been initialized 
+[2021-06-12 12:11:14] HowManyPersons was called 
+[2021-06-12 12:11:14] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:11:15] DateAndTime was called 
+[2021-06-12 12:11:15] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:11:16] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:11:16] Calling menu options 
+[2021-06-12 12:11:17] GetNames was called 
+[2021-06-12 12:11:17] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:11:17] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:11:18] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:11:18] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:11:18] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:11:19] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:11:19] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:11:19] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:11:19] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:11:19] Alfred is being called. Data: error 1 
+[2021-06-12 12:11:19] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:11:20] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:11:20] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:11:21] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:11:21] Calling menu options 
+[2021-06-12 12:12:09] Reservation has been initialized 
+[2021-06-12 12:12:09] HowManyPersons was called 
+[2021-06-12 12:12:09] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:12:13] Reservation has been initialized 
+[2021-06-12 12:12:14] HowManyPersons was called 
+[2021-06-12 12:12:14] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:12:14] DateAndTime was called 
+[2021-06-12 12:12:14] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:12:17] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:12:17] Calling menu options 
+[2021-06-12 12:12:18] GetNames was called 
+[2021-06-12 12:12:18] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:12:18] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:12:18] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:12:18] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:12:19] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:12:19] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:12:19] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:12:19] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:12:20] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:12:20] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:12:20] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:12:21] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:12:21] Calling menu options 
+[2021-06-12 12:12:47] Reservation has been initialized 
+[2021-06-12 12:12:47] HowManyPersons was called 
+[2021-06-12 12:12:47] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:12:49] DateAndTime was called 
+[2021-06-12 12:12:49] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:12:51] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:12:51] Calling menu options 
+[2021-06-12 12:12:51] GetNames was called 
+[2021-06-12 12:12:51] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:12:51] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:12:51] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:12:52] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:12:52] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:12:52] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:12:52] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:12:54] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:12:54] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:12:54] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:12:54] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:12:54] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:12:54] Calling menu options 
+[2021-06-12 12:14:19] Reservation has been initialized 
+[2021-06-12 12:14:19] HowManyPersons was called 
+[2021-06-12 12:14:19] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:14:20] DateAndTime was called 
+[2021-06-12 12:14:20] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:14:22] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:14:22] Calling menu options 
+[2021-06-12 12:14:23] GetNames was called 
+[2021-06-12 12:14:23] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:14:23] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:14:23] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:14:23] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:14:23] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:14:24] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:14:24] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:14:24] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:14:24] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:14:25] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:14:25] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:14:25] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:14:25] Calling menu options 
+[2021-06-12 12:15:00] Reservation has been initialized 
+[2021-06-12 12:15:00] HowManyPersons was called 
+[2021-06-12 12:15:00] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:15:04] DateAndTime was called 
+[2021-06-12 12:15:04] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:15:06] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:15:06] Calling menu options 
+[2021-06-12 12:15:07] GetNames was called 
+[2021-06-12 12:15:07] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:15:07] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:15:07] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:15:07] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:15:11] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:15:11] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:15:11] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:15:12] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:15:12] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:15:12] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:15:13] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:15:13] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:15:13] Calling menu options 
+[2021-06-12 12:16:51] Reservation has been initialized 
+[2021-06-12 12:16:51] HowManyPersons was called 
+[2021-06-12 12:16:51] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:16:55] DateAndTime was called 
+[2021-06-12 12:16:55] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:16:57] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:16:57] Calling menu options 
+[2021-06-12 12:16:58] GetNames was called 
+[2021-06-12 12:16:58] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:16:58] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:16:58] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:16:58] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:16:58] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:16:59] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:16:59] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:16:59] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:16:59] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:17:00] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:17:00] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:17:00] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:17:01] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:17:01] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:17:02] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:17:02] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:17:02] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:17:02] Calling menu options 
+[2021-06-12 12:18:28] Reservation has been initialized 
+[2021-06-12 12:18:29] HowManyPersons was called 
+[2021-06-12 12:18:29] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:18:32] Reservation has been initialized 
+[2021-06-12 12:18:32] HowManyPersons was called 
+[2021-06-12 12:18:32] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:18:33] DateAndTime was called 
+[2021-06-12 12:18:33] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:18:34] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:18:34] Calling menu options 
+[2021-06-12 12:18:35] GetNames was called 
+[2021-06-12 12:18:35] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:18:35] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:18:35] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:18:35] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:18:36] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:18:36] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:18:36] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:18:37] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:18:37] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:18:38] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:18:38] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:18:38] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:18:38] Calling menu options 
+[2021-06-12 12:20:42] Reservation has been initialized 
+[2021-06-12 12:20:42] HowManyPersons was called 
+[2021-06-12 12:20:42] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:20:43] DateAndTime was called 
+[2021-06-12 12:20:43] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:20:45] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:20:45] Calling menu options 
+[2021-06-12 12:20:46] GetNames was called 
+[2021-06-12 12:20:46] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:20:46] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:20:46] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:20:46] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:20:47] Alfred is being called. Data: error 1 
+[2021-06-12 12:20:47] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:20:47] Alfred is being called. Data: error 1 
+[2021-06-12 12:20:47] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:20:48] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:20:48] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:20:48] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:20:49] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:20:49] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:20:49] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:20:50] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:20:50] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:20:50] Calling menu options 
+[2021-06-12 12:21:19] Reservation has been initialized 
+[2021-06-12 12:21:19] HowManyPersons was called 
+[2021-06-12 12:21:19] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:21:21] DateAndTime was called 
+[2021-06-12 12:21:21] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:21:23] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:21:23] Calling menu options 
+[2021-06-12 12:21:23] GetNames was called 
+[2021-06-12 12:21:23] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:21:23] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:21:24] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:21:24] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:21:24] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:21:24] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:21:25] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:21:25] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:21:25] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:21:25] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:21:25] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:21:26] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:21:26] Calling menu options 
+[2021-06-12 12:23:00] Reservation has been initialized 
+[2021-06-12 12:23:00] HowManyPersons was called 
+[2021-06-12 12:23:00] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:23:01] DateAndTime was called 
+[2021-06-12 12:23:01] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:23:04] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:23:04] Calling menu options 
+[2021-06-12 12:23:05] GetNames was called 
+[2021-06-12 12:23:05] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:23:05] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:23:05] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:23:05] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:23:06] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:23:06] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:23:06] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:23:07] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:23:07] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:23:08] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:23:08] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:23:08] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:23:08] Calling menu options 
+[2021-06-12 12:24:59] Reservation has been initialized 
+[2021-06-12 12:24:59] HowManyPersons was called 
+[2021-06-12 12:24:59] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:25:03] DateAndTime was called 
+[2021-06-12 12:25:03] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:25:04] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:25:04] Calling menu options 
+[2021-06-12 12:25:04] GetNames was called 
+[2021-06-12 12:25:04] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:25:04] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:25:05] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:25:05] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:25:05] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:25:05] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:25:06] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:25:06] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:25:06] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:25:06] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:25:06] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:25:07] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:25:07] Calling menu options 
+[2021-06-12 12:26:48] Reservation has been initialized 
+[2021-06-12 12:26:48] HowManyPersons was called 
+[2021-06-12 12:26:48] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:26:54] Reservation has been initialized 
+[2021-06-12 12:26:54] HowManyPersons was called 
+[2021-06-12 12:26:54] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:26:55] DateAndTime was called 
+[2021-06-12 12:26:55] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:26:56] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:26:56] Calling menu options 
+[2021-06-12 12:26:57] GetNames was called 
+[2021-06-12 12:26:57] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:26:57] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:26:57] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:26:57] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:26:58] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:26:58] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:26:58] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:26:58] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:26:58] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:26:59] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:26:59] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:26:59] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:26:59] Calling menu options 
+[2021-06-12 12:28:00] Reservation has been initialized 
+[2021-06-12 12:28:00] HowManyPersons was called 
+[2021-06-12 12:28:00] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:28:03] Reservation has been initialized 
+[2021-06-12 12:28:03] HowManyPersons was called 
+[2021-06-12 12:28:03] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:28:04] DateAndTime was called 
+[2021-06-12 12:28:04] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:28:06] Alfred is being called. Data: reservation 2 
+[2021-06-12 12:28:10] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:28:10] Calling menu options 
+[2021-06-12 12:28:10] GetNames was called 
+[2021-06-12 12:28:10] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:28:10] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:28:10] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:28:11] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:28:11] Alfred is being called. Data: error 1 
+[2021-06-12 12:28:11] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:28:11] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:28:12] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:28:12] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:28:12] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:28:12] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:28:12] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:28:13] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:28:13] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:28:13] Calling menu options 
+[2021-06-12 12:29:16] Reservation has been initialized 
+[2021-06-12 12:29:16] HowManyPersons was called 
+[2021-06-12 12:29:16] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:29:17] DateAndTime was called 
+[2021-06-12 12:29:17] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:29:19] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:29:19] Calling menu options 
+[2021-06-12 12:29:20] GetNames was called 
+[2021-06-12 12:29:20] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:29:20] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:29:20] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:29:20] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:29:20] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:29:20] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:29:21] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:29:21] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:29:21] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:29:21] Alfred is being called. Data: error 1 
+[2021-06-12 12:29:21] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:29:22] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:29:22] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:29:23] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:29:23] Calling menu options 
+[2021-06-12 12:33:08] Reservation has been initialized 
+[2021-06-12 12:33:08] HowManyPersons was called 
+[2021-06-12 12:33:08] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:33:10] Reservation has been initialized 
+[2021-06-12 12:33:11] HowManyPersons was called 
+[2021-06-12 12:33:11] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:33:11] DateAndTime was called 
+[2021-06-12 12:33:11] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:33:14] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:33:14] Calling menu options 
+[2021-06-12 12:33:15] GetNames was called 
+[2021-06-12 12:33:15] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:33:15] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:33:16] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:33:16] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:33:16] Alfred is being called. Data: error 1 
+[2021-06-12 12:33:16] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:33:17] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:33:17] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:33:17] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:33:18] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:33:18] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:33:18] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:33:18] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:33:19] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:33:19] Calling menu options 
+[2021-06-12 12:33:30] Reservation has been initialized 
+[2021-06-12 12:33:30] HowManyPersons was called 
+[2021-06-12 12:33:30] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:33:31] DateAndTime was called 
+[2021-06-12 12:33:31] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:33:34] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:33:34] Calling menu options 
+[2021-06-12 12:33:35] GetNames was called 
+[2021-06-12 12:33:35] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:33:35] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:33:35] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:33:35] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:33:37] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:33:37] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:33:37] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:33:37] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:33:37] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:33:38] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:33:38] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:33:38] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:33:38] Calling menu options 
+[2021-06-12 12:35:40] Reservation has been initialized 
+[2021-06-12 12:35:40] HowManyPersons was called 
+[2021-06-12 12:35:40] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:35:48] Reservation has been initialized 
+[2021-06-12 12:35:48] HowManyPersons was called 
+[2021-06-12 12:35:48] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:35:49] DateAndTime was called 
+[2021-06-12 12:35:49] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:35:52] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:35:52] Calling menu options 
+[2021-06-12 12:35:53] GetNames was called 
+[2021-06-12 12:35:53] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:35:53] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:35:53] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:35:53] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:35:53] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:35:54] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:35:54] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:35:54] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:35:54] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:35:55] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:35:55] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:35:55] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:35:55] Calling menu options 
+[2021-06-12 12:36:54] Reservation has been initialized 
+[2021-06-12 12:36:54] HowManyPersons was called 
+[2021-06-12 12:36:54] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:36:55] DateAndTime was called 
+[2021-06-12 12:36:55] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:36:58] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:36:58] Calling menu options 
+[2021-06-12 12:36:59] GetNames was called 
+[2021-06-12 12:36:59] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:36:59] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:36:59] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:36:59] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:37:00] Alfred is being called. Data: error 1 
+[2021-06-12 12:37:00] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:37:00] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:37:01] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:37:01] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:37:01] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:37:01] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:37:02] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:37:02] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:37:02] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:37:02] Calling menu options 
+[2021-06-12 12:38:45] Reservation has been initialized 
+[2021-06-12 12:38:46] HowManyPersons was called 
+[2021-06-12 12:38:46] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:38:46] DateAndTime was called 
+[2021-06-12 12:38:46] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:38:49] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:38:49] Calling menu options 
+[2021-06-12 12:38:49] GetNames was called 
+[2021-06-12 12:38:49] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:38:49] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:38:49] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:38:50] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:38:50] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:38:50] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:38:50] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:38:51] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:38:51] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:38:51] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:38:51] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:38:52] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:38:52] Calling menu options 
+[2021-06-12 12:40:20] Reservation has been initialized 
+[2021-06-12 12:40:20] HowManyPersons was called 
+[2021-06-12 12:40:20] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:40:21] DateAndTime was called 
+[2021-06-12 12:40:21] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:40:23] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:40:23] Calling menu options 
+[2021-06-12 12:40:31] GetNames was called 
+[2021-06-12 12:40:31] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:40:31] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:40:33] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:40:33] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:40:33] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:40:33] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:40:33] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:40:34] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:40:34] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:40:34] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:40:35] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:40:35] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:40:35] Calling menu options 
+[2021-06-12 12:41:12] Reservation has been initialized 
+[2021-06-12 12:41:12] HowManyPersons was called 
+[2021-06-12 12:41:12] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:41:15] DateAndTime was called 
+[2021-06-12 12:41:15] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:41:17] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:41:17] Calling menu options 
+[2021-06-12 12:41:17] GetNames was called 
+[2021-06-12 12:41:17] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:41:17] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:41:17] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:41:18] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:41:18] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:41:18] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:41:18] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:41:19] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:41:19] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:41:19] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:41:19] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:41:20] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:41:20] Calling menu options 
+[2021-06-12 12:41:38] Reservation has been initialized 
+[2021-06-12 12:41:38] HowManyPersons was called 
+[2021-06-12 12:41:38] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:41:39] DateAndTime was called 
+[2021-06-12 12:41:39] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:41:41] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:41:41] Calling menu options 
+[2021-06-12 12:41:42] GetNames was called 
+[2021-06-12 12:41:42] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:41:42] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:41:43] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:41:43] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:41:44] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:41:44] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:41:44] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:41:45] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:41:45] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:41:46] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:41:46] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:41:46] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:41:46] Calling menu options 
+[2021-06-12 12:42:24] Reservation has been initialized 
+[2021-06-12 12:42:24] HowManyPersons was called 
+[2021-06-12 12:42:24] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:42:25] DateAndTime was called 
+[2021-06-12 12:42:25] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:42:27] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:42:27] Calling menu options 
+[2021-06-12 12:42:27] GetNames was called 
+[2021-06-12 12:42:27] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:42:27] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:42:27] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:42:28] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:42:28] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:42:28] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:42:29] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:42:30] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:42:30] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:42:30] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:42:30] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:42:31] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:42:31] Calling menu options 
+[2021-06-12 12:42:50] Reservation has been initialized 
+[2021-06-12 12:42:50] HowManyPersons was called 
+[2021-06-12 12:42:50] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:42:50] DateAndTime was called 
+[2021-06-12 12:42:50] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:42:52] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:42:52] Calling menu options 
+[2021-06-12 12:42:52] GetNames was called 
+[2021-06-12 12:42:52] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:42:52] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:42:52] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:42:52] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:42:53] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:42:53] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:42:53] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:42:54] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:42:54] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:42:54] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:42:55] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:42:55] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:42:55] Calling menu options 
+[2021-06-12 12:43:20] Reservation has been initialized 
+[2021-06-12 12:43:20] HowManyPersons was called 
+[2021-06-12 12:43:20] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:43:25] DateAndTime was called 
+[2021-06-12 12:43:25] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:43:30] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:43:30] Calling menu options 
+[2021-06-12 12:43:31] GetNames was called 
+[2021-06-12 12:43:31] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:43:31] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:43:31] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:43:31] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:43:32] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:43:32] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:43:32] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:43:32] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:43:32] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:43:33] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:43:33] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:43:33] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:43:33] Calling menu options 
+[2021-06-12 12:44:08] Reservation has been initialized 
+[2021-06-12 12:44:08] HowManyPersons was called 
+[2021-06-12 12:44:08] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:44:09] DateAndTime was called 
+[2021-06-12 12:44:09] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:44:12] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:44:12] Calling menu options 
+[2021-06-12 12:44:13] GetNames was called 
+[2021-06-12 12:44:13] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:44:13] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:44:13] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:44:13] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:44:14] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:44:14] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:44:14] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:44:14] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:44:15] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:44:15] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:44:15] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:44:16] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:44:16] Calling menu options 
+[2021-06-12 12:44:41] Reservation has been initialized 
+[2021-06-12 12:44:55] Reservation has been initialized 
+[2021-06-12 12:45:10] Reservation has been initialized 
+[2021-06-12 12:45:10] HowManyPersons was called 
+[2021-06-12 12:45:10] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:45:11] DateAndTime was called 
+[2021-06-12 12:45:11] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:45:17] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:45:17] Calling menu options 
+[2021-06-12 12:45:17] GetNames was called 
+[2021-06-12 12:45:17] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:45:17] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:45:18] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:45:18] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:45:19] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:45:19] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:45:19] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:45:20] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:45:20] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:45:21] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:45:21] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:45:21] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:45:21] Calling menu options 
+[2021-06-12 12:45:55] Reservation has been initialized 
+[2021-06-12 12:45:56] HowManyPersons was called 
+[2021-06-12 12:45:56] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:45:57] DateAndTime was called 
+[2021-06-12 12:45:57] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:46:00] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:46:00] Calling menu options 
+[2021-06-12 12:46:01] GetNames was called 
+[2021-06-12 12:46:01] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:46:01] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:46:01] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:46:01] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:46:01] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:46:02] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:46:02] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:46:02] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:46:02] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:46:03] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:46:03] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:46:03] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:46:03] Calling menu options 
+[2021-06-12 12:46:40] Reservation has been initialized 
+[2021-06-12 12:46:40] HowManyPersons was called 
+[2021-06-12 12:46:40] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:46:51] Reservation has been initialized 
+[2021-06-12 12:46:51] HowManyPersons was called 
+[2021-06-12 12:46:51] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:46:52] DateAndTime was called 
+[2021-06-12 12:46:52] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:46:54] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:46:54] Calling menu options 
+[2021-06-12 12:46:54] GetNames was called 
+[2021-06-12 12:46:54] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:46:54] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:46:54] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:46:55] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:46:55] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:46:55] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:46:55] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:46:56] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:46:56] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:46:56] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:46:56] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:46:57] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:46:57] Calling menu options 
+[2021-06-12 12:47:38] Reservation has been initialized 
+[2021-06-12 12:47:38] HowManyPersons was called 
+[2021-06-12 12:47:38] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:47:41] Reservation has been initialized 
+[2021-06-12 12:47:41] HowManyPersons was called 
+[2021-06-12 12:47:41] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:47:43] DateAndTime was called 
+[2021-06-12 12:47:43] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:47:45] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:47:45] Calling menu options 
+[2021-06-12 12:47:46] GetNames was called 
+[2021-06-12 12:47:46] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:47:46] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:47:46] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:47:47] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:47:47] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:47:47] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:47:47] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:47:48] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:47:48] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:47:48] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:47:48] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:47:48] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:47:49] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:47:49] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:47:49] Alfred is being called. Data: error 1 
+[2021-06-12 12:47:49] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:47:49] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:47:49] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:47:50] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:47:50] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:47:51] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:47:51] Alfred is being called. Data: error 1 
+[2021-06-12 12:47:51] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:47:51] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:47:52] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:47:52] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:47:52] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:47:52] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:47:53] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:47:53] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:47:53] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:47:53] Calling menu options 
+[2021-06-12 12:51:33] Reservation has been initialized 
+[2021-06-12 12:51:33] HowManyPersons was called 
+[2021-06-12 12:51:33] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:51:34] DateAndTime was called 
+[2021-06-12 12:51:34] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:51:35] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:51:35] Calling menu options 
+[2021-06-12 12:51:36] GetNames was called 
+[2021-06-12 12:51:36] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:51:36] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:51:37] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:51:37] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:51:37] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:51:37] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:51:38] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:51:39] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:51:39] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:51:39] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:51:40] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:51:40] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:51:40] Calling menu options 
+[2021-06-12 12:53:32] Reservation has been initialized 
+[2021-06-12 12:53:32] HowManyPersons was called 
+[2021-06-12 12:53:32] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:53:36] Reservation has been initialized 
+[2021-06-12 12:53:37] HowManyPersons was called 
+[2021-06-12 12:53:37] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:53:37] DateAndTime was called 
+[2021-06-12 12:53:37] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:53:39] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:53:39] Calling menu options 
+[2021-06-12 12:53:39] GetNames was called 
+[2021-06-12 12:53:39] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:53:39] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:53:39] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:53:40] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:53:40] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:53:40] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:53:41] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:53:41] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:53:41] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:53:42] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:53:42] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:53:43] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:53:43] Calling menu options 
+[2021-06-12 12:55:19] Reservation has been initialized 
+[2021-06-12 12:55:19] HowManyPersons was called 
+[2021-06-12 12:55:19] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:55:21] DateAndTime was called 
+[2021-06-12 12:55:21] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:55:23] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:55:23] Calling menu options 
+[2021-06-12 12:55:23] GetNames was called 
+[2021-06-12 12:55:23] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:55:23] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:55:24] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:55:24] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:55:25] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:55:25] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:55:25] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:55:26] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:55:26] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:55:26] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:55:26] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:55:27] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:55:27] Calling menu options 
+[2021-06-12 12:57:13] Reservation has been initialized 
+[2021-06-12 12:57:13] HowManyPersons was called 
+[2021-06-12 12:57:13] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:57:14] DateAndTime was called 
+[2021-06-12 12:57:14] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:57:16] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:57:16] Calling menu options 
+[2021-06-12 12:57:16] GetNames was called 
+[2021-06-12 12:57:16] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:57:16] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:57:16] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:57:17] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:57:17] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:57:17] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:57:17] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:57:18] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:57:18] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:57:18] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:57:18] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:57:19] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:57:19] Calling menu options 
+[2021-06-12 12:57:43] Reservation has been initialized 
+[2021-06-12 12:57:43] HowManyPersons was called 
+[2021-06-12 12:57:43] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:57:46] DateAndTime was called 
+[2021-06-12 12:57:46] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:57:47] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:57:47] Calling menu options 
+[2021-06-12 12:57:48] GetNames was called 
+[2021-06-12 12:57:48] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:57:48] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:57:48] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:57:48] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:57:49] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:57:49] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:57:49] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:57:50] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:57:50] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:57:50] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:57:51] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:57:51] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:57:51] Calling menu options 
+[2021-06-12 12:58:18] Reservation has been initialized 
+[2021-06-12 12:58:19] HowManyPersons was called 
+[2021-06-12 12:58:19] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:58:19] DateAndTime was called 
+[2021-06-12 12:58:19] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:58:22] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:58:22] Calling menu options 
+[2021-06-12 12:58:23] GetNames was called 
+[2021-06-12 12:58:23] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:58:23] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:58:23] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:58:23] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:58:24] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:58:24] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:58:24] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:58:25] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:58:25] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:58:25] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:58:25] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:58:25] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:58:25] Calling menu options 
+[2021-06-12 12:58:39] Reservation has been initialized 
+[2021-06-12 12:58:39] HowManyPersons was called 
+[2021-06-12 12:58:39] Alfred is being called. Data: reservation 0 
+[2021-06-12 12:58:40] DateAndTime was called 
+[2021-06-12 12:58:40] Alfred is being called. Data: reservation 1 
+[2021-06-12 12:58:47] Alfred is being called. Data: reservation 5 
+[2021-06-12 12:58:47] Calling menu options 
+[2021-06-12 12:58:48] GetNames was called 
+[2021-06-12 12:58:48] Alfred is being called. Data: reservation 12 
+[2021-06-12 12:58:48] Alfred is being called. Data: reservation 7 
+[2021-06-12 12:58:48] Alfred is being called. Data: reservation 8 
+[2021-06-12 12:58:48] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:58:49] Alfred is being called. Data: reservation 10 
+[2021-06-12 12:58:50] Alfred is being called. Data: reservation 11 
+[2021-06-12 12:58:50] Alfred is being called. Data: reservation 13 
+[2021-06-12 12:58:50] Alfred is being called. Data: reservation 14 
+[2021-06-12 12:58:51] Alfred is being called. Data: reservation 9 
+[2021-06-12 12:58:51] Alfred is being called. Data: reservation 16 
+[2021-06-12 12:58:51] Alfred is being called. Data: reservation 17 
+[2021-06-12 12:58:52] Alfred is being called. Data: reservation 19 
+[2021-06-12 12:58:52] Calling menu options 
+[2021-06-12 13:00:18] Reservation has been initialized 
+[2021-06-12 13:00:19] HowManyPersons was called 
+[2021-06-12 13:00:19] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:00:19] DateAndTime was called 
+[2021-06-12 13:00:19] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:00:22] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:00:22] Calling menu options 
+[2021-06-12 13:00:22] GetNames was called 
+[2021-06-12 13:00:22] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:00:22] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:00:22] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:00:22] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:00:23] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:00:23] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:00:23] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:00:23] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:00:24] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:00:24] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:00:24] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:00:24] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:00:24] Calling menu options 
+[2021-06-12 13:00:47] Reservation has been initialized 
+[2021-06-12 13:00:47] HowManyPersons was called 
+[2021-06-12 13:00:47] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:00:47] DateAndTime was called 
+[2021-06-12 13:00:47] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:00:49] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:00:49] Calling menu options 
+[2021-06-12 13:00:49] GetNames was called 
+[2021-06-12 13:00:49] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:00:49] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:00:49] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:00:50] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:00:50] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:00:50] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:00:51] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:00:51] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:00:51] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:00:51] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:00:52] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:00:52] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:00:52] Calling menu options 
+[2021-06-12 13:01:07] Reservation has been initialized 
+[2021-06-12 13:01:07] HowManyPersons was called 
+[2021-06-12 13:01:07] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:01:08] DateAndTime was called 
+[2021-06-12 13:01:08] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:01:09] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:01:09] Calling menu options 
+[2021-06-12 13:01:09] GetNames was called 
+[2021-06-12 13:01:09] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:01:09] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:01:10] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:01:10] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:01:10] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:01:10] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:01:10] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:01:11] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:01:11] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:01:11] Alfred is being called. Data: error 1 
+[2021-06-12 13:01:11] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:01:11] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:01:11] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:01:12] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:01:12] Calling menu options 
+[2021-06-12 13:02:34] Reservation has been initialized 
+[2021-06-12 13:02:34] HowManyPersons was called 
+[2021-06-12 13:02:34] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:02:36] DateAndTime was called 
+[2021-06-12 13:02:36] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:02:38] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:02:38] Calling menu options 
+[2021-06-12 13:02:38] GetNames was called 
+[2021-06-12 13:02:38] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:02:38] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:02:38] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:02:38] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:02:39] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:02:39] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:02:39] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:02:39] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:02:40] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:02:40] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:02:40] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:02:40] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:02:40] Calling menu options 
+[2021-06-12 13:03:21] Reservation has been initialized 
+[2021-06-12 13:03:21] HowManyPersons was called 
+[2021-06-12 13:03:21] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:03:22] DateAndTime was called 
+[2021-06-12 13:03:22] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:03:25] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:03:25] Calling menu options 
+[2021-06-12 13:03:25] GetNames was called 
+[2021-06-12 13:03:25] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:03:25] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:03:25] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:03:26] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:03:26] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:03:26] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:03:26] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:03:27] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:03:27] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:03:27] Alfred is being called. Data: error 1 
+[2021-06-12 13:03:27] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:03:28] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:03:28] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:03:28] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:03:28] Calling menu options 
+[2021-06-12 13:09:30] Reservation has been initialized 
+[2021-06-12 13:09:31] HowManyPersons was called 
+[2021-06-12 13:09:31] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:09:32] DateAndTime was called 
+[2021-06-12 13:09:32] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:09:34] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:09:34] Calling menu options 
+[2021-06-12 13:09:34] GetNames was called 
+[2021-06-12 13:09:34] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:09:34] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:09:34] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:09:35] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:09:35] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:09:35] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:09:35] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:09:36] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:09:36] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:09:36] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:09:36] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:09:37] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:09:37] Calling menu options 
+[2021-06-12 13:11:02] Reservation has been initialized 
+[2021-06-12 13:11:02] HowManyPersons was called 
+[2021-06-12 13:11:02] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:11:03] DateAndTime was called 
+[2021-06-12 13:11:03] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:11:04] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:11:04] Calling menu options 
+[2021-06-12 13:11:05] GetNames was called 
+[2021-06-12 13:11:05] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:11:05] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:11:05] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:11:06] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:11:06] Alfred is being called. Data: error 1 
+[2021-06-12 13:11:06] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:11:07] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:11:07] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:11:07] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:11:07] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:11:07] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:11:08] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:11:08] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:11:08] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:11:08] Calling menu options 
+[2021-06-12 13:13:13] Reservation has been initialized 
+[2021-06-12 13:13:13] HowManyPersons was called 
+[2021-06-12 13:13:13] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:13:15] DateAndTime was called 
+[2021-06-12 13:13:15] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:13:18] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:13:18] Calling menu options 
+[2021-06-12 13:13:18] GetNames was called 
+[2021-06-12 13:13:18] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:13:18] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:13:18] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:13:18] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:13:19] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:13:19] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:13:19] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:13:20] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:13:20] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:13:20] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:13:21] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:13:21] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:13:21] Calling menu options 
+[2021-06-12 13:13:46] Reservation has been initialized 
+[2021-06-12 13:13:46] HowManyPersons was called 
+[2021-06-12 13:13:46] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:13:48] DateAndTime was called 
+[2021-06-12 13:13:48] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:13:52] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:13:52] Calling menu options 
+[2021-06-12 13:13:53] GetNames was called 
+[2021-06-12 13:13:53] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:13:53] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:13:53] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:13:53] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:13:53] Alfred is being called. Data: error 1 
+[2021-06-12 13:13:53] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:13:54] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:13:54] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:13:54] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:13:55] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:13:55] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:13:55] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:13:55] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:13:55] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:13:55] Calling menu options 
+[2021-06-12 13:17:40] Reservation has been initialized 
+[2021-06-12 13:17:40] HowManyPersons was called 
+[2021-06-12 13:17:40] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:17:42] DateAndTime was called 
+[2021-06-12 13:17:42] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:17:44] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:17:44] Calling menu options 
+[2021-06-12 13:17:45] GetNames was called 
+[2021-06-12 13:17:45] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:17:45] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:17:45] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:17:45] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:17:45] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:17:46] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:17:46] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:17:46] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:17:46] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:17:47] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:17:47] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:17:47] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:17:47] Calling menu options 
+[2021-06-12 13:18:03] Reservation has been initialized 
+[2021-06-12 13:18:04] HowManyPersons was called 
+[2021-06-12 13:18:04] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:18:05] Alfred is being called. Data: tables 1 
+[2021-06-12 13:18:07] DateAndTime was called 
+[2021-06-12 13:18:07] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:18:10] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:18:10] Calling menu options 
+[2021-06-12 13:18:10] GetNames was called 
+[2021-06-12 13:18:10] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:18:10] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:18:10] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:18:10] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:18:11] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:18:11] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:18:11] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:18:12] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:18:12] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:18:13] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:18:13] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:18:13] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:18:13] Calling menu options 
+[2021-06-12 13:22:56] Reservation has been initialized 
+[2021-06-12 13:22:56] HowManyPersons was called 
+[2021-06-12 13:22:56] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:22:57] DateAndTime was called 
+[2021-06-12 13:22:57] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:22:58] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:22:58] Calling menu options 
+[2021-06-12 13:22:59] GetNames was called 
+[2021-06-12 13:22:59] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:22:59] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:22:59] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:22:59] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:23:00] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:23:00] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:23:00] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:23:01] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:23:01] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:23:02] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:23:02] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:23:02] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:23:02] Calling menu options 
+[2021-06-12 13:24:22] Reservation has been initialized 
+[2021-06-12 13:24:22] HowManyPersons was called 
+[2021-06-12 13:24:22] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:24:23] DateAndTime was called 
+[2021-06-12 13:24:23] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:24:24] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:24:24] Calling menu options 
+[2021-06-12 13:24:25] GetNames was called 
+[2021-06-12 13:24:25] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:24:25] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:24:25] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:24:26] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:24:26] Alfred is being called. Data: error 1 
+[2021-06-12 13:24:26] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:24:27] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:24:27] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:24:27] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:24:28] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:24:28] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:24:28] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:24:28] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:24:29] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:24:29] Calling menu options 
+[2021-06-12 13:24:57] Reservation has been initialized 
+[2021-06-12 13:24:57] HowManyPersons was called 
+[2021-06-12 13:24:57] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:25:03] Reservation has been initialized 
+[2021-06-12 13:25:03] HowManyPersons was called 
+[2021-06-12 13:25:03] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:25:03] DateAndTime was called 
+[2021-06-12 13:25:03] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:25:05] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:25:05] Calling menu options 
+[2021-06-12 13:25:06] GetNames was called 
+[2021-06-12 13:25:06] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:25:06] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:25:06] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:25:06] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:25:06] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:25:06] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:25:07] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:25:08] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:25:08] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:25:08] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:25:09] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:25:09] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:25:09] Calling menu options 
+[2021-06-12 13:26:49] Reservation has been initialized 
+[2021-06-12 13:26:49] HowManyPersons was called 
+[2021-06-12 13:26:49] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:26:52] DateAndTime was called 
+[2021-06-12 13:26:52] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:26:54] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:26:54] Calling menu options 
+[2021-06-12 13:26:54] GetNames was called 
+[2021-06-12 13:26:54] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:26:54] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:26:54] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:26:54] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:26:55] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:26:55] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:26:55] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:26:56] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:26:56] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:26:56] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:26:56] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:26:57] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:26:57] Calling menu options 
+[2021-06-12 13:27:58] Reservation has been initialized 
+[2021-06-12 13:27:58] HowManyPersons was called 
+[2021-06-12 13:27:58] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:28:00] DateAndTime was called 
+[2021-06-12 13:28:00] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:28:02] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:28:02] Calling menu options 
+[2021-06-12 13:28:02] GetNames was called 
+[2021-06-12 13:28:02] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:28:02] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:28:02] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:28:02] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:28:03] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:28:03] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:28:03] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:28:03] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:28:03] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:28:03] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:28:04] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:28:04] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:28:04] Calling menu options 
+[2021-06-12 13:32:53] Reservation has been initialized 
+[2021-06-12 13:32:54] HowManyPersons was called 
+[2021-06-12 13:32:54] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:32:55] DateAndTime was called 
+[2021-06-12 13:32:55] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:32:56] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:32:56] Calling menu options 
+[2021-06-12 13:32:57] GetNames was called 
+[2021-06-12 13:32:57] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:32:57] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:32:57] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:32:57] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:32:57] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:32:58] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:32:58] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:32:58] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:32:58] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:32:59] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:32:59] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:32:59] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:32:59] Calling menu options 
+[2021-06-12 13:34:21] Reservation has been initialized 
+[2021-06-12 13:34:21] HowManyPersons was called 
+[2021-06-12 13:34:21] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:34:22] DateAndTime was called 
+[2021-06-12 13:34:22] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:34:24] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:34:24] Calling menu options 
+[2021-06-12 13:34:24] GetNames was called 
+[2021-06-12 13:34:24] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:34:24] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:34:25] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:34:25] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:34:25] Alfred is being called. Data: error 1 
+[2021-06-12 13:34:25] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:34:26] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:34:26] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:34:26] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:34:26] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:34:26] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:34:27] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:34:27] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:34:27] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:34:27] Calling menu options 
+[2021-06-12 13:34:56] Reservation has been initialized 
+[2021-06-12 13:34:57] HowManyPersons was called 
+[2021-06-12 13:34:57] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:34:58] DateAndTime was called 
+[2021-06-12 13:34:58] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:35:00] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:35:00] Calling menu options 
+[2021-06-12 13:35:00] GetNames was called 
+[2021-06-12 13:35:00] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:35:00] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:35:01] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:35:01] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:35:01] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:35:01] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:35:02] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:35:02] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:35:02] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:35:02] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:35:03] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:35:03] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:35:03] Calling menu options 
+[2021-06-12 13:41:56] Reservation has been initialized 
+[2021-06-12 13:41:56] HowManyPersons was called 
+[2021-06-12 13:41:56] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:41:58] DateAndTime was called 
+[2021-06-12 13:41:58] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:42:00] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:42:00] Calling menu options 
+[2021-06-12 13:42:00] GetNames was called 
+[2021-06-12 13:42:00] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:42:00] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:42:01] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:42:01] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:42:01] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:42:01] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:42:02] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:42:02] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:42:02] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:42:03] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:42:03] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:42:03] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:42:03] Calling menu options 
+[2021-06-12 13:42:47] Reservation has been initialized 
+[2021-06-12 13:42:47] HowManyPersons was called 
+[2021-06-12 13:42:47] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:42:48] DateAndTime was called 
+[2021-06-12 13:42:48] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:42:50] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:42:50] Calling menu options 
+[2021-06-12 13:42:51] GetNames was called 
+[2021-06-12 13:42:51] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:42:51] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:42:51] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:42:51] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:42:52] Alfred is being called. Data: error 1 
+[2021-06-12 13:42:52] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:42:54] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:42:54] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:42:54] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:42:55] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:42:55] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:42:55] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:42:55] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:42:56] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:42:56] Calling menu options 
+[2021-06-12 13:45:57] Reservation has been initialized 
+[2021-06-12 13:45:57] HowManyPersons was called 
+[2021-06-12 13:45:57] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:46:01] DateAndTime was called 
+[2021-06-12 13:46:01] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:46:03] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:46:03] Calling menu options 
+[2021-06-12 13:46:04] GetNames was called 
+[2021-06-12 13:46:04] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:46:04] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:46:04] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:46:04] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:46:05] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:46:05] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:46:05] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:46:05] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:46:05] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:46:06] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:46:06] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:46:07] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:46:07] Calling menu options 
+[2021-06-12 13:46:21] Reservation has been initialized 
+[2021-06-12 13:46:21] HowManyPersons was called 
+[2021-06-12 13:46:21] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:46:23] DateAndTime was called 
+[2021-06-12 13:46:23] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:46:26] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:46:26] Calling menu options 
+[2021-06-12 13:46:26] GetNames was called 
+[2021-06-12 13:46:26] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:46:26] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:46:26] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:46:27] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:46:27] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:46:27] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:46:28] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:46:28] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:46:28] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:46:29] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:46:29] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:46:29] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:46:29] Calling menu options 
+[2021-06-12 13:48:16] Reservation has been initialized 
+[2021-06-12 13:48:16] HowManyPersons was called 
+[2021-06-12 13:48:16] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:48:17] DateAndTime was called 
+[2021-06-12 13:48:17] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:48:21] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:48:21] Calling menu options 
+[2021-06-12 13:48:22] GetNames was called 
+[2021-06-12 13:48:22] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:48:22] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:48:22] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:48:22] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:48:23] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:48:23] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:48:23] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:48:23] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:48:23] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:48:24] Alfred is being called. Data: error 1 
+[2021-06-12 13:48:24] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:48:24] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:48:24] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:48:25] Alfred is being called. Data: tables 3 
+[2021-06-12 13:48:25] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:48:25] Calling menu options 
+[2021-06-12 13:48:37] Reservation has been initialized 
+[2021-06-12 13:48:37] HowManyPersons was called 
+[2021-06-12 13:48:37] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:48:39] DateAndTime was called 
+[2021-06-12 13:48:39] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:48:41] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:48:41] Calling menu options 
+[2021-06-12 13:48:42] GetNames was called 
+[2021-06-12 13:48:42] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:48:42] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:48:42] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:48:42] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:48:42] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:48:43] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:48:43] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:48:43] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:48:43] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:48:44] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:48:44] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:48:44] Alfred is being called. Data: tables 3 
+[2021-06-12 13:48:44] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:48:44] Calling menu options 
+[2021-06-12 13:48:55] Reservation has been initialized 
+[2021-06-12 13:48:55] HowManyPersons was called 
+[2021-06-12 13:48:55] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:48:56] DateAndTime was called 
+[2021-06-12 13:48:56] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:48:59] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:48:59] Calling menu options 
+[2021-06-12 13:48:59] GetNames was called 
+[2021-06-12 13:48:59] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:48:59] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:49:00] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:49:00] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:49:00] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:49:01] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:49:01] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:49:02] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:49:02] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:49:02] Alfred is being called. Data: error 1 
+[2021-06-12 13:49:02] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:49:02] Alfred is being called. Data: error 1 
+[2021-06-12 13:49:02] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:49:03] Alfred is being called. Data: error 1 
+[2021-06-12 13:49:03] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:49:03] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:49:03] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:49:04] Alfred is being called. Data: tables 3 
+[2021-06-12 13:49:04] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:49:04] Calling menu options 
+[2021-06-12 13:49:56] Reservation has been initialized 
+[2021-06-12 13:49:56] HowManyPersons was called 
+[2021-06-12 13:49:56] Alfred is being called. Data: reservation 0 
+[2021-06-12 13:49:59] DateAndTime was called 
+[2021-06-12 13:49:59] Alfred is being called. Data: reservation 1 
+[2021-06-12 13:50:02] Alfred is being called. Data: reservation 5 
+[2021-06-12 13:50:02] Calling menu options 
+[2021-06-12 13:50:03] GetNames was called 
+[2021-06-12 13:50:03] Alfred is being called. Data: reservation 12 
+[2021-06-12 13:50:03] Alfred is being called. Data: reservation 7 
+[2021-06-12 13:50:03] Alfred is being called. Data: reservation 8 
+[2021-06-12 13:50:03] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:50:04] Alfred is being called. Data: error 1 
+[2021-06-12 13:50:04] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:50:04] Alfred is being called. Data: reservation 10 
+[2021-06-12 13:50:04] Alfred is being called. Data: reservation 11 
+[2021-06-12 13:50:04] Alfred is being called. Data: reservation 13 
+[2021-06-12 13:50:04] Alfred is being called. Data: reservation 14 
+[2021-06-12 13:50:05] Alfred is being called. Data: reservation 9 
+[2021-06-12 13:50:05] Alfred is being called. Data: reservation 16 
+[2021-06-12 13:50:05] Alfred is being called. Data: reservation 17 
+[2021-06-12 13:50:05] Alfred is being called. Data: tables 3 
+[2021-06-12 13:50:05] Alfred is being called. Data: reservation 19 
+[2021-06-12 13:50:05] Calling menu options 

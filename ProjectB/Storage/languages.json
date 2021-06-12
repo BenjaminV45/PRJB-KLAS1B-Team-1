@@ -77,7 +77,8 @@
 		"tables": [
 			"This is where you will be seated in our dining room: ",
 			"There is not enough space for this much guests. Please leave some guests at home. ",
-			"There is not enough space on this date. Please choose another date. "
+			"There is not enough space on this date. Please choose another date. ",
+			"The red area marked below is where you will be seated at the restaurant: "
 		],
 		"create-customer": [
 			"Amazing! I've learned to speak your language",
@@ -190,7 +191,8 @@
 		"tables" :[
 		"Dit is waar u komt te zitten in onze diner zaal: ",
 		"Wij hebben een te kleine zaal om u en uw reisgenoten ontvangen, laat alstublieft wat mensen thuis.",
-		"Er is geen tafel meer beschikbaar op deze datum. Kies alstublieft een andere datum. "
+		"Er is geen tafel meer beschikbaar op deze datum. Kies alstublieft een andere datum. ",
+		"De rood gemarkeerde plek hieronder is waar u komt te zitten: "
 		],
 		"create-customer": [
 			"Geweldig! Ik heb uw taal geleerd",

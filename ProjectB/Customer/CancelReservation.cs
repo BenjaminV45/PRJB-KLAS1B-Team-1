@@ -40,7 +40,6 @@ namespace ProjectB
                         TimeSpan diff = this.dateTime - DateTime.Parse(row.currentdate);
                         if (diff.TotalDays < 6)
                         {
-                            Console.WriteLine(diff.TotalDays);
                             comp = true;                           
                         }
                         else
