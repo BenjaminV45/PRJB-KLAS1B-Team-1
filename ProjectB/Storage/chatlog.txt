@@ -1,0 +1,39 @@
+
+[2021-06-12 11:32:03] System is running 
+[2021-06-12 11:32:03] Starting the program 
+[2021-06-12 11:32:03] Alfred is being called. Data: start 0 
+[2021-06-12 11:32:03] Alfred is being called. Data: option 0 
+[2021-06-12 11:32:03] Alfred is being called. Data: option 1 
+[2021-06-12 11:32:03] Calling menu options 
+[2021-06-12 11:32:06] Calling chef class 
+
+[2021-06-12 11:32:51] System is running 
+[2021-06-12 11:32:51] Starting the program 
+[2021-06-12 11:32:51] Alfred is being called. Data: start 0 
+[2021-06-12 11:32:51] Alfred is being called. Data: option 0 
+[2021-06-12 11:32:51] Alfred is being called. Data: option 1 
+[2021-06-12 11:32:51] Calling menu options 
+[2021-06-12 11:32:52] Calling chef class 
+
+[2021-06-12 11:45:10] System is running 
+[2021-06-12 11:45:10] Starting the program 
+[2021-06-12 11:45:10] Alfred is being called. Data: start 0 
+[2021-06-12 11:45:10] Alfred is being called. Data: option 0 
+[2021-06-12 11:45:10] Alfred is being called. Data: option 1 
+[2021-06-12 11:45:10] Calling menu options 
+[2021-06-12 11:45:15] Calling chef class 
+
+[2021-06-12 11:45:40] System is running 
+[2021-06-12 11:45:40] Calling chef class 
+
+[2021-06-12 11:46:08] System is running 
+[2021-06-12 11:46:08] Calling chef class 
+
+[2021-06-12 11:46:59] System is running 
+[2021-06-12 11:46:59] Calling chef class 
+
+[2021-06-12 11:47:25] System is running 
+[2021-06-12 11:47:25] Calling chef class 
+
+[2021-06-12 11:48:16] System is running 
+[2021-06-12 11:48:16] Calling chef class 

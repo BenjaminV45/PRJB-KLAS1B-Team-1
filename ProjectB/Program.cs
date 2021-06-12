@@ -243,18 +243,37 @@ namespace ProjectB
             new System().Log("Calling chef class");
             bool boolean = false;
             var resDate = new List<Tuple<int, string, int>>();
+
             while (!boolean)
             {
                 Console.Write("Input date: ");
                 string date = Console.ReadLine();
                 int counter = 1;
                 int index = 0;
+                int cFish = 0;
+                int cImpala = 0;
+                int cVegan = 0;
                 foreach (var row in this.reservations)
                 {
                     if (row.date == date)
                     {
                         resDate.Add(new Tuple<int, string, int>(counter, row.People[0].name, index));
                         counter++;
+                        foreach(var col in row.People)
+                        {
+                            if(col.menu == "Fish")
+                            {
+                                cFish++;
+                            }
+                            else if (col.menu == "Impala")
+                            {
+                                cImpala++;
+                            }
+                            else
+                            {
+                                cVegan++;
+                            }
+                        }
                     }
                     index++;
                 }
@@ -265,18 +284,21 @@ namespace ProjectB
                 }
                 else
                 {
-                    boolean = true;
+                    Console.WriteLine($"Fish: {cFish}");
+                    Console.WriteLine($"Impala: {cImpala}");
+                    Console.WriteLine($"Vegan: {cVegan}");
                 }
             }
-            foreach(var row in resDate)
-            {
-                Console.WriteLine($"[{row.Item1}] {row.Item2}");
-            }
-            boolean = false;
-            while (!boolean)
-            {
 
-            }
+            //foreach(var row in resDate)
+            //{
+            //    Console.WriteLine($"[{row.Item1}] {row.Item2}");
+            //}
+            //boolean = false;
+            //while (!boolean)
+            //{
+
+            //}
             //var options = new[]
             //{
             //    Tuple.Create<int, string, Action>(1, "Krijg menu", () => new GetMenu()),
@@ -607,7 +629,7 @@ namespace ProjectB
         static void Main(string[] args)
         {
             new System().Log("System is running");
-            new Start();
+            new Chef();
             //new CancelReservation();
         }
     }
