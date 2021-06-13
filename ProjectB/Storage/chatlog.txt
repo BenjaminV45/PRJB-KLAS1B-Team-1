@@ -1085,3 +1085,32 @@
 [2021-05-30 22:01:57] Alfred is being called. Data: option 3 
 [2021-05-30 22:01:57] Alfred is being called. Data: option 4 
 [2021-05-30 22:01:57] Calling menu options 
+[2021-06-12 11:49:27] Reservation has been initialized 
+[2021-06-12 11:49:27] HowManyPersons was called 
+[2021-06-12 11:49:27] Alfred is being called. Data: reservation 0 
+
+[2021-06-12 11:50:26] System is running 
+[2021-06-12 11:50:26] Calling chef class 
+
+[2021-06-12 11:51:50] System is running 
+[2021-06-12 11:51:50] Calling chef class 
+
+[2021-06-12 11:52:56] System is running 
+[2021-06-12 11:52:56] Calling chef class 
+
+[2021-06-12 11:54:22] System is running 
+[2021-06-12 11:54:22] Calling chef class 
+
+[2021-06-12 11:55:50] System is running 
+[2021-06-12 11:55:50] Calling chef class 
+
+[2021-06-12 11:58:40] System is running 
+[2021-06-12 11:58:40] Calling chef class 
+
+[2021-06-12 11:59:10] System is running 
+[2021-06-12 11:59:10] Starting the program 
+[2021-06-12 11:59:10] Alfred is being called. Data: start 0 
+[2021-06-12 11:59:10] Alfred is being called. Data: option 0 
+[2021-06-12 11:59:10] Alfred is being called. Data: option 1 
+[2021-06-12 11:59:10] Calling menu options 
+[2021-06-12 11:59:14] Calling chef class 

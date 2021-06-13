@@ -242,22 +242,19 @@ namespace ProjectB
             this.reservations = new Json("reservation.json").Read();
             new System().Log("Calling chef class");
             bool boolean = false;
-            var resDate = new List<Tuple<int, string, int>>();
 
             while (!boolean)
             {
-                Console.Write("Input date: ");
+                Console.Write("[Alfred] I'd like to know a date: ");
                 string date = Console.ReadLine();
-                int counter = 1;
-                int index = 0;
+                int counter = 0;
                 int cFish = 0;
                 int cImpala = 0;
                 int cVegan = 0;
                 foreach (var row in this.reservations)
                 {
                     if (row.date == date)
-                    {
-                        resDate.Add(new Tuple<int, string, int>(counter, row.People[0].name, index));
+                    { 
                         counter++;
                         foreach(var col in row.People)
                         {
@@ -275,12 +272,11 @@ namespace ProjectB
                             }
                         }
                     }
-                    index++;
                 }
 
-                if (resDate.Count < 1)
+                if (counter < 1)
                 {
-                    Console.WriteLine("Geen reservarties op deze dag gevonden");
+                    Console.WriteLine("[Alfred] Sorry but I can't manage to find a reservation with this input :(");
                 }
                 else
                 {
@@ -289,21 +285,6 @@ namespace ProjectB
                     Console.WriteLine($"Vegan: {cVegan}");
                 }
             }
-
-            //foreach(var row in resDate)
-            //{
-            //    Console.WriteLine($"[{row.Item1}] {row.Item2}");
-            //}
-            //boolean = false;
-            //while (!boolean)
-            //{
-
-            //}
-            //var options = new[]
-            //{
-            //    Tuple.Create<int, string, Action>(1, "Krijg menu", () => new GetMenu()),
-            //};
-            //this.Menu(options);
         }
 
     }
@@ -605,7 +586,6 @@ namespace ProjectB
     }
     class Start : Option
     {
-
         public Start()
         {
 
@@ -629,10 +609,8 @@ namespace ProjectB
 
         static void Main(string[] args)
         {
-            new Reservation();
             new System().Log("System is running");
-            new Chef();
-            //new CancelReservation();
+            new Start();
         }
     }
 }
