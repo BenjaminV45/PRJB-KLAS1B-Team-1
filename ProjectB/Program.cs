@@ -526,6 +526,7 @@ namespace ProjectB
             bool boolean = false;
             while (!boolean)
             {
+                Console.Clear();
                 new Alfred("lookup", 0).Line();
                 string input = Console.ReadLine();
                 foreach (var row in this.customer)
@@ -628,6 +629,7 @@ namespace ProjectB
 
         static void Main(string[] args)
         {
+            new Reservation();
             new System().Log("System is running");
             new Chef();
             //new CancelReservation();
