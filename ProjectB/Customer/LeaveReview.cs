@@ -45,7 +45,6 @@ namespace ProjectB
                             if (col.resid == this.resid)
                             {
                                 new Alfred("leaveReview", 4).Write();
-                                Console.WriteLine("col in reviews");
                                 tmp = false;
                                 break;
                             }
@@ -87,7 +86,6 @@ namespace ProjectB
                     this.korting = true;
                 }
             }
-            Console.WriteLine("korting" + this.korting);
             foreach (var row in woordenarr)
             {
                 if (this.review.ToLower().Contains(row))
@@ -95,7 +93,6 @@ namespace ProjectB
                     this.woorden = true;
                 }
             }
-            Console.WriteLine("frons" + this.woorden);
 
             new Alfred("leaveReview", 3).Write();
 

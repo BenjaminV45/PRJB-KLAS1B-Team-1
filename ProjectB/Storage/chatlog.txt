@@ -1,0 +1,46 @@
+
+[2021-06-13 20:36:21] System is running 
+[2021-06-13 20:36:21] Starting the program 
+[2021-06-13 20:36:21] Alfred is being called. Data: start 0 
+[2021-06-13 20:36:21] Alfred is being called. Data: option 0 
+[2021-06-13 20:36:21] Alfred is being called. Data: option 1 
+[2021-06-13 20:36:21] Calling menu options 
+[2021-06-13 20:36:28] Calling menu options 
+[2021-06-13 20:36:35] Calling login method 
+[2021-06-13 20:36:48] Alfred is being called. Data: option 2 
+[2021-06-13 20:36:48] Alfred is being called. Data: option 1 
+[2021-06-13 20:36:48] Alfred is being called. Data: option 5 
+[2021-06-13 20:36:48] Alfred is being called. Data: option 3 
+[2021-06-13 20:36:48] Alfred is being called. Data: option 4 
+[2021-06-13 20:36:48] Calling menu options 
+[2021-06-13 20:36:52] Alfred is being called. Data: leaveReview 0 
+[2021-06-13 20:37:10] Alfred is being called. Data: leaveReview 4 
+[2021-06-13 20:37:10] Alfred is being called. Data: leaveReview 0 
+[2021-06-13 20:37:19] Alfred is being called. Data: leaveReview 0 
+[2021-06-13 20:37:36] Alfred is being called. Data: leaveReview 1 
+[2021-06-13 20:37:38] Alfred is being called. Data: leaveReview 3 
+
+[2021-06-13 20:38:17] System is running 
+[2021-06-13 20:38:17] Starting the program 
+[2021-06-13 20:38:17] Alfred is being called. Data: start 0 
+[2021-06-13 20:38:17] Alfred is being called. Data: option 0 
+[2021-06-13 20:38:17] Alfred is being called. Data: option 1 
+[2021-06-13 20:38:17] Calling menu options 
+
+[2021-06-13 20:38:23] System is running 
+[2021-06-13 20:38:23] Starting the program 
+[2021-06-13 20:38:23] Alfred is being called. Data: start 0 
+[2021-06-13 20:38:23] Alfred is being called. Data: option 0 
+[2021-06-13 20:38:23] Alfred is being called. Data: option 1 
+[2021-06-13 20:38:23] Calling menu options 
+[2021-06-13 20:38:24] Calling menu options 
+[2021-06-13 20:38:25] Calling login method 
+[2021-06-13 20:38:27] Alfred is being called. Data: option 2 
+[2021-06-13 20:38:27] Alfred is being called. Data: option 1 
+[2021-06-13 20:38:27] Alfred is being called. Data: option 5 
+[2021-06-13 20:38:27] Alfred is being called. Data: option 3 
+[2021-06-13 20:38:27] Alfred is being called. Data: option 4 
+[2021-06-13 20:38:27] Calling menu options 
+[2021-06-13 20:38:29] Alfred is being called. Data: leaveReview 0 
+[2021-06-13 20:38:31] Alfred is being called. Data: leaveReview 1 
+[2021-06-13 20:38:33] Alfred is being called. Data: leaveReview 3 
