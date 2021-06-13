@@ -23,7 +23,7 @@
 			"Thank you for leaving a review..\n\nPress any key to go back to the menu.",
 			"Thank you for leaving a review.. You will receive a 10% discount on ur next visit!\n\nPress any key to go back to the menu.",
 			"I said rate from 1 to 5... -.-",
-			"That is not a valid reservation code.";
+			"That is not a valid reservation code."
 		],
 		"AskReview": [
 			"Press ESC to go back to the menu. Press any other key to see another review.",
@@ -138,7 +138,7 @@
 			"Bedankt voor het achterlaten van een review! Als dank krijgt u op uw volgend bezoek een korting van 10%.\n\nKlik op een willekeurige toets om terug te gaan naar het menu.",
 			"Bedankt voor het achterlaten van een review.. \n\nKlik op een willekeurige toets om terug te gaan naar het menu.",
 			"Bedankt voor het achterlaten van een review.. Als dank krijgt u op uw volgend bezoek een korting van 10%.\n\nKlik op een willekeurige toets om terug te gaan naar het menu",
-			"Dat is geen geldige reservatiecode.";
+			"Dat is geen geldige reservatiecode."
 		],
 		"AskReview": [
 			"Klik op - om terug te gaan naar het menu. Klik op een ander willekeurig toets om nog een review te bekijken.",
