@@ -97,7 +97,7 @@
 			"I've created a membership for you and send you an email with the credentials."
 		],
 		"membership": [
-			"Below your membership is shown."
+			"Your membership information is shown belown."
 		],
 		"cancel": [
 			"For cancelling ur reservation, I need to know your reservation code: ",
@@ -212,7 +212,7 @@
 			"Ik heb een lidmaatschap voor je gemaakt en heb je een e-mail gestuurd met de inloggegevens."
 		],
 		"membership": [
-			"Hieronder wordt uw lidmaatschap weergegeven."
+			"Onderstaand wordt uw lidmaatschap weergegeven."
 		],
 		"cancel": [
 			"Voor het annuleren heb ik uw reservatie code nodig: ",
