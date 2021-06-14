@@ -29,6 +29,8 @@ namespace ProjectB
         public TablesJson newtabledate;
         public int resindex;
         public int tableindex;
+        public int tablecount;
+        public Tuple<string, int> cord;
 
         public Reservation()
         {
@@ -48,6 +50,7 @@ namespace ProjectB
             this.code = null;
             this.totalcost = 0;
             this.tables = new Json("tables.json").Read();
+            this.tablecount = 0;
 
             HowManyPersons();
             DateAndTime();
@@ -90,6 +93,13 @@ namespace ProjectB
                     else
                     {
                         complete = true;
+                        if (this.persons == 1)
+                        {
+                            this.tablecount = 2;
+                        } else
+                        {
+                            this.tablecount = this.persons;
+                        }
                     }
                 }
                 catch
@@ -323,11 +333,11 @@ namespace ProjectB
                 int row3 = this.tables[i].row3.Count;
                 if (resdate == this.Date)
                 {
-                    if (row1 + this.persons > 22)
+                    if (row1 + this.tablecount > 22)
                     {
-                        if (row2 + this.persons > 22)
+                        if (row2 + this.tablecount > 22)
                         {
-                            if (row3 + this.persons > 22)
+                            if (row3 + this.tablecount > 22)
                             {
                                 new Alfred("tables", 2).Write();
                                 DateAndTime();
@@ -362,84 +372,89 @@ namespace ProjectB
                 this.tables.Add(this.newtabledate);
                 this.resindex++;
             }
-            if (this.tables[this.resindex].row1.Count + this.persons < 24)
+            if (this.tables[this.resindex].row1.Count + this.tablecount < 24)
             {
-                if (this.tables[this.resindex].row1.Count + this.persons + 2 < 24)
+                if (this.tables[this.resindex].row1.Count + this.tablecount + 2 < 24)
                 {
-                    if (this.persons <= 2)
+                    if (this.tablecount <= 2)
                     {
                         this.tables[this.resindex].row1.Add("[");
                         this.tables[this.resindex].row1.Add("]");
                         this.tables[this.resindex].row1.Add(" ");
                         this.tables[this.resindex].row1.Add(" ");
-                        this.tableindex = this.tables[this.resindex].row1.Count - 1;
-
+                        this.tableindex = this.tables[this.resindex].row1.Count - 4;
+                        this.cord = Tuple.Create("row1", this.tableindex);
                     }
-                    else if (this.persons > 2)
+                    else if (this.tablecount > 2)
                     {
                         this.tables[this.resindex].row1.Add("[");
-                        for (int i = 0; i < this.persons - 2; i++)
+                        for (int i = 0; i < this.tablecount - 2; i++)
                         {
                             this.tables[this.resindex].row1.Add(".");
                         }
                         this.tables[this.resindex].row1.Add("]");
                         this.tables[this.resindex].row1.Add(" ");
                         this.tables[this.resindex].row1.Add(" ");
-                        this.tableindex = this.tables[this.resindex].row1.Count;
+                        this.tableindex = this.tables[this.resindex].row1.Count - (this.tablecount + 2);
+                        this.cord = Tuple.Create("row1", this.tableindex);
                     }
 
                 }
             }
-            else if (this.tables[this.resindex].row2.Count + this.persons < 24)
+            else if (this.tables[this.resindex].row2.Count + this.tablecount < 24)
             {
-                if (this.tables[this.resindex].row2.Count + this.persons + 2 < 24)
+                if (this.tables[this.resindex].row2.Count + this.tablecount + 2 < 24)
                 {
-                    if (this.persons <= 2)
+                    if (this.tablecount <= 2)
                     {
                         this.tables[this.resindex].row2.Add("[");
                         this.tables[this.resindex].row2.Add("]");
                         this.tables[this.resindex].row2.Add(" ");
                         this.tables[this.resindex].row2.Add(" ");
-                        this.tableindex = this.tables[this.resindex].row1.Count - 1;
+                        this.tableindex = this.tables[this.resindex].row2.Count - 4;
+                        this.cord = Tuple.Create("row2", this.tableindex);
                     }
-                    else if (this.persons > 2)
+                    else if (this.tablecount > 2)
                     {
                         this.tables[this.resindex].row2.Add("[");
-                        for (int i = 0; i < this.persons - 2; i++)
+                        for (int i = 0; i < this.tablecount - 2; i++)
                         {
                             this.tables[this.resindex].row2.Add(".");
                         }
                         this.tables[this.resindex].row2.Add("]");
                         this.tables[this.resindex].row2.Add(" ");
                         this.tables[this.resindex].row2.Add(" ");
-                        this.tableindex = this.tables[this.resindex].row1.Count - 1;
+                        this.tableindex = this.tables[this.resindex].row2.Count - (this.tablecount + 2);
+                        this.cord = Tuple.Create("row2", this.tableindex);
                     }
 
                 }
             }
-            else if (this.tables[this.resindex].row3.Count + this.persons < 24)
+            else if (this.tables[this.resindex].row3.Count + this.tablecount < 24)
             {
-                if (this.tables[this.resindex].row3.Count + this.persons + 2 < 24)
+                if (this.tables[this.resindex].row3.Count + this.tablecount + 2 < 24)
                 {
-                    if (this.persons <= 2)
+                    if (this.tablecount <= 2)
                     {
                         this.tables[this.resindex].row3.Add("[");
                         this.tables[this.resindex].row3.Add("]");
                         this.tables[this.resindex].row3.Add(" ");
                         this.tables[this.resindex].row3.Add(" ");
-                        this.tableindex = this.tables[this.resindex].row1.Count - 1;
+                        this.tableindex = this.tables[this.resindex].row3.Count - 4;
+                        this.cord = Tuple.Create("row3", this.tableindex);
                     }
-                    else if (this.persons > 2)
+                    else if (this.tablecount > 2)
                     {
                         this.tables[this.resindex].row3.Add("[");
-                        for (int i = 0; i < this.persons - 2; i++)
+                        for (int i = 0; i < this.tablecount - 2; i++)
                         {
                             this.tables[this.resindex].row3.Add(".");
                         }
                         this.tables[this.resindex].row3.Add("]");
                         this.tables[this.resindex].row3.Add(" ");
                         this.tables[this.resindex].row3.Add(" ");
-                        this.tableindex = this.tables[this.resindex].row1.Count - 1;
+                        this.tableindex = this.tables[this.resindex].row3.Count - (this.tablecount + 2);
+                        this.cord = Tuple.Create("row3", this.tableindex);
                     }
 
                 }
@@ -449,42 +464,26 @@ namespace ProjectB
 
         public void DisplayTables()
         {
-            new Alfred("tables", 3).Write();
-            Console.WriteLine("");
-            Console.WriteLine("############################");
-
-            Console.WriteLine("#                          #");
-            
+            Console.WriteLine(this.cord);
             // rij 1
-            if (this.tables[this.resindex].row2.Count == 0 && this.tables[this.resindex].row3.Count == 0)
+            if (this.cord.Item1 == "row1")
             {
+                Console.WriteLine("############################");
+                Console.WriteLine("#                          #");
                 Console.Write("#  ");
-                if (this.tables[this.resindex].row1.Count == this.persons + 2)
+                for(int i = 0; i < this.cord.Item2; i++)
                 {
-                    for (int i = this.tableindex - this.persons - 2; i < this.tables[this.resindex].row1.Count; i++)
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.Write(this.tables[this.resindex].row1[i], Console.ForegroundColor);
-                        Console.ResetColor();
-                    }
+                    Console.Write(this.tables[this.resindex].row1[i]);
                 }
-                else
+                for(int j = this.cord.Item2; j < this.cord.Item2 + this.tablecount + 2; j++)
                 {
-                    for (int i = 0; i < this.tableindex - this.persons - 2; i++)
-                    {
-                        Console.Write(this.tables[this.resindex].row1[i]);
-                    }
-                    for (int i = this.tableindex - this.persons - 2; i < this.tables[this.resindex].row1.Count; i++)
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.Write(this.tables[this.resindex].row1[i], Console.ForegroundColor);
-                        Console.ResetColor();
-                    }
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write(this.tables[this.resindex].row1[j], Console.ForegroundColor);
+                    Console.ResetColor();
                 }
-
                 if (this.tables[this.resindex].row1.Count <= 24)
                 {
-                    Console.Write(new String(' ', 24 - this.tables[this.resindex].row1.Count));
+                    Console.Write(new String(' ', (24 - this.tables[this.resindex].row1.Count)));
                     Console.Write("#\n");
                 }
                 else
@@ -492,16 +491,38 @@ namespace ProjectB
                     Console.Write("#\n");
                 }
                 Console.WriteLine("#                          #");
+                Console.Write("#  ");
+                Console.Write(String.Join("", this.tables[this.resindex].row2));
+                if (this.tables[this.resindex].row2.Count <= 24)
+                {
+                    Console.Write(new String(' ', 24 - this.tables[this.resindex].row2.Count));
+                    Console.Write("#\n");
+                }
+                else
+                {
+                    Console.Write("#\n");
+                }
                 Console.WriteLine("#                          #");
-                Console.WriteLine("#                          #");
-                Console.WriteLine("#                          #");
+                Console.Write("#  ");
+                Console.Write(String.Join("", this.tables[this.resindex].row3));
+                if (this.tables[this.resindex].row3.Count <= 24)
+                {
+                    Console.Write(new String(' ', 24 - this.tables[this.resindex].row3.Count));
+                    Console.Write("#\n");
+                }
+                else
+                {
+                    Console.Write("#\n");
+                }
                 Console.WriteLine("#                          #");
                 Console.WriteLine("############################");
             }
 
-            //rij 2
-            if ((this.tables[this.resindex].row1.Count == 24 || this.tables[this.resindex].row1.Count + this.persons > 22 || this.tables[this.resindex].row1.Count + (this.persons + 2) > 24) && (this.tables[this.resindex].row2.Count + this.persons < 22 || this.tables[this.resindex].row2.Count + (this.persons+ 2) < 24 || this.tables[this.resindex].row3.Count + (this.persons + 2) > 24))
+            // rij 2
+            else if (this.cord.Item1 == "row2")
             {
+                Console.WriteLine("############################");
+                Console.WriteLine("#                          #");
                 Console.Write("#  ");
                 Console.Write(String.Join("", this.tables[this.resindex].row1));
                 if (this.tables[this.resindex].row1.Count <= 24)
@@ -514,53 +535,30 @@ namespace ProjectB
                     Console.Write("#\n");
                 }
                 Console.WriteLine("#                          #");
-                if (this.tables[this.resindex].row2.Count != 0)
+                Console.Write("#  ");
+                for (int i = 0; i < this.cord.Item2; i++)
                 {
-                    Console.Write("#  ");
-                    if (this.tables[this.resindex].row2.Count == this.persons + 2)
-                    {
-                        for (int i = 0; i < this.persons; i++)
-                        {
-                            Console.ForegroundColor = ConsoleColor.Red;
-                            Console.Write(this.tables[this.resindex].row2[i], Console.ForegroundColor);
-
-                            Console.ResetColor();
-                        }
-                        Console.Write("  ");
-                        Console.Write(new String(' ', 24 - this.tables[this.resindex].row2.Count));
-                        Console.Write("#\n");
-                    }
-                    else
-                    {
-                        for (int i = 0; i < this.tables[this.resindex].row2.Count - this.persons - 2; i++)
-                        {
-                            Console.Write(this.tables[this.resindex].row2[i]);
-                        }
-                        for (int i = this.tables[this.resindex].row2.Count - this.persons - 2; i < this.tables[this.resindex].row2.Count; i++)
-                        {
-                            
-                            Console.ForegroundColor = ConsoleColor.Red;
-                            Console.Write(this.tables[this.resindex].row2[i], Console.ForegroundColor);
-                            Console.ResetColor();
-                        }
-                        if (this.tables[this.resindex].row2.Count <= 24)
-                        {
-                            Console.Write(new String(' ', 24 - this.tables[this.resindex].row2.Count));
-                            Console.Write("#\n");
-                        }
-                        else
-                        {
-                            Console.Write("#\n");
-                        }
-                    }
-                } else
+                    Console.Write(this.tables[this.resindex].row1[i]);
+                }
+                for (int j = this.cord.Item2; j < this.cord.Item2 + this.tablecount + 2; j++)
                 {
-                    Console.WriteLine("#                          #");
-                }              
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write(this.tables[this.resindex].row1[j], Console.ForegroundColor);
+                    Console.ResetColor();
+                }
+                if (this.tables[this.resindex].row2.Count <= 24)
+                {
+                    Console.Write(new String(' ', 24 - this.tables[this.resindex].row2.Count));
+                    Console.Write("#\n");
+                }
+                else
+                {
+                    Console.Write("#\n");
+                }
                 Console.WriteLine("#                          #");
                 Console.Write("#  ");
                 Console.Write(String.Join("", this.tables[this.resindex].row3));
-                if (this.tables[this.resindex].row1.Count <= 24)
+                if (this.tables[this.resindex].row3.Count <= 24)
                 {
                     Console.Write(new String(' ', 24 - this.tables[this.resindex].row3.Count));
                     Console.Write("#\n");
@@ -574,8 +572,10 @@ namespace ProjectB
             }
 
             // rij 3
-            if (this.tables[this.resindex].row1.Count == 24 || this.tables[this.resindex].row1.Count + this.persons > 22 || this.tables[this.resindex].row1.Count + (this.persons + 2) > 24 && this.tables[this.resindex].row2.Count == 24 || this.tables[this.resindex].row2.Count + (this.persons + 2) > 24 || this.tables[this.resindex].row2.Count + this.persons > 22)
-            { 
+            else if (this.cord.Item1 == "row3")
+            {
+                Console.WriteLine("############################");
+                Console.WriteLine("#                          #");
                 Console.Write("#  ");
                 Console.Write(String.Join("", this.tables[this.resindex].row1));
                 if (this.tables[this.resindex].row1.Count <= 24)
@@ -590,9 +590,9 @@ namespace ProjectB
                 Console.WriteLine("#                          #");
                 Console.Write("#  ");
                 Console.Write(String.Join("", this.tables[this.resindex].row2));
-                if (this.tables[this.resindex].row1.Count <= 24)
+                if (this.tables[this.resindex].row2.Count <= 24)
                 {
-                    Console.Write(new String(' ', 24 - this.tables[this.resindex].row1.Count));
+                    Console.Write(new String(' ', 24 - this.tables[this.resindex].row2.Count));
                     Console.Write("#\n");
                 }
                 else
@@ -600,48 +600,25 @@ namespace ProjectB
                     Console.Write("#\n");
                 }
                 Console.WriteLine("#                          #");
-                if (this.tables[this.resindex].row3.Count != 0)
+                Console.Write("#  ");
+                for (int i = 0; i < this.cord.Item2; i++)
                 {
-                    Console.Write("#  ");
-                    if (this.tables[this.resindex].row3.Count == this.persons + 2)
-                    {
-                        for (int i = 0; i < this.persons; i++)
-                        {
-                            Console.ForegroundColor = ConsoleColor.Red;
-                            Console.Write(this.tables[this.resindex].row3[i], Console.ForegroundColor);
-                            Console.ResetColor();
-                        }
-                        Console.Write("  ");
-                        Console.Write(new String(' ', 24 - this.tables[this.resindex].row3.Count));
-                        Console.Write("#\n");
-                    }
-                    else
-                    {
-                        for (int i = 0; i < this.tables[this.resindex].row3.Count - this.persons - 2; i++)
-                        {
-                            Console.Write(this.tables[this.resindex].row3[i]);
-                        }
-                        for (int i = this.tables[this.resindex].row3.Count - this.persons - 2; i < this.tables[this.resindex].row3.Count; i++)
-                        {
-
-                            Console.ForegroundColor = ConsoleColor.Red;
-                            Console.Write(this.tables[this.resindex].row3[i], Console.ForegroundColor);
-                            Console.ResetColor();
-                        }
-                        if (this.tables[this.resindex].row3.Count <= 24)
-                        {
-                            Console.Write(new String(' ', 24 - this.tables[this.resindex].row3.Count));
-                            Console.Write("#\n");
-                        }
-                        else
-                        {
-                            Console.Write("#\n");
-                        }
-                    }
+                    Console.Write(this.tables[this.resindex].row3[i]);
+                }
+                for (int j = this.cord.Item2; j < this.cord.Item2 + this.tablecount + 2; j++)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write(this.tables[this.resindex].row3[j], Console.ForegroundColor);
+                    Console.ResetColor();
+                }
+                if (this.tables[this.resindex].row3.Count <= 24)
+                {
+                    Console.Write(new String(' ', (24 - this.tables[this.resindex].row3.Count)));
+                    Console.Write("#\n");
                 }
                 else
                 {
-                    Console.WriteLine("#                          #");
+                    Console.Write("#\n");
                 }
                 Console.WriteLine("#                          #");
                 Console.WriteLine("############################");

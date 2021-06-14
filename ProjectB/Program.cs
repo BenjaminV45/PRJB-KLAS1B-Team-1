@@ -582,6 +582,10 @@ namespace ProjectB
                 }
             }
             Console.WriteLine($"Bomen planten om C02 uitstoot te compenseren: {(travelCount * travelKm / 1000) * 37 }");
+
+            ConsoleKeyInfo tmpkey = Console.ReadKey();
+            Console.Clear();
+            new Customer();
         }
     }
     class Start : Option
