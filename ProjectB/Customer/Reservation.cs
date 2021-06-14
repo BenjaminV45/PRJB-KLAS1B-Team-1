@@ -464,7 +464,7 @@ namespace ProjectB
 
         public void DisplayTables()
         {
-            Console.WriteLine(this.cord);
+            //Console.WriteLine(this.cord);
             // rij 1
             if (this.cord.Item1 == "row1")
             {
