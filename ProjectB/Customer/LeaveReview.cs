@@ -14,16 +14,14 @@ namespace ProjectB
         public bool woorden;
         public leaveReview()
         {
-            this.korting = false;
-            string[] kortingarr = new string[] { "fantastisch", "geweldig", "heerlijk", "prachtig" };
-            this.woorden = false;
-            string[] woordenarr = new string[] { "mieters", "super", "vet", "top" };
-
             dynamic reviews = new Json("reviews.json").Read();
             dynamic reservation = new Json("reservation.json").Read();
             dynamic members = new Json("members.json").Read();
 
-
+            this.korting = false;
+            string[] kortingarr = new string[] { "fantastisch", "geweldig", "heerlijk", "prachtig" };
+            this.woorden = false;
+            string[] woordenarr = new string[] { "mieters", "super", "vet", "top" };
 
             bool tmp = false;
             while (!tmp)
@@ -45,7 +43,6 @@ namespace ProjectB
                             if (col.resid == this.resid)
                             {
                                 new Alfred("leaveReview", 4).Write();
-                                Console.WriteLine("col in reviews");
                                 tmp = false;
                                 break;
                             }
@@ -58,12 +55,9 @@ namespace ProjectB
                 }
                 if (!tmp5)
                 {
-                    Console.WriteLine("wrong input");
+                    new Alfred("leaveReview", 10).Write();
                 }
             }
-
-
-
 
             new Alfred("leaveReview", 1).Write();
             this.review = Console.ReadLine();
@@ -87,7 +81,6 @@ namespace ProjectB
                     this.korting = true;
                 }
             }
-            Console.WriteLine("korting" + this.korting);
             foreach (var row in woordenarr)
             {
                 if (this.review.ToLower().Contains(row))
@@ -95,7 +88,6 @@ namespace ProjectB
                     this.woorden = true;
                 }
             }
-            Console.WriteLine("frons" + this.woorden);
 
             new Alfred("leaveReview", 3).Write();
 
@@ -122,15 +114,6 @@ namespace ProjectB
                  id = 1;
             }
 
-            var newreview = new ReviewsJson
-            {
-                id = id,
-                resid = this.resid,
-                memberid = new Settings().Member_id,
-                reviewtxt = this.review,
-                rating = this.sterren
-            };
-
             if (this.korting && this.woorden)
             {
                 new Alfred("leaveReview", 8).Write();
@@ -147,6 +130,15 @@ namespace ProjectB
             {
                 new Alfred("leaveReview", 5).Write();
             }
+
+            var newreview = new ReviewsJson
+            {
+                id = id,
+                resid = this.resid,
+                memberid = new Settings().Member_id,
+                reviewtxt = this.review,
+                rating = this.sterren
+            };
 
             reviews.Add(newreview);
             new Json("reviews.json").Write(reviews);
