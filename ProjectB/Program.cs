@@ -609,6 +609,7 @@ namespace ProjectB
 
         static void Main(string[] args)
         {
+            new Reservation();
             new System().Log("System is running");
             new Start();
         }

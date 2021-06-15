@@ -464,7 +464,6 @@ namespace ProjectB
 
         public void DisplayTables()
         {
-            Console.WriteLine(this.cord);
             // rij 1
             if (this.cord.Item1 == "row1")
             {
@@ -623,6 +622,7 @@ namespace ProjectB
                 Console.WriteLine("#                          #");
                 Console.WriteLine("############################");
             }
+            new Json("tables.json").Write(this.tables);
         }
 
         public void BookHotel()
