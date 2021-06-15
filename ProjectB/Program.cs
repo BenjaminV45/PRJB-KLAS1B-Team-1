@@ -62,7 +62,22 @@ namespace ProjectB
             File.AppendAllText(@"..\..\..\Storage\chatlog.txt", content);
         }
         
-
+        public string Mask(string value, int lengte = 16)
+        {
+            string masked = "";
+            for(int i = 0; i < value.Length; i++ )
+            {
+                if ((value.Length - lengte) < i)
+                {
+                    masked += "*";
+                }
+                else
+                {
+                    masked += value[i];
+                }
+            }
+            return masked;
+        }
     }
     class Previous
     {
@@ -613,7 +628,9 @@ namespace ProjectB
 
         static void Main(string[] args)
         {
+
             new System().Log("System is running");
+            Console.WriteLine(new System().Mask("1234-1234-1234-1344"));
             new Start();
         }
     }
