@@ -628,7 +628,6 @@ namespace ProjectB
 
         static void Main(string[] args)
         {
-
             new System().Log("System is running");
             Console.WriteLine(new System().Mask("1234-1234-1234-1344"));
             new Start();

@@ -957,7 +957,7 @@ namespace ProjectB
             content += $"<p>Thank you for your reservation!</p><br>";
             content += $"<h2>Your reservation code is: {this.code}</h2>";
             content += $"<p>You can cancel your reservation before 7 days from the date of this email was sent</p>";
-            content += $"<p>Creditcard number: {customer.creditcard}</p>";
+            content += $"<p>Creditcard number: {new System().Mask(customer.creditcard)} </p>";
 
             new System().SendMail(customer.email, "Reservation confirmation", content);
 
