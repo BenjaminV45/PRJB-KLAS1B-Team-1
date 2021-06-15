@@ -489,7 +489,7 @@ namespace ProjectB
             content += "<h2>Your account credentials</h2>";
             content += $"<p>Membership code: {code}</p>";
             content += $"<p>Email: {email}</p>";
-            content += $"<p>Creditcard number: {creditcard}</p>";
+            content += $"<p>Creditcard number: {new System().Mask(creditcard)}</p>";
             content += $"<p>Continent: {continent}</p>";
             content += $"<p>Rank: Bronze</p>";
 
@@ -561,7 +561,7 @@ namespace ProjectB
             Console.WriteLine($"Email: {customer.email}");
             Console.WriteLine($"Rank: {customer.rank}");
             Console.WriteLine($"Continent: {customer.continent}");
-            Console.WriteLine($"Creditcard: {customer.creditcard}");
+            Console.WriteLine($"Creditcard: {new System().Mask(customer.creditcard)}");
             foreach (var row in Reservation)
             {
                 if (customer.id == row.memberID)
@@ -629,7 +629,6 @@ namespace ProjectB
         static void Main(string[] args)
         {
             new System().Log("System is running");
-            Console.WriteLine(new System().Mask("1234-1234-1234-1344"));
             new Start();
         }
     }
