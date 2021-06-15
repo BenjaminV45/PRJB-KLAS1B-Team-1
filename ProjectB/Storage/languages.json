@@ -107,8 +107,7 @@
 			"Cancel reservation partly",
 			"Choose the number of the person who u want to cancel: ",
 			"There too few people to cancel the reservation partly, please choose to cancel the whole reservation",
-			"Succesfully canceled the reservation.",
-			"Do you  want to cancel another guests? [Y/N]",
+			"Succesfully canceled the reservation.,Press 'Y' for yes or 'N' for no.",
 			"You cannot cancel anymore guests. Please cancel the whole reservation if u want to do so. You will now be sent to the main menu."
 		],
 		"lookup": [

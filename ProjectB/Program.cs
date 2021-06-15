@@ -93,12 +93,10 @@ namespace ProjectB
         }
         public static void Restore()
         {
-            Console.WriteLine("Press <ANY> key to start or <ESCAPE> to go back");
-            ConsoleKeyInfo inp = Console.ReadKey();
-            Console.Clear();
+            ConsoleKeyInfo inp = Console.ReadKey(true);
             if (inp.Key == ConsoleKey.Escape)
             {
-                Console.WriteLine(PREVIOUS.Count);
+                Console.Clear();
                 if (PREVIOUS.Count > 0)
                 {
                     PREVIOUS[PREVIOUS.Count - 1]();
@@ -108,6 +106,7 @@ namespace ProjectB
                     new Start();
                 }
             }
+            Console.Write(inp.KeyChar);
         }
     }
     class Json
@@ -311,6 +310,7 @@ namespace ProjectB
         {
             this.customer = new Json("members.json").Read();
             this.settings = new Settings().File;
+            Previous.Add(() => new Customer());
             if (new Settings().Member_id == 0)
             {
                 var options = new[]
@@ -376,7 +376,7 @@ namespace ProjectB
             {
 
                 Console.Write("\n[Alfred] I would like to know your continent: ");
-
+                Previous.Restore();
                 continent = Console.ReadLine();
                 if (continents.Contains(continent))
                 {
