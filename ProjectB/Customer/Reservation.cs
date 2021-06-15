@@ -303,6 +303,7 @@ namespace ProjectB
 
         public void Hunt()
         {
+            new System().Log("Hunt was called");
             bool tmp = false;
             while (!tmp)
             {
@@ -323,6 +324,7 @@ namespace ProjectB
 
         public void Tables()
         {
+            new System().Log("Tables was called");
             this.resindex = 0;
             for (int i = 0; i < this.tables.Count; i++)
             {
@@ -464,6 +466,7 @@ namespace ProjectB
 
         public void DisplayTables()
         {
+            new System().Log("DisplayTables was called");
             // rij 1
             if (this.cord.Item1 == "row1")
             {
@@ -742,7 +745,7 @@ namespace ProjectB
 
         public void changeReservation()
         {
-
+            new System().Log("ChangeReservation was called");
             new Alfred("reservation", 27).Write();
             dynamic reservation = this.data[this.data.Count - 1];
             bool comp = false;
@@ -819,6 +822,7 @@ namespace ProjectB
         }
         public void changeMember()
         {
+            new System().Log("ChangeMember was called");
             bool complete = false;
             bool comp = false;
             bool sheesh = false;
@@ -930,6 +934,7 @@ namespace ProjectB
         }
         public void finalize()
         {
+            new System().Log("finalize was called");
             Console.Write($"{this.totalcost * this.discount} euro.");
             new Alfred("reservation", 22).Write();
             var final = new[]
@@ -942,6 +947,7 @@ namespace ProjectB
 
         public void email()
         {
+            new System().Log("Email was called");
             this.data.Add(this.reservation);
             new Json("reservation.json").Write(this.data);
             new Alfred("reservation", 34).Write();
@@ -953,7 +959,7 @@ namespace ProjectB
             content += $"<p>You can cancel your reservation before 7 days from the date of this email was sent</p>";
             content += $"<p>Creditcard number: {customer.creditcard}</p>";
 
-            new System().SendMail(customer.email, "Reservation conformation", content);
+            new System().SendMail(customer.email, "Reservation confirmation", content);
 
             new Alfred("reservation", 35).Write();
             ConsoleKeyInfo tmp = Console.ReadKey();
