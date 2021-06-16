@@ -79,6 +79,7 @@ namespace ProjectB
             return masked;
         }
     }
+
     class Previous
     {
         static List<Action> PREVIOUS;
@@ -376,7 +377,6 @@ namespace ProjectB
             {
 
                 Console.Write("\n[Alfred] I would like to know your continent: ");
-                Previous.Restore();
                 continent = Console.ReadLine();
                 if (continents.Contains(continent))
                 {
@@ -628,6 +628,7 @@ namespace ProjectB
 
         static void Main(string[] args)
         {
+
             new System().Log("System is running");
             new Start();
         }
